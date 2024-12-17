@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/hanadi-snunu/botoxx/static/css/main.7eaf80cf.css",
+    "main.css": "/hanadi-snunu/botoxx/static/css/main.99cc2e97.css",
     "main.js": "/hanadi-snunu/botoxx/static/js/main.ced7c46f.js",
     "static/js/453.f35b76dc.chunk.js": "/hanadi-snunu/botoxx/static/js/453.f35b76dc.chunk.js",
     "static/media/omossss.jpg": "/hanadi-snunu/botoxx/static/media/omossss.5bd532b562e0a04e26b8.jpg",
@@ -33,17 +33,17 @@
     "static/media/threadlift2.jpg": "/hanadi-snunu/botoxx/static/media/threadlift2.f2c12f2ef1f05d28807c.jpg",
     "static/media/hydrafacial3.jpg": "/hanadi-snunu/botoxx/static/media/hydrafacial3.143744a6041b5ee12e1b.jpg",
     "static/media/ansiktsbehandling2.jpg": "/hanadi-snunu/botoxx/static/media/ansiktsbehandling2.acf9258949caec3a809c.jpg",
-    "static/media/slick.svg": "/hanadi-snunu/botoxx/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.svg": "/hanadi-snunu/botoxx/static/media/slick.7ba97953187dc2907930.svg",
     "static/media/slick.eot": "/hanadi-snunu/botoxx/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/hanadi-snunu/botoxx/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/hanadi-snunu/botoxx/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/hanadi-snunu/botoxx/index.html",
-    "main.7eaf80cf.css.map": "/hanadi-snunu/botoxx/static/css/main.7eaf80cf.css.map",
+    "main.99cc2e97.css.map": "/hanadi-snunu/botoxx/static/css/main.99cc2e97.css.map",
     "main.ced7c46f.js.map": "/hanadi-snunu/botoxx/static/js/main.ced7c46f.js.map",
     "453.f35b76dc.chunk.js.map": "/hanadi-snunu/botoxx/static/js/453.f35b76dc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7eaf80cf.css",
+    "static/css/main.99cc2e97.css",
     "static/js/main.ced7c46f.js"
   ]
 }
