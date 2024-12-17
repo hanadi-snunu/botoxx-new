@@ -2,7 +2,7 @@
   "name": "botox",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/hanadi-snunu/botoxx",
+  "homepage": "https://houseofaesthetics.se",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.1",
     "@fortawesome/free-brands-svg-icons": "^6.6.0",
