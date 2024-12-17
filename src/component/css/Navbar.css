@@ -1,0 +1,424 @@
+/* Global styling */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600&display=swap');
+
+body, html {
+  font-family: 'Mulish', sans-serif;
+  padding-top: 70px;
+}
+
+/* Navbar styling för större skärmar */
+.header-container {
+  width: 100%;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ddd;
+  position: fixed; /* This makes the navbar sticky */
+  top: 0; /* Positions the navbar at the top */
+  left: 0; /* Aligns it to the left side */
+  z-index: 999;
+}
+
+.navbar-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 50px;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+  border: none;
+  box-shadow: none;
+}
+
+
+
+.logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+}
+.logo-image {
+  width: 150px; /* Adjust the width as needed */
+  height: auto;
+}
+
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.contact-info span {
+  margin-right: 20px;
+  font-size: 12px;
+  color: #4a4a4a;
+}
+
+.book-btn {
+  padding: 5px 25px;
+  margin-right: 70px;
+  font-size: 14px;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.book-btn:hover {
+  background-color: #f0f0f0;
+}
+
+.navbar-bottom {
+  background-color: #f5f5f5;
+  padding: 10px 0;
+  border: none; /* Tar bort alla kanter */
+  box-shadow: none; /* Tar bort alla skuggor */
+  
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li {
+  margin: 0 30px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #444444;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #333;
+  text-decoration: underline;
+}
+
+/* Hamburgermeny-styling */
+.menu-icon {
+  display: none;
+  cursor: pointer;
+  left: 20px;
+  position: relative;
+}
+
+.hamburger-icon {
+  width: 30px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hamburger-icon span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #333;
+}
+
+.close-icon {
+  font-size: 30px;
+  color: #333;
+  margin-right: 15px;
+}
+
+/* Sidomeny för mobila enheter */
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: -100%; /* Startar från vänster */
+  width: 100%; /* Täck hela skärmen */
+  height: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  transition: left 0.3s ease;
+  z-index: 999; /* Prioritera menyn över andra element */
+ 
+}
+
+.mobile-menu.open {
+  left: 0; /* Flytta till vänster 0 för att visa menyn */
+}
+
+.mobile-menu-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 15px 20px;
+  border-bottom: 1px solid #ddd;
+  background-color: #f0f0f0;
+
+}
+
+.menu-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #444;
+  text-align: center;
+  flex: 1;
+  margin-left: 20px;
+}
+/* Tillbaka-knappen */
+.mobile-back {
+  padding: 10px 15px;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+  font-weight: 500;
+}
+
+.mobile-back .back-icon {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.mobile-menu-links {
+  list-style: none;
+  padding: 20px;
+}
+
+.mobile-menu-links li {
+  margin: 50px 0;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.mobile-menu-links li a {
+  text-decoration: none;
+  color: #666666;
+  font: 22px "Old Standard TT", Serif;
+}
+
+
+
+  /* Stil för undermenyn i mobilvyn */
+
+.mobile-submenu {
+    list-style: none;
+    max-height: 70vh; /* Sätter en maxhöjd för listan */
+    overflow-y: auto; /* Lägg till en vertikal scrollbar om innehållet överstiger maxhöjden */
+    padding-right: 10px; /* Litet avstånd för att ge utrymme för scrollbaren */
+   
+  }
+  
+  .mobile-submenu li {
+    font-size: 18px;
+    color: #444;
+    padding: 30px 0;
+    border-bottom: 1px solid #eee;
+  }
+  /* Anpassar utseendet för scrollbaren */
+.mobile-submenu::-webkit-scrollbar {
+  width: 6px; /* Bredd på scrollbaren */
+}
+
+.mobile-submenu::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Bakgrundsfärg för scroll-track */
+}
+
+.mobile-submenu::-webkit-scrollbar-thumb {
+  background-color: #c1c1c1; /* Färg på själva scrollbaren */
+  border-radius: 10px; /* Rundade hörn */
+}
+  
+  /* För att justera länkarna så att de ser klickbara ut */
+  .mobile-menu-links a,
+  .mobile-submenu a {
+    text-decoration: none;
+    color: inherit;
+    font-size: large;
+  }
+  
+  .mobile-menu-links a:hover,
+  .mobile-submenu a:hover {
+    color: #080808;
+  }
+
+  /* För att styra pilen och dess position */
+.submenu-trigger {
+  display: flex;
+  justify-content: space-between; /* Separera texten och pilen */
+  align-items: center; /* Centrera texten och pilen vertikalt */
+  padding: 10px 0; /* Ger mer mellanrum över och under */
+}
+
+.submenu-trigger a {
+  flex: 1; /* Låter texten ta upp tillgängligt utrymme */
+  text-decoration: none;
+  color: #333; /* Färg på texten */
+  font-size: 16px; /* Ändra textstorleken här */
+}
+
+.submenu-trigger .arrow {
+  font-size: 16px; /* Storlek på pilen */
+  color: #666; /* Färg på pilen */
+  cursor: pointer; /* Visar att pilen är klickbar */
+  transition: transform 0.2s ease-in-out; /* Ger en snygg effekt */
+}
+
+.submenu-trigger .arrow:hover {
+  color: #000; /* Pilen ändrar färg vid hover */
+  transform: translateX(5px); /* Skjuter pilen lite till höger vid hover */
+}
+
+  
+
+/* Justerar dropdown-menyn för bättre estetik -->>>> DEN NYAAAAA*/ 
+.nav-links {
+  position: relative;
+}
+
+.full-width-dropdown {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
+  background-color: #fff;
+  z-index: 999;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between; /* Jämnt mellan kolumnerna */
+  flex-wrap: nowrap; /* Tillåt ej radbrytning för huvudkategorier */
+  padding: 40px 20px; /* Mer luft runt dropdown */
+  box-sizing: border-box;
+}
+
+.dropdown-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: nowrap; /* Håll kategorierna i en rad */
+  justify-content: space-between; /* Jämn fördelning med liknande avstånd */
+  gap: 20px; /* Mellanrum mellan kolumner */
+  
+}
+/* Huvudkategori-stil */
+.dropdown-grid > li {
+  flex: 1; /* Fördela lika mycket utrymme för varje kolumn */
+  text-align: left;
+}
+
+/* Huvudkategori-stil */
+.dropdown-grid > li > a {
+  font: 16px "Old Standard TT", Serif; /* Större textstorlek */
+  color: #666666;
+  display: block;
+  padding: 15px 0;
+}
+
+.dropdown-grid > li > a:hover {
+  color: #666666;
+}
+
+/* Underkategori-stil */
+.dropdown-grid li ul li a {
+  font: 16px "Old Standard TT", Serif; /* Mindre textstorlek */
+  font-weight: normal; /* Lättare text */
+  color: #999999; /* Ljusare färg för underkategorier */
+  display: block;
+  padding: 5px 0; /* Mindre padding */
+ 
+}
+.dropdown-grid li ul li {
+  margin: 5px 0; /* Lägger lite avstånd mellan underkategorier */
+}
+.dropdown-grid li ul li a:hover {
+  color: #666666; /* Mörkare färg vid hover */
+  text-decoration: underline; /* Understrykning för bättre synlighet */
+  background-color: transparent; /* Ingen bakgrund vid hover */
+}
+
+/* Anpassning av underkategoriens placering */
+.dropdown-grid li ul {
+  list-style: none;
+  padding-left: 0; /* Lite indrag för bättre struktur */
+  margin: 0;
+}
+
+.dropdown-grid li {
+  width: 200px; /* Bredd på huvudkategorin */
+  margin: 10px;
+}
+
+  /* Lägg till en bakgrundsfärg och bredare spacing */
+.nav-links li:hover .dropdown {
+    display: flex; /* Visa dropdown vid hover för desktop */
+}
+
+
+
+
+
+  .submenu {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+  }
+  
+  .submenu-toggle {
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 8px;
+    color: #333;
+  }
+  
+  .menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  
+
+/* Mobilanpassning */
+@media (max-width: 768px) {
+  /* Dölj vanliga navbaren på små skärmar */
+  .navbar-bottom, .contact-info {
+    display: none;
+  }
+
+  /* Visa hamburgermeny på små skärmar */
+  .menu-icon {
+    display: block;
+  }
+
+  /* Centrera loggan */
+  .logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar-top {
+    justify-content: flex-start;
+    padding: 18px 20px;
+  }
+}
+
+/* För mobilmeny */
+@media (max-width: 768px) {
+    /* Dölj desktop dropdown */
+    .dropdown {
+      display: none !important;
+      
+    }
+  }

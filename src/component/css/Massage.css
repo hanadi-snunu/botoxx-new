@@ -1,0 +1,633 @@
+
+
+.massage-header {
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+  }
+  
+  .massage-overlay {
+    
+    padding: 40px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .massage-title {
+    font: 35px "Old Standard TT", Serif;
+    margin: 0;
+  }
+  
+  .massage-description {
+    font: 16px Mulish, sans-serif;
+    margin: 20px 0 30px;
+    line-height: 1.6;
+    max-width: 600px;
+    text-align: left;
+    
+  }
+  
+  .separator-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+    margin-bottom: 50px;
+}
+
+.separator-line::before,
+.separator-line::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+}
+
+.separator-dot {
+    padding: 0 10px;
+    font-size: 18px;
+    color: #aaa; /* Ändra färgen om du vill */
+    
+}
+
+
+  /*ANDRA SEKTIONEN*/
+  .massage-info-section {
+    padding: 100px 20px;
+    text-align: center;
+    color: #4a4a4a;
+    margin-bottom: 50px;
+  }
+  .massage-info-container {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.massage-info-image {
+    width: 30%;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 8px; /* Optional for rounded corners */
+    margin-left: 150px;
+}
+
+  .info-title {
+    font: 35px "Old Standard TT", Serif; 
+    margin-bottom: 40px;
+    color: #666666;
+    
+  }
+  
+  .info-text {
+    font: 16px Mulish, sans-serif;
+    line-height: 1.9;
+    color: #666666;
+    margin: 0 auto;
+    text-align: left;
+    margin: 0 0 15px;
+  }
+
+  /*HYDRA FACIAL ANDRA SEKTION DELEN*/
+  /* HydraFacial: Allmänna inställningar */
+.hydrafacial-info-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 1200px;
+  }
+  
+  .hydrafacial-info-image {
+    flex: 1;
+    max-width: 500px;
+    margin: 0 auto 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hydrafacial-info-text-container {
+    flex: 2;
+    padding: 20px;
+    color: #333;
+  }
+  
+  /* HydraFacial: Rubriker */
+  .hydrafacial-info-title {
+    font: 22px "Old Standard TT", Serif; 
+    margin-bottom: 40px;
+    color: #666666;
+    margin-top: 70px;
+   
+  }
+  
+  /* HydraFacial: Text */
+  .hydrafacial-info-text {
+    font: 16px Mulish, sans-serif;
+     color: #666666;
+    line-height: 1.8;
+   
+    margin: 0 100px 70px; /* Minskar marginalerna mellan stycken */
+    text-align: justify;
+  }
+  
+  /* HydraFacial: Listor */
+  .hydrafacial-info-list {
+    list-style-type: disc;
+    margin: 10px 0 15px 120px;
+    line-height: 1.6;
+  }
+  
+  .hydrafacial-info-list li {
+    margin-bottom: 8px;
+    color: #444;
+    text-align: left;
+  }
+  
+  /* HydraFacial: Markerad text */
+  .hydrafacial-info-list li strong {
+    color: #666666; /* Matcha rubrikfärg */
+    font-weight: bold;
+  }
+  
+  /* Anpassning för mindre skärmar */
+  @media (max-width: 768px) {
+    .hydrafacial-info-container {
+      flex-direction: column;
+      margin: 10px auto;
+    }
+  
+    .hydrafacial-info-image {
+      max-width: 100%;
+      margin: 0 auto 10px;
+    }
+  
+    .hydrafacial-info-text-container {
+      padding: 10px;
+    }
+  
+    .hydrafacial-info-title {
+      font-size: 24px;
+      margin-top: 100px;
+      margin-bottom: 40px;
+    }
+  
+    .hydrafacial-info-text {
+      font-size: 14px;
+      margin: 0 10px 30px;
+      line-height: 1.6;
+      text-align: justify;
+    }
+  
+    .hydrafacial-info-list {
+      margin: 10px 20px;
+      line-height: 1.4;
+    }
+  
+    .hydrafacial-info-list li {
+      margin-bottom: 8px;
+      font-size: 14px;
+    }
+  }
+  
+
+  /*CONTAINER FÖR PRIS DELEN*/
+  .massage-prices-container {
+    margin: 40px;
+  }
+  
+  .prices-title {
+    font: 30px "Old Standard TT", serif;
+    color: #666666;
+    margin-bottom: 20px;
+  }
+  
+  .price-section {
+    
+    margin-bottom: 10px;
+  }
+  
+  .price-header {
+    cursor: pointer;
+    padding: 15px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .price-toggle {
+    font: 16px Mulish, sans-serif;
+    margin: 0;
+    color: #666666;
+  }
+  
+  .price-toggle.open {
+    font: 16px Mulish, sans-serif;
+    color: #666666;
+  }
+  
+  .price-content {
+    background-color: #ffffff;
+    padding: 15px;
+    border-top: 1px solid #ddd;
+  }
+  .price-content td{
+    font: 16px Mulish, sans-serif;
+    color: #666666;
+  }
+  
+  .price-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+ 
+  .price-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .price-table td:last-child {
+    text-align: right;
+  }
+  
+  
+
+  /* Grid Sektion för Massage Behandlingar */
+  .massage-treatments-section {
+    padding: 40px;
+    background-color: #f0f0f0; /* Lägg till en bakgrundsfärg om du vill */
+    margin-bottom: 50px;
+}
+
+.massage-treatments-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    background-color: #f0f0f0; /* Lägg till en bakgrundsfärg om du vill */
+    padding: 40px;
+}
+
+.massage-treatment-card {
+    background-color: #f0f0f0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+}
+.massage-section-title {
+    font: 30px "Old Standard TT", serif;
+    color: #666666;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.massage-treatment-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+.massage-treatment-content {
+    padding: 20px;
+}
+
+.massage-treatment-title {
+    font: 20px Mulish, sans-serif;
+    color: #666666;
+    margin: 15px 0 10px;
+    text-align: left;
+    
+}
+
+.massage-treatment-description {
+    font: 16px Mulish, sans-serif;
+    color: #666666;
+    margin-bottom: 15px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.massage-treatment-link {
+    font: 16px Mulish, sans-serif;
+    color: #666666;
+    text-decoration: none;
+    text-align: left;
+    display: block; /* Gör länken blocknivå så att text-align: left fungerar */
+    margin-top: 10px;
+}
+
+.massage-treatment-link:hover {
+    text-decoration: underline;
+}
+
+/*FRÅGOR DELEN*/
+
+.massage-faq-section {
+    max-width: 800px; /* Limit the width */
+    margin: 50px auto; /* Center the section */
+    padding: 30px;
+   
+}
+
+.massage-faq-title {
+    font: 30px'Old Standard TT', serif;
+    color: #666666;
+    margin-bottom: 20px;
+    text-align: center; /* Center align the title */
+}
+
+.massage-faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Reduce space between items */
+}
+
+.massage-faq-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0; /* Reduce padding */
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.massage-faq-question {
+    display: flex;
+    justify-content: space-between;
+    font: 16px 'Mulish', sans-serif;
+    color: #444;
+}
+
+.massage-faq-answer {
+    margin-top: 15px; /* Smaller top margin */
+    font-size: 14px; /* Slightly smaller font */
+    line-height: 1.4; /* More compact line height */
+    font-family: 'Mulish', sans-serif;
+    color: #666;
+    text-align: left; /* Ensure text is left-aligned */
+}
+
+
+
+/*RELAX BITEN*/
+.relax-treatment-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 30px auto;
+    gap: 20px;
+    min-height: 600px;
+    
+  }
+
+ 
+  .relax-treatment-content {
+    max-width: 100%;
+    word-break: break-word; /* Gör så att långa ord bryts och inte går utanför ramar */
+    line-height: 1.6; /* För bättre läsbarhet */
+}
+
+.relax-treatment-details {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 50px;
+   
+    box-sizing: border-box;
+    height: 750px; /* Justerar höjden dynamiskt */
+    overflow: visible;
+    
+  }
+
+.relax-treatment-title {
+   
+    font: 25px "Old Standard TT", serif;
+    margin-bottom: 10px;
+    color: #4a4a4a;
+}
+
+.relax-treatment-description {
+    font-size: 16px;
+    font: 16px Mulish, sans-serif;
+    color: #666666;
+    margin-bottom: 10px;
+    line-height: 1.6;
+    padding-right: 40px;
+}
+.relax-treatment-details ul {
+    list-style: none;
+    padding: 30px;
+  }
+  
+  .relax-treatment-details li {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding-bottom: 15px; /* Utrymme under varje textblock */
+    border-bottom: 1px solid #666666;
+    font: 16px Mulish, sans-serif;
+    color: #666666;
+  }
+
+.relax-treatment-details li:last-child {
+    border-bottom: none; /* Tar bort linjen under det sista elementet */
+}
+  
+  .relax-treatment-details strong {
+    font: 16px Mulish, sans-serif;
+    color: #666666;
+    display: block; /* Visar titeln på en separat rad */
+    margin-bottom: 10px;
+   
+  }
+  
+
+  .relax-treatment-button-wrapper {
+    display: flex;
+    justify-content: center; /* Centrerar innehållet horisontellt */
+    margin-top: 20px; /* Justera om du vill ha mer avstånd från toppen */
+}
+
+.relax-treatment-button {
+    display: inline-block;
+    padding: 6px 23px;
+    background-color: #e1e6e1;
+    border: none;
+    cursor: pointer;
+    font: 16px Mulish, sans-serif;
+    text-align: center;
+    text-decoration: none; /* Ta bort understrykningen */
+    color: inherit; /* Behåll knappens textfärg */
+}
+
+
+.relax-treatment-button:hover {
+    background-color: #d3dbd3; /* Ändra till önskad hover-effekt */
+}
+
+  .relax-session-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin: 70px auto;
+    max-width: 1200px;
+}
+
+.session-block {
+    flex: 1;
+    padding: 20px;
+}
+
+.session-title {
+    
+    font: 30px'Old Standard TT', serif;
+    margin-bottom: 15px;
+    color: #4a4a4a;
+}
+
+.session-text {
+    font: 16px'Mulish', sans-serif;
+    line-height: 1.6;
+    color: #444444;
+    margin-bottom: 15px;
+}
+
+
+/* Mobilanpassning för behandlingssektionen */
+@media (max-width: 768px) {
+
+    .massage-info-container {
+        flex-direction: column; /* Stacks the image and text vertically */
+        gap: 20px; /* Reduces gap for smaller screens */
+    }
+    
+    .massage-info-text-container {
+        order: 1; /* Ensures the text appears first */
+    }
+    
+    .massage-info-image {
+        order: 2; /* Ensures the image appears after the text */
+        width: 90%; /* Reduces image width for smaller screens */
+        max-height: 300px; /* Adjusts max height */
+        margin-left: 0; /* Centers the image */
+        margin-bottom: 20px; /* Adds bottom margin for spacing */
+        margin-top: 40px;
+    }
+    .info-title {
+        font-size: 28px; /* Reduces font size for better readability */
+        margin-bottom: 20px; /* Adjusts spacing */
+    }
+    
+    .info-text {
+        font-size: 14px; /* Reduces text size */
+        line-height: 1.6; /* Adjusts line height for readability */
+        margin: 0 10px 20px; /* Adds some side margin */
+        text-align: left; /* Centers text on smaller screens */
+    }
+
+
+    .massage-treatments-section {
+        padding: 20px 10px;
+    }
+
+    .massage-section-title {
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+
+    .massage-treatments-grid {
+        flex-direction: column;
+    }
+
+    .massage-treatment-card {
+        flex-direction: column;
+        max-width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .massage-treatment-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .massage-treatment-content {
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+    .massage-treatment-title {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    .massage-treatment-description {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    .massage-treatment-link {
+        font-size: 14px;
+    }
+
+
+    .relax-treatment-card {
+        flex-direction: column;
+        max-width: 100%;
+        height: auto;
+        text-align: center;
+    
+    }
+
+    .relax-treatment-details {
+        margin-top: 20px;
+      }
+    .relax-treatment-content {
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+    .relax-treatment-title {
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
+
+    .relax-treatment-description {
+        font-size: 14px;
+        margin-bottom: 25px;
+        text-align: justify; /* Justerar texten så den är lättare att läsa */
+    word-wrap: break-word; /* Gör att långa ord bryts och visas korrekt */
+    overflow-wrap: break-word; /* Hanterar ord som är för långa för behållaren */
+    padding: 0 40px;
+    }
+
+    .relax-treatment-details strong {
+        text-align: left;
+    }
+    .relax-treatment-details li {
+        text-align: left
+    }
+
+    .relax-session-info {
+        flex-direction: column; /* Ändrar layouten till kolumnvisning */
+        gap: 10px; /* Minskar mellanrummet mellan blocken */
+    }
+
+    .session-block {
+        padding: 30px; /* Minskar padding för mindre skärmar */
+    }
+
+    .session-title {
+        font-size: 20px; /* Minskar textstorleken för titeln */
+        margin-bottom: 10px;
+    }
+
+    .session-text {
+        font-size: 14px; /* Minskar textstorleken för innehållet */
+        margin-bottom: 10px;
+    }
+}

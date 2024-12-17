@@ -1,0 +1,157 @@
+/* Styling för footern */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600&display=swap');
+
+.footer-container {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 40px 20px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .footer-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .footer-logo {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .footer-logo-link {
+    font-size: 24px;
+    font-weight: bold;
+    color: #666;
+    text-decoration: none;
+  }
+  
+  .footer-logo-link:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-links {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .footer-links a {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: #666;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-locations {
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .location h4 {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #666;
+  }
+  
+  .location p {
+    margin: 5px 0;
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .location a {
+    color: #666;
+    text-decoration: none;
+  }
+  
+  .location a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px ;
+  }
+  
+ 
+.footer-social {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center; 
+  }
+  
+  .footer-icon {
+    font-size: 50p ; 
+    margin: 0 5px; 
+    color: #000 !important; 
+    text-decoration: none;
+    transition: transform 0.2s ease, color 0.3s ease;
+  }
+  
+  .footer-icon:hover {
+    color: #000; 
+    transform: scale(1.1); 
+  }
+  
+  .footer-bottom p {
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  .footer-bottom a {
+    font-size: 14px;
+    color: #666;
+    text-decoration: none;
+  }
+  
+  .footer-bottom a:hover {
+    text-decoration: underline;
+  }
+  
+
+  /* Mobilanpassning */
+  @media (max-width: 768px) {
+    .footer-top {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-locations {
+      flex-direction: column;
+    }
+  
+    .footer-logo, .footer-links, .footer-locations {
+      text-align: center;
+    }
+  
+    .location {
+      margin-bottom: 20px;
+    }
+
+    .footer-social {
+        margin-bottom: 20px; /* Avstånd mellan ikoner och text */
+      }
+  
+      .footer-icon {
+        font-size: 24px; /* Justera storlek på ikoner */
+        margin: 0 5px; /* Mindre avstånd mellan ikoner */
+      }
+  
+      .footer-bottom p, .footer-bottom a {
+        font-size: 12px; /* Mindre textstorlek för mobil */
+      }
+  }
+  
