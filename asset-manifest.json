@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5643ae7d.css",
-    "main.js": "/static/js/main.6fc9d16b.js",
+    "main.js": "/static/js/main.9e6160e7.js",
     "static/js/453.f35b76dc.chunk.js": "/static/js/453.f35b76dc.chunk.js",
     "static/media/omossss.jpg": "/static/media/omossss.5bd532b562e0a04e26b8.jpg",
     "static/media/ansiktsbehandling.jpg": "/static/media/ansiktsbehandling.cfbd6702c8ba0cb45848.jpg",
@@ -39,11 +39,11 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.5643ae7d.css.map": "/static/css/main.5643ae7d.css.map",
-    "main.6fc9d16b.js.map": "/static/js/main.6fc9d16b.js.map",
+    "main.9e6160e7.js.map": "/static/js/main.9e6160e7.js.map",
     "453.f35b76dc.chunk.js.map": "/static/js/453.f35b76dc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5643ae7d.css",
-    "static/js/main.6fc9d16b.js"
+    "static/js/main.9e6160e7.js"
   ]
 }
