@@ -136,7 +136,6 @@ function App() {
 
 
 
-
           <Route path="/Hittabehandling" element={<Hittabehandling />} />
           <Route path="/Kontakt" element={<Kontakt />} />
           <Route path="/Omoss" element={<Omoss />} />
@@ -164,3 +163,4 @@ function App() {
   );
 }
 export default App;
+
