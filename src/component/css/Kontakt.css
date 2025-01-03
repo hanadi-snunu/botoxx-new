@@ -103,11 +103,13 @@
   .locationK {
     font: 16px Mulish, sans-serif; /* Använd samma stil för undertext */
     margin-bottom: 20px;
+    color: #4a4a4a;
     text-align: left; /* Vänsterjustera texten */
+    
   }
   
   .locationK h4 {
-    font: 18px "Old Standard TT", serif;
+    font: 16px Mulish, sans-serif;
     margin-bottom: 10px;
     color: #4a4a4a;
   }
@@ -153,6 +155,15 @@
     }
   
     .locationK {
-      margin: 20px 0;
+      margin: 0px 10px 20px;
+      font: 14px Mulish, sans-serif; 
+    }
+    .locationK h4{
+      
+      font: 14px Mulish, sans-serif; 
+    }
+    .locationK p{
+      
+      font: 14px Mulish, sans-serif; 
     }
   }

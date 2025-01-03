@@ -121,6 +121,24 @@
     text-decoration: underline;
   }
   
+  .made-by {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #444; /* Anpassa färg efter temat */
+    text-align: center;
+  }
+  
+  .made-by a {
+    color: #444; /* Länkfärg */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .made-by a:hover {
+    color: black; /* Länkfärg vid hover */
+    text-decoration: none;
+  }
+  
 
   /* Mobilanpassning */
   @media (max-width: 768px) {
@@ -139,6 +157,17 @@
   
     .location {
       margin-bottom: 20px;
+      margin-top: 20px;
+    }
+    .location p {
+      font-size: 12px;
+    color: #666;
+    line-height: 1.8;
+    }
+    .location a {
+      font-size: 12px;
+    color: #666;
+    line-height: 1.8;
     }
 
     .footer-social {

@@ -152,7 +152,8 @@
     color: #666666; /* Matcha rubrikfärg */
     font-weight: bold;
   }
-  
+
+
   /* Anpassning för mindre skärmar */
   @media (max-width: 768px) {
     .hydrafacial-info-container {

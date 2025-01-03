@@ -4,6 +4,9 @@ import BackgroundImage from '../img/hemm.jpg';
 import CommonImage from '../img/injektion.jpg';
 import { Link } from 'react-router-dom';
 import ConsultationImage from "../img/piccc.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
+
 
 
 const testimonials = [
@@ -213,13 +216,13 @@ const Hem = () => {
     </div>
 </div>
 
-<div className="consultation-section" style={{ backgroundImage: `url(${ConsultationImage})` }}>
+
+        {/* Consultation Section */}
+        <div className="consultation-section" style={{ backgroundImage: `url(${ConsultationImage})` }}>
         <div className="consultation-overlay">
           <div className="consultation-content">
             <h2 className="consultation-title">Boka en kostnadsfri digital konsultation</h2>
-            <p className="consultation-description">
-              Vi erbjuder kostnadsfria digitala konsultationer för att hjälpa dig att förstå vilken behandling som passar dig bäst. Vi svarar på alla dina frågor och hjälper dig att boka den tid som passar dig.
-            </p>
+           
             <Link to="/Bokatid" className="consultation-button">
               Boka nu
             </Link>
@@ -233,8 +236,12 @@ const Hem = () => {
     <div className="testimonials-header">
         <h2 className="home-testimonials-title">Vad våra kunder säger</h2>
         <div className="testimonial-navigation">
-            <button onClick={goToPrevious} className="testimonial-arrow">←</button>
-            <button onClick={goToNext} className="testimonial-arrow">→</button>
+        <button onClick={goToPrevious} className="testimonial-arrow">
+        <FontAwesomeIcon icon={faChevronLeft} />
+    </button>
+    <button onClick={goToNext} className="testimonial-arrow">
+        <FontAwesomeIcon icon={faChevronRight} />
+    </button>
         </div>
     </div>
     <div className="testimonials-container">

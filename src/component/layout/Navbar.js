@@ -369,7 +369,7 @@ const Navbar = () => {
       </li>
     </ul>
   ) : subMenu === "ansiktsbehandlingar" ? (
-    <ul className="mobile-submenu">
+    <ul className="mobile-submenuu">
       <li><Link to="/Dermaplaning" onClick={toggleMenu}>Dermaplaning</Link></li>
       <li><Link to="/Djuprensande-ansiktsbehandling" onClick={toggleMenu}>Djuprensande Ansiktsbehandling</Link></li>
       <li><Link to="/Instant-clean" onClick={toggleMenu}>Instant Clean</Link></li>
@@ -382,20 +382,20 @@ const Navbar = () => {
       <li><Link to="/PRXT-33" onClick={toggleMenu}>PRX T-33</Link></li>
     </ul>
   ) : subMenu === "hydrafacial" ? (
-    <ul className="mobile-submenu">
+    <ul className="mobile-submenuu">
       <li><Link to="/Deluxe-HydraFacial" onClick={toggleMenu}>Hydra Facial | Deluxe</Link></li>
       <li><Link to="/HydraFacial-Gravida" onClick={toggleMenu}>Hydra Facial | För gravida</Link></li>
       <li><Link to="/Platinum-HydraFacial" onClick={toggleMenu}>Hydra Facial | Platinum</Link></li>
       <li><Link to="/Standard-HydraFacial" onClick={toggleMenu}>Hydra Facial | Standard</Link></li>
     </ul>
   ) : subMenu === "massage" ? (
-    <ul className="mobile-submenu">
+    <ul className="mobile-submenuu">
       <li><Link to="/KlippkortX5" onClick={toggleMenu}>Klippkort x5</Link></li>
       <li><Link to="/Ansiktsmassage" onClick={toggleMenu}>Ansiktsmassage</Link></li>
       <li><Link to="/RelaxingTime" onClick={toggleMenu}>Relaxing Time</Link></li>
     </ul>
     ) : subMenu === "trådlyft" ? (
-      <ul className="mobile-submenu">
+      <ul className="mobile-submenuu">
       <li><Link to="/Tradlyft-Midface" onClick={toggleMenu}>Trådlyft | Midface</Link></li>
       <li><Link to="/Tradlyft-Kaklinjen" onClick={toggleMenu}>Trådlyft | Käklinjen</Link></li>
       <li><Link to="/Tradlyft-Kindben" onClick={toggleMenu}>Trådlyft | Kindben</Link></li>
@@ -411,7 +411,7 @@ const Navbar = () => {
     </ul>
 
   ) : subMenu === "vaxning" ? (
-    <ul className="mobile-submenu">
+    <ul className="mobile-submenuu">
       <li><Link to="/Armar" onClick={toggleMenu}>Armar</Link></li>
       <li><Link to="/ArmarMen" onClick={toggleMenu}>Armar män</Link></li>
       <li><Link to="/Armhala" onClick={toggleMenu}>Armhåla</Link></li>
@@ -429,7 +429,7 @@ const Navbar = () => {
     </ul>
 
 ) : subMenu === "priser" ? (
-  <ul className="mobile-submenu">
+  <ul className="mobile-submenuu">
     <li><Link to="/injektionsbehandlingar-priser" onClick={toggleMenu}>INJEKTIONSBEHANDLINGAR</Link></li>
     <li><Link to="/tradlyft-priser" onClick={toggleMenu}>TRÅDLYFT</Link></li>
     <li><Link to="/laserbehandlingar-priser" onClick={toggleMenu}>LASERBEHANDLINGAR</Link></li>

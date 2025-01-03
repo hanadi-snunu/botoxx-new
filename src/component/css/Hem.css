@@ -211,10 +211,11 @@
 .testimonial-arrow {
     background: none;
     border: none;
-    font-size: 24px;
+    font-size: 15px;
     cursor: pointer;
     color:  #666666;
     transition: color 0.3s ease;
+    padding: 10px;
 }
 
 .testimonial-arrow:hover {
@@ -232,7 +233,6 @@
     max-width: 300px;
     padding: 20px;
     background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     font-size: 16px;
     color: #333;
@@ -250,18 +250,18 @@
 .testimonial-quote:before,
 .testimonial-quote:after {
     content: "“";
-    font-size: 30px;
+    font-size: 25px;
     color: #b0b0b0;
     position: absolute;
 }
 
 .testimonial-quote:before {
-    left: -20px;
+    left: -10px;
     top: -10px;
 }
 
 .testimonial-quote:after {
-    right: -20px;
+    right: -10px;
     bottom: -10px;
     transform: rotateY(180deg);
 }
@@ -358,7 +358,7 @@
     }
 
     .testimonial-arrow {
-        font-size: 20px;
+        font-size: 15px;
     }
 }
 

@@ -16,9 +16,7 @@ const Priser = () => {
             <p className="hero-subtitle">
               Upptäck våra konkurrenskraftiga priser för alla våra behandlingar. Här kan du se alla våra behandlingar och deras priser för att hitta det som passar just dig.
             </p>
-            <Link to="/Bokatid" className="hero-button">
-              Boka tid
-            </Link>
+           
           </div>
         </div>
       </div>
@@ -55,9 +53,7 @@ const Priser = () => {
         <div className="consultation-overlay">
           <div className="consultation-content">
             <h2 className="consultation-title">Boka en kostnadsfri digital konsultation</h2>
-            <p className="consultation-description">
-              Vi erbjuder kostnadsfria digitala konsultationer för att hjälpa dig att förstå vilken behandling som passar dig bäst. Vi svarar på alla dina frågor och hjälper dig att boka den tid som passar dig.
-            </p>
+            
             <Link to="/Bokatid" className="consultation-button">
               Boka nu
             </Link>
