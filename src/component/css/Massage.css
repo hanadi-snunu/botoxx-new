@@ -17,6 +17,13 @@
     text-align: center;
     border-radius: 5px;
   }
+
+
+  /* Lägg till detta i din Massage.css */
+.massage-info-container.only-text {
+  justify-content: center;
+}
+
   
   .massage-title {
     font: 35px "Old Standard TT", Serif;

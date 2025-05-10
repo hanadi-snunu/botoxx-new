@@ -4,7 +4,19 @@ import { Link } from 'react-router-dom';
 import ConsultationImage from '../../../img/piccc.jpg';
 import '../../../css/Massage.css';
 
-const CommonTreatmentPage = ({ backgroundImage, title, description, extraDescription, details, beforeText, afterText, bookLink, bookButtonText }) => {
+const CommonTreatmentPage = ({ 
+  backgroundImage, 
+  title, 
+  description, 
+  extraDescription, 
+  details, 
+  beforeText, 
+  afterText, 
+  bookLink, 
+  bookButtonText 
+}) => {
+  const isExternal = bookLink?.startsWith('http');
+  
   return (
     <div>
       {/* Header Section */}
@@ -40,9 +52,20 @@ const CommonTreatmentPage = ({ backgroundImage, title, description, extraDescrip
               </ul>
               <div className="relax-treatment-button-wrapper">
                 {/* Ändra texten dynamiskt */}
-                <Link to={bookLink} className="relax-treatment-button">
-                  {bookButtonText || "Boka nu"} {/* Standardtext är "Boka nu" om ingen text skickas */}
-                </Link>
+                {isExternal ? (
+                  <a
+                    href={bookLink}
+                    className="relax-treatment-button"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {bookButtonText || "Boka nu"}
+                  </a>
+                ) : (
+                  <Link to={bookLink} className="relax-treatment-button">
+                    {bookButtonText || "Boka nu"}
+                  </Link>
+                )}
               </div>
   
 

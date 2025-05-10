@@ -70,6 +70,31 @@ import MassagePriser from "./component/js/behandlingsutbud/priser/massage-priser
 import HydraFacialPriser from "./component/js/behandlingsutbud/priser/hydra-facial-priser";
 import AnsiktsbehandlingarPriser from "./component/js/behandlingsutbud/priser/ansiktsbehandlingar-priser";
 import LaserbehandlingarPris from "./component/js/behandlingsutbud/priser/laserbehandlingar-priser";
+import Rynkreducerand from "./component/js/behandlingsutbud/injektion/Rynkreducerande";
+import RynkbehandlingPannan from "./component/js/behandlingsutbud/injektion/Rynkbehandling-Panna";
+import RynkbehandlingGlabella from "./component/js/behandlingsutbud/injektion/Rynkbehandling-Glabella";
+import RynkbehandlingKrakparkar from "./component/js/behandlingsutbud/injektion/Rynkbehandling-Krakparkar";
+import RynkbehandlingMun from "./component/js/behandlingsutbud/injektion/Rynkbehandling-Mun";
+import RynkbehandlingBrowlift from "./component/js/behandlingsutbud/injektion/Rynkbehandling-Browlift";
+import RynkbehandlingBunnylines from "./component/js/behandlingsutbud/injektion/Rynkbehandling-Bunnylines";
+import RynkbehandlingNastipp from "./component/js/behandlingsutbud/injektion/Rynkbehandling-Nastipp";
+import RynkbehandlingGummysmile from "./component/js/behandlingsutbud/injektion/Rynkbehandling-Gummysmile";
+import RynkbehandlingLipflip from "./component/js/behandlingsutbud/injektion/Rynkbehandling-Lipflip";
+import RynkbehandlingMungipor from "./component/js/behandlingsutbud/injektion/Rynkbehandling-Mungipor";
+import RynkbehandlingApelsinhaka from "./component/js/behandlingsutbud/injektion/Rynkbehandling-Apelsinhaka";
+import RynkbehandlingPlatysma from "./component/js/behandlingsutbud/injektion/Rynkbehandling-Platysma";
+import RynkbehandlingHyperhidros from "./component/js/behandlingsutbud/injektion/Rynkbehandling-Hyperhidros";
+import RynkbehandlingMasseter from "./component/js/behandlingsutbud/injektion/Rynkbehandling-Masseter";
+import RynkbehandlingTrapezius from "./component/js/behandlingsutbud/injektion/Rynkbehandling-Trapezius";
+import Fillers from "./component/js/behandlingsutbud/fillers/Fillers";
+import FillersKindben from "./component/js/behandlingsutbud/fillers/Fillers-Kindben";
+import FillersMidcheek from "./component/js/behandlingsutbud/fillers/Fillers-Midcheek";
+import FillersKaklinje from "./component/js/behandlingsutbud/fillers/Fillers-Kaklinje";
+import FillersHaka from "./component/js/behandlingsutbud/fillers/Fillers-Haka";
+import FillersNasolabialveck from "./component/js/behandlingsutbud/fillers/Fillers-Nasolabialveck";
+import FillersTinning from "./component/js/behandlingsutbud/fillers/Fillers-Tinning";
+import FillersTearTrough from "./component/js/behandlingsutbud/fillers/Fillers-TearTrough";
+import FillersMarionettlinjer from "./component/js/behandlingsutbud/fillers/Fillers-Marionettlinjer";
 
 function App() {
   return (
@@ -80,6 +105,39 @@ function App() {
     
       <div className="main-content"> {/* Main-content-klass för att placera innehåll rätt */}
         <Routes>
+
+
+        <Route path="/Fillers" element={<Fillers/>} />
+        <Route path="/Fillers-Kindben" element={<FillersKindben />} />
+        <Route path="/Fillers-Midcheek" element={<FillersMidcheek />} />
+        <Route path="/Fillers-Kaklinje" element={<FillersKaklinje />} />
+        <Route path="/Fillers-Haka" element={<FillersHaka />} />
+        <Route path="/Fillers-Nasolabialveck" element={<FillersNasolabialveck />} />
+        <Route path="/Fillers-Tinning" element={<FillersTinning />} />
+        <Route path="/Fillers-TearTrough" element={<FillersTearTrough />} />
+        <Route path="/Fillers-Marionettlinjer" element={<FillersMarionettlinjer />} />  
+
+
+
+        
+          <Route path="/Rynkbehandling-Trapezius" element={<RynkbehandlingTrapezius/>} />
+          <Route path="/Rynkbehandling-Masseter" element={<RynkbehandlingMasseter/>} />
+          <Route path="/Rynkbehandling-Hyperhidros" element={<RynkbehandlingHyperhidros/>} />
+          <Route path="/Rynkbehandling-Platysma" element={<RynkbehandlingPlatysma/>} />
+          <Route path="/Rynkbehandling-Apelsinhaka" element={<RynkbehandlingApelsinhaka/>} />
+          <Route path="/Rynkbehandling-Mungipor" element={<RynkbehandlingMungipor/>} />
+          <Route path="/Rynkbehandling-Lipflip" element={<RynkbehandlingLipflip/>} />
+          <Route path="/Rynkbehandling-Gummysmile" element={<RynkbehandlingGummysmile />} />
+          <Route path="/Rynkbehandling-Nastipp" element={<RynkbehandlingNastipp />} />
+          <Route path="/Rynkbehandling-Bunnylines" element={<RynkbehandlingBunnylines />} />
+          <Route path="/Rynkbehandling-Browlift" element={<RynkbehandlingBrowlift />} />
+          <Route path="/Rynkbehandling-Mun" element={<RynkbehandlingMun />} />
+          <Route path="/Rynkreducerande" element={<Rynkreducerand />} />
+          <Route path="/Rynkbehandling-Panna" element={<RynkbehandlingPannan />} />
+          <Route path="/Rynkbehandling-Glabella" element={<RynkbehandlingGlabella />} />
+          <Route path="/Rynkbehandling-Krakparkar" element={<RynkbehandlingKrakparkar />} />
+
+
           <Route path="/Hem" element={<Hem />} />
           <Route path="/Behandlingsutbud" element={<Behandlingsutbud />} />
           <Route path="/Huvudbehandlingar" element={<Huvudbehandling />} /> {/* <-- DENNA SKA BORT*/ }
@@ -155,6 +213,11 @@ function App() {
           <Route path="/Bokatid" element={<BokaTid />} />
           <Route path="/Integritetspolicy" element={<Integritetspolicy />} />
           <Route path="/" element={<Hem />} /> {/* Standardroute till Hem */}
+
+
+          
+
+          
         </Routes>
         
       </div>
