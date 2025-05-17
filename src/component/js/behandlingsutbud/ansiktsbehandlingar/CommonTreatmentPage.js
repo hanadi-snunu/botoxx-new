@@ -78,8 +78,17 @@ const CommonTreatmentPage = ({
       <section className="relax-session-info">
         <div className="session-block">
           <h2 className="session-title">Före behandlingen</h2>
+          {beforeText.includes('<br />') ? (
+      <p
+        className="session-text"
+        dangerouslySetInnerHTML={{ __html: beforeText }}
+      />
+    ) : (
           <p className="session-text">{beforeText}</p>
+        )}
+        
         </div>
+
         <div className="session-block">
           <h2 className="session-title">Efter behandlingen</h2>
           {afterText.includes('<br />') ? (
@@ -91,6 +100,7 @@ const CommonTreatmentPage = ({
           <p className="session-text">{afterText}</p>
         )}
         </div>
+
       </section>
 
       {/* Consultation Section */}

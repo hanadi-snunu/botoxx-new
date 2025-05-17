@@ -85,6 +85,12 @@ const Fillers = () => {
       title: "Marionettlinjer",
       description: "Lyft sura mungipor och minska linjer.",
       link: "/Fillers-Marionettlinjer"
+    },
+    {
+      image: injection2,
+      title: "Hyalase",
+      description: "Borttagning av fillers.",
+      link: "/Fillers-Hyalase"
     }
   ];
 

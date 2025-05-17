@@ -95,6 +95,24 @@ import FillersNasolabialveck from "./component/js/behandlingsutbud/fillers/Fille
 import FillersTinning from "./component/js/behandlingsutbud/fillers/Fillers-Tinning";
 import FillersTearTrough from "./component/js/behandlingsutbud/fillers/Fillers-TearTrough";
 import FillersMarionettlinjer from "./component/js/behandlingsutbud/fillers/Fillers-Marionettlinjer";
+import Skinbooster from "./component/js/behandlingsutbud/skinboosters/Skinboosters";
+import { SkinboosterLongLasting } from "./component/js/behandlingsutbud/skinboosters/Skinbooster-LongLasting";
+import { SkinboosterSunekos } from "./component/js/behandlingsutbud/skinboosters/Skinbooster-Sunekos";
+import { SkinboosterRestylane } from "./component/js/behandlingsutbud/skinboosters/Skinbooster-Restylane";
+import { SkinboosterEjal40 } from "./component/js/behandlingsutbud/skinboosters/Skinbooster-Ejal40";
+import Hyalase from "./component/js/behandlingsutbud/fillers/Fillers-Hyalase";
+import Prohilo from "./component/js/behandlingsutbud/prohilo/Profhilo";
+import PrpPrf from "./component/js/behandlingsutbud/prpprf/PRP";
+import { PrpAnsikte } from "./component/js/behandlingsutbud/prpprf/PrpPrf-Ansikte";
+import { PrpEksemPsoriasis } from "./component/js/behandlingsutbud/prpprf/PrpPrf-EksemPsoriasis";
+import { PrpHar } from "./component/js/behandlingsutbud/prpprf/PrpPrf-Har";
+import { RrsXlHair } from "./component/js/behandlingsutbud/prpprf/PrpPrf-RrsHair";
+import PrfTearTrough from "./component/js/behandlingsutbud/prpprf/PrpPrf-TearTrough";
+import { RrsEyes } from "./component/js/behandlingsutbud/skinboosters/Skinbooster-RRSEyes";
+import CarboxyCellutrix from "./component/js/behandlingsutbud/carboxyCellutrix/Carboxy-Cellutrix";
+import CarboxyOgon from "./component/js/behandlingsutbud/carboxyCellutrix/Carboxy-Ogon";
+import Carboxy from "./component/js/behandlingsutbud/carboxyCellutrix/Carboxy";
+import CarboxyCellutrixRRS from "./component/js/behandlingsutbud/carboxyCellutrix/Cellutrix-RRS";
 
 function App() {
   return (
@@ -106,6 +124,33 @@ function App() {
       <div className="main-content"> {/* Main-content-klass för att placera innehåll rätt */}
         <Routes>
 
+        <Route path="/Carboxy-Cellutrix" element={<CarboxyCellutrix/>} />
+
+        <Route path="/Carboxy-Ogon" element={<CarboxyOgon/>} />
+        <Route path="/Carboxy" element={<Carboxy/>} />
+        <Route path="/Cellutrix-RRS" element={<CarboxyCellutrixRRS/>} />
+
+          
+
+          <Route path="/PRP" element={<PrpPrf/>} />
+
+          <Route path="/PrpPrf-Ansikte" element={<PrpAnsikte/>} />
+          <Route path="/PrpPrf-AnsikteHals" element={<PrpAnsikte/>} />
+          <Route path="/PrpPrf-EksemPsoriasis" element={<PrpEksemPsoriasis/>} />
+          <Route path="/PrpPrf-Har" element={<PrpHar/>} />
+          <Route path="/PrpPrf-RrsHair" element={<RrsXlHair/>} />
+          <Route path="/PrpPrf-TearTrough" element={<PrfTearTrough/>} />
+
+
+       
+        <Route path="/Profhilo" element={<Prohilo/>} />
+        <Route path="/Skinboosters" element={<Skinbooster/>} />
+        <Route path="/Skinbooster-LongLasting" element={<SkinboosterLongLasting/>} />
+        <Route path="/Skinbooster-Sunekos" element={<SkinboosterSunekos/>} />
+        <Route path="/Skinbooster-Restylane" element={<SkinboosterRestylane/>} />
+        <Route path="/Skinbooster-Ejal40" element={<SkinboosterEjal40/>} />
+        <Route path="/Skinbooster-RRSEyes" element={<RrsEyes/>} />
+
 
         <Route path="/Fillers" element={<Fillers/>} />
         <Route path="/Fillers-Kindben" element={<FillersKindben />} />
@@ -116,7 +161,7 @@ function App() {
         <Route path="/Fillers-Tinning" element={<FillersTinning />} />
         <Route path="/Fillers-TearTrough" element={<FillersTearTrough />} />
         <Route path="/Fillers-Marionettlinjer" element={<FillersMarionettlinjer />} />  
-
+        <Route path="/Fillers-Hyalase" element={<Hyalase />} />  
 
 
         

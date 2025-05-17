@@ -41,7 +41,7 @@ const treatments = [
     image: injection3,
     title: "Carboxy – Cellutrix",
     description: "Stimulerar blodcirkulation och cellförnyelse med koldioxidbehandling.",
-    link: "/Carboxy"
+    link: "/Carboxy-Cellutrix"
   },
   {
     image: injection1,
