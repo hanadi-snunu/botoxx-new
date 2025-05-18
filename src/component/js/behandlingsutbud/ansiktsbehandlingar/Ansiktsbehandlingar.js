@@ -59,7 +59,7 @@ const Ansikte = () => {
     },
     {
       image: ansikte3,
-      title: "Kemisk Peeling",
+      title: "Milk Peel",
       description: "Exfolierar huden och förbättrar dess struktur och ton.",
       link: "/Kemisk-peel",
     },
@@ -92,6 +92,18 @@ const Ansikte = () => {
       title: "PRXT-33",
       description: "En avancerad behandling som förnyar huden utan att orsaka fjällning.",
       link: "/PRXT-33",
+    },
+     {
+      image: ansikte4,
+      title: "BioRepeel",
+      description: "Biorepeel  jobbar med AHA, BHA och PHA som arbetar sig in i olika problem områden.",
+      link: "/BioRepeel",
+    },
+     {
+      image: ansikte4,
+      title: "Mask Peel",
+      description: "Mask Peel passar en fet, oljig, blandad och acnebenägen hud. Det är en effektiv och skonsam ansiktsbehandling, som är inriktad på djuprengöring av huden. ",
+      link: "/MaskPeel",
     },
   ];
   

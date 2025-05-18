@@ -240,6 +240,7 @@ body, html {
     overflow-y: auto; /* Lägg till en vertikal scrollbar om innehållet överstiger maxhöjden */
     padding: 10px 20px; /* Litet avstånd för att ge utrymme för scrollbaren */
     padding-right: 10px;
+    line-height: 2.2;
   }
   .mobile-submenuu li a {
     text-decoration: none;
@@ -259,6 +260,47 @@ body, html {
   padding: 5px 0px;
    
   }
+
+  .mobile-link-with-arrow {
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Mulish', sans-serif;
+  font-size: 16px;
+  color: #214127;
+  padding: 10px 20px;
+
+  line-height: 2.2;
+  width: calc(100% - 40px); /* så att texten inte trycker på pilen */
+}
+
+
+ .submenu-item-with-arrow {
+ display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Mulish', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #214127;
+  line-height: 3.5;
+  padding: 5px 0px;
+  cursor: pointer;
+  gap: 6px;
+}
+
+ .submenu-item-with-arrow .arrow {
+  font-size: 16px;
+  color: #666;
+  /*padding-left: 0px;*/
+  
+  transition: transform 0.2s ease-in-out;
+}
+
+.submenu-item-with-arrow:hover .arrow {
+  color: #000;
+  transform: translateX(5px);
+}
+
   /* Anpassar utseendet för scrollbaren */
 
 .mobile-submenu::-webkit-scrollbar {

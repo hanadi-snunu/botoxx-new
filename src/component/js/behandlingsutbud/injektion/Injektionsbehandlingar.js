@@ -47,7 +47,7 @@ const treatments = [
     image: injection1,
     title: "Vitamindropp",
     description: "IV-behandling med vitaminer och mineraler för ett inre välbefinnande.",
-    link: "/Vitamindropp"
+    link: "/VitaminDropp"
   }
 ];
 
@@ -81,6 +81,10 @@ const Injektion = () => {
             </div>
           ))}
         </div>
+      </div>
+
+      <div className="separator-line">
+        <span className="separator-dot">•</span>
       </div>
 
       {/* Consultation Section */}

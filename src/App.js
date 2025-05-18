@@ -113,6 +113,16 @@ import CarboxyCellutrix from "./component/js/behandlingsutbud/carboxyCellutrix/C
 import CarboxyOgon from "./component/js/behandlingsutbud/carboxyCellutrix/Carboxy-Ogon";
 import Carboxy from "./component/js/behandlingsutbud/carboxyCellutrix/Carboxy";
 import CarboxyCellutrixRRS from "./component/js/behandlingsutbud/carboxyCellutrix/Cellutrix-RRS";
+import VitaminDropp from "./component/js/behandlingsutbud/vitamindrop/VitaminDropp";
+import BioRepeel from "./component/js/behandlingsutbud/ansiktsbehandlingar/BioRepeel";
+import MaskPeel from "./component/js/behandlingsutbud/ansiktsbehandlingar/MaskPeel";
+import NordlysIPL from "./component/js/behandlingsutbud/laser/NordlysIpl";
+import IPLMindreOmrade from "./component/js/behandlingsutbud/laser/IPL-MindreOmrade";
+import IPLAnsikte from "./component/js/behandlingsutbud/laser/IPL-Ansikte";
+import IPLAnsikteHals from "./component/js/behandlingsutbud/laser/IPL-Ansikte-Hals";
+import IPLAnsikteHalsDekolletage from "./component/js/behandlingsutbud/laser/IPL-Ansikte-Hals-Dekolletage";
+import IPLDekolletageHals from "./component/js/behandlingsutbud/laser/IPL-Dekolletage-Hals";
+
 
 function App() {
   return (
@@ -124,8 +134,18 @@ function App() {
       <div className="main-content"> {/* Main-content-klass för att placera innehåll rätt */}
         <Routes>
 
-        <Route path="/Carboxy-Cellutrix" element={<CarboxyCellutrix/>} />
+           <Route path="/Laserbehandlingar" element={<Laser />} />
+            <Route path="/NordlysIpl" element={<NordlysIPL />} />
+             <Route path="/IPL-MindreOmrade" element={<IPLMindreOmrade />} />
+        <Route path="/IPL-Ansikte" element={<IPLAnsikte />} />
+        <Route path="/IPL-Ansikte-Hals" element={<IPLAnsikteHals />} />
+        <Route path="/IPL-Ansikte-Hals-Dekolletage" element={<IPLAnsikteHalsDekolletage />} />
+        <Route path="/IPL-Dekolletage-Hals" element={<IPLDekolletageHals />} />
 
+        <Route path="/VitaminDropp" element={<VitaminDropp/>} />
+
+
+        <Route path="/Carboxy-Cellutrix" element={<CarboxyCellutrix/>} />
         <Route path="/Carboxy-Ogon" element={<CarboxyOgon/>} />
         <Route path="/Carboxy" element={<Carboxy/>} />
         <Route path="/Cellutrix-RRS" element={<CarboxyCellutrixRRS/>} />
@@ -230,6 +250,10 @@ function App() {
           <Route path="/Instant-clean" element={<InstantClean />} />
           <Route path="/Instant-glow" element={<InstantGlow />} />
           <Route path="/Kemisk-peel" element={<KemiskPeel />} />
+
+<Route path="/BioRepeel" element={<BioRepeel />} />
+<Route path="/MaskPeel" element={<MaskPeel />} />
+
           <Route path="/Klassisk-ansiktsbehandling" element={<KlassiskAnsiktsbehandling />} />
           <Route path="/LED-Ljusterapi" element={<LEDLjusterapi />} />
           <Route path="/Lyx-ansiktsbehandling" element={<LyxAnsiktsbehandling />} />
@@ -253,7 +277,7 @@ function App() {
 
           
           <Route path="/Utbildningar" element={<Utbildning />} />
-          <Route path="/Laserbehandlingar" element={<Laser />} />
+         
           <Route path="/Injektionsbehandlingar" element={<Injektion />} />
           <Route path="/Bokatid" element={<BokaTid />} />
           <Route path="/Integritetspolicy" element={<Integritetspolicy />} />

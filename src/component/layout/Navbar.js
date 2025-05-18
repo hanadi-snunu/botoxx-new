@@ -83,8 +83,17 @@ const Navbar = () => {
         <div className="full-width-dropdown">
           <ul className="dropdown-grid">
             <li>
-              <Link to="/Injektionsbehandlingar">INJEKTIONSBEHANDLINGAR</Link>
-            </li>
+  <Link to="/Injektionsbehandlingar">ESTETISKA INJEKTIONSBEHANDLINGAR</Link>
+  <ul>
+    <li><Link to="/Rynkreducerande">Rynkreducerande injektionsbehandlingar</Link></li>
+    <li><Link to="/Fillers">Filler</Link></li>
+    <li><Link to="/Skinboosters">Skinbooster</Link></li>
+    <li><Link to="/Profhilo">Prohilo</Link></li>
+    <li><Link to="/PRP">PRP-PRF</Link></li>
+    <li><Link to="/Carboxy">Carboxy-Cellutrix</Link></li>
+    <li><Link to="/Vitamindropp">Vitamindropp</Link></li>
+  </ul>
+</li>
             <li>
               <Link to="/Trådlyft">TRÅDLYFT</Link>
               <ul>
@@ -139,7 +148,13 @@ const Navbar = () => {
                   <Link to="/Instant-glow">Instant Glow</Link>
                 </li>
                 <li>
-                  <Link to="/Kemisk-peel">Kemisk Peel</Link>
+                  <Link to="/Kemisk-peel">Milk Peel</Link>
+                </li>
+                <li>
+                  <Link to="/BioRepeel">BioRepeel</Link>
+                </li>
+                <li>
+                  <Link to="/MaskPeel">Mask Peel</Link>
                 </li>
                 <li>
                   <Link to="/Klassisk-ansiktsbehandling">Klassisk Ansiktsbehandling</Link>
@@ -253,7 +268,7 @@ const Navbar = () => {
         <div className="full-width-dropdown">
           <ul className="dropdown-grid">
             <li>
-              <Link to="/injektionsbehandlingar-priser">INJEKTIONSBEHANDLINGAR</Link>
+              <Link to="/injektionsbehandlingar-priser">ESTETISKA INJEKTIONSBEHANDLINGAR</Link>
             </li>
             <li>
               <Link to="/tradlyft-priser">TRÅDLYFT</Link>
@@ -335,12 +350,25 @@ const Navbar = () => {
 
   ) : subMenu === "behandlingsutbud" ? (
     <ul className="mobile-submenu">
-      <li><Link to="/Injektionsbehandlingar" onClick={toggleMenu}>INJEKTIONSBEHANDLINGAR</Link></li>
+
       <li>
+  <div className="submenu-trigger">
+    <Link to="/Injektionsbehandlingar" onClick={toggleMenu}>ESTETISKA INJEKTIONSBEHANDLINGAR</Link>
+    <span className="arrow" onClick={() => openSubMenu("injektionsbehandlingar")}>
+      <FontAwesomeIcon icon={faChevronRight} />
+    </span>
+  </div>
+</li>
+
+      
+      <li>
+
         <div className="submenu-trigger">
           <Link to="/Trådlyft" onClick={toggleMenu}>TRÅDLYFT</Link>
-          <span className="arrow" onClick={() => openSubMenu("trådlyft")}> <FontAwesomeIcon icon={faChevronRight} /></span>
+          <span className="arrow" onClick={() => openSubMenu("trådlyft")}> 
+            <FontAwesomeIcon icon={faChevronRight} /></span>
         </div>
+
       </li>
       <li><Link to="/Laserbehandlingar" onClick={toggleMenu}>LASERBEHANDLINGAR</Link></li>
       <li>
@@ -374,7 +402,9 @@ const Navbar = () => {
       <li><Link to="/Djuprensande-ansiktsbehandling" onClick={toggleMenu}>Djuprensande Ansiktsbehandling</Link></li>
       <li><Link to="/Instant-clean" onClick={toggleMenu}>Instant Clean</Link></li>
       <li><Link to="/Instant-glow" onClick={toggleMenu}>Instant Glow</Link></li>
-      <li><Link to="/Kemisk-peel" onClick={toggleMenu}>Kemisk Peel</Link></li>
+      <li><Link to="/Kemisk-peel" onClick={toggleMenu}>Milk Peel</Link></li>
+      <li><Link to="/BioRepeel" onClick={toggleMenu}>BioRepeel</Link></li>
+      <li><Link to="/MaskPeel" onClick={toggleMenu}>Mask Peel</Link></li>
       <li><Link to="/Klassisk-ansiktsbehandling" onClick={toggleMenu}>Klassisk Ansiktsbehandling</Link></li>
       <li><Link to="/LED-Ljusterapi" onClick={toggleMenu}>LED Ljusterapi</Link></li>
       <li><Link to="/Lyx-ansiktsbehandling" onClick={toggleMenu}>Lyx Ansiktsbehandling</Link></li>
@@ -428,9 +458,182 @@ const Navbar = () => {
       <li><Link to="/Rygg" onClick={toggleMenu}>Rygg</Link></li>
     </ul>
 
+) : subMenu === "injektionsbehandlingar" ? (
+  <ul className="mobile-submenuu">
+    <li className="submenu-item-with-arrow">
+  <Link
+    to="/Rynkreducerande"
+    onClick={toggleMenu}
+    className="mobile-link-with-arrow"
+  >
+    Rynkreducerande injektionsbehandlingar
+  </Link>
+  <span
+    className="arrow"
+    onClick={(e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      openSubMenu("rynkbehandlingar");
+    }}
+  >
+    <FontAwesomeIcon icon={faChevronRight} />
+  </span>
+</li>
+
+
+    <li className="submenu-item-with-arrow">
+  <Link
+    to="/Fillers"
+    onClick={toggleMenu}
+    className="mobile-link-with-arrow"
+  >
+    Fillers
+  </Link>
+  <span
+    className="arrow"
+    onClick={(e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      openSubMenu("fillers");
+    }}
+  >
+    <FontAwesomeIcon icon={faChevronRight} />
+  </span>
+</li>
+
+
+
+    <li className="submenu-item-with-arrow">
+  <Link
+    to="/Skinboosters"
+    onClick={toggleMenu}
+    className="mobile-link-with-arrow"
+  >
+    Skinbooster
+  </Link>
+  <span
+    className="arrow"
+    onClick={(e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      openSubMenu("skinboosters");
+    }}
+  >
+    <FontAwesomeIcon icon={faChevronRight} />
+  </span>
+</li>
+
+    
+    <li className="submenu-item-with-arrow">
+  <Link
+    to="/PRP"
+    onClick={toggleMenu}
+    className="mobile-link-with-arrow"
+  >
+    PRP-PRF
+  </Link>
+  <span
+    className="arrow"
+    onClick={(e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      openSubMenu("prp");
+    }}
+  >
+    <FontAwesomeIcon icon={faChevronRight} />
+  </span>
+</li>
+
+   <li className="submenu-item-with-arrow">
+  <Link
+    to="/Carboxy"
+    onClick={toggleMenu}
+    className="mobile-link-with-arrow"
+  >
+    Carboxy-Cellutrix
+  </Link>
+  <span
+    className="arrow"
+    onClick={(e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      openSubMenu("carboxy");
+    }}
+  >
+    <FontAwesomeIcon icon={faChevronRight} />
+  </span>
+</li>
+
+    <li><Link to="/Vitamindropp" onClick={toggleMenu}>Vitamindropp</Link></li>
+    <li><Link to="/Profhilo" onClick={toggleMenu}>Prohilo</Link></li>
+  </ul>
+
+  ) : subMenu === "rynkbehandlingar" ? (
+    <ul className="mobile-submenuu">
+      <li><Link to="/Rynkbehandling-Panna" onClick={toggleMenu}>Pannan</Link></li>
+      <li><Link to="/Rynkbehandling-Glabella" onClick={toggleMenu}>Glabella (bekymmersrynkan)</Link></li>
+      <li><Link to="/Rynkbehandling-Krakparkar" onClick={toggleMenu}>Kråksparkar</Link></li>
+      <li><Link to="/Rynkbehandling-Mun" onClick={toggleMenu}>Rynkor runt munnen</Link></li>
+      <li><Link to="/Rynkbehandling-Browlift" onClick={toggleMenu}>Browlift</Link></li>
+      <li><Link to="/Rynkbehandling-Bunnylines" onClick={toggleMenu}>Bunnylines</Link></li>
+      <li><Link to="/Rynkbehandling-Nastipp" onClick={toggleMenu}>Nästippen</Link></li>
+      <li><Link to="/Rynkbehandling-Gummysmile" onClick={toggleMenu}>Gummysmile</Link></li>
+      <li><Link to="/Rynkbehandling-Lipflip" onClick={toggleMenu}>Lipflip</Link></li>
+      <li><Link to="/Rynkbehandling-Mungipor" onClick={toggleMenu}>Sura mungipor</Link></li>
+      <li><Link to="/Rynkbehandling-Apelsinhaka" onClick={toggleMenu}>Apelsinhaka</Link></li>
+      <li><Link to="/Rynkbehandling-Platysma" onClick={toggleMenu}>Platysma</Link></li>
+      <li><Link to="/Rynkbehandling-Hyperhidros" onClick={toggleMenu}>Hyperhidros</Link></li>
+      <li><Link to="/Rynkbehandling-Masseter" onClick={toggleMenu}>Käkmuskler (masseter)</Link></li>
+      <li><Link to="/Rynkbehandling-Trapezius" onClick={toggleMenu}>Trapezius</Link></li>
+    </ul>
+
+) : subMenu === "fillers" ? (
+  <ul className="mobile-submenuu">
+    <li><Link to="/Fillers-Kindben" onClick={toggleMenu}>Fillers | Kindben</Link></li>
+    <li><Link to="/Fillers-Midcheek" onClick={toggleMenu}>Fillers | Midcheek</Link></li>
+    <li><Link to="/Fillers-Kaklinje" onClick={toggleMenu}>Fillers | Käklinje</Link></li>
+    <li><Link to="/Fillers-Haka" onClick={toggleMenu}>Fillers | Haka</Link></li>
+    <li><Link to="/Fillers-Nasolabial" onClick={toggleMenu}>Fillers | Nasolabialveck</Link></li>
+    <li><Link to="/Fillers-Tinning" onClick={toggleMenu}>Fillers | Tinning</Link></li>
+    <li><Link to="/Fillers-TearTrough" onClick={toggleMenu}>Fillers | Tear Trough</Link></li>
+    <li><Link to="/Fillers-Marionettlinjer" onClick={toggleMenu}>Fillers | Marionettlinjer</Link></li>
+    <li><Link to="/Fillers-Hyalase" onClick={toggleMenu}>Fillers | Hyalase</Link></li>
+  </ul>
+
+  ) : subMenu === "skinboosters" ? (
+  <ul className="mobile-submenuu">
+    <li><Link to="/Skinbooster-Ejal40" onClick={toggleMenu}>Skinbooster | Ejal40</Link></li>
+    <li><Link to="/Skinbooster-LongLasting" onClick={toggleMenu}>Skinbooster | Longlasting</Link></li>
+    <li><Link to="/Skinbooster-Restylane" onClick={toggleMenu}>Skinbooster | Restylane</Link></li>
+    <li><Link to="/Skinbooster-Sunekos" onClick={toggleMenu}>Skinbooster | Sunekos</Link></li>
+    <li><Link to="/Skinbooster-RRSEyes" onClick={toggleMenu}>Skinbooster | RRS Eyes</Link></li>
+  </ul>
+
+
+) : subMenu === "prp" ? (
+  <ul className="mobile-submenuu">
+    <li><Link to="PrpPrf-TearTrough" onClick={toggleMenu}>PRF | Tear Trough</Link></li>
+    <li><Link to="/PrpPrf-EksemPsoriasis" onClick={toggleMenu}>PRP | Eksem & Psoriasis</Link></li>
+    <li><Link to="/PrpPrf-Ansikte" onClick={toggleMenu}>PRP | Ansikte</Link></li>
+    <li><Link to="/PrpPrf-AnsikteHals" onClick={toggleMenu}>PRP | Ansikte + Hals</Link></li>
+    <li><Link to="/PrpPrf-RrsHair" onClick={toggleMenu}>RRS | XL Hair</Link></li>
+    <li><Link to="/PrpPrf-Har" onClick={toggleMenu}>PRP | Hår</Link></li>
+  </ul>
+
+  ) : subMenu === "carboxy" ? (
+  <ul className="mobile-submenuu">
+    <li><Link to="/Cellutrix-RRS" onClick={toggleMenu}>RRS Cellutrix</Link></li>
+    <li><Link to="/Carboxy" onClick={toggleMenu}>Carboxy</Link></li>
+    <li><Link to="/Carboxy-Ogon" onClick={toggleMenu}>Carboxy Ögon</Link></li>
+  </ul>
+
+
+
+
+
 ) : subMenu === "priser" ? (
   <ul className="mobile-submenuu">
-    <li><Link to="/injektionsbehandlingar-priser" onClick={toggleMenu}>INJEKTIONSBEHANDLINGAR</Link></li>
+    <li><Link to="/injektionsbehandlingar-priser" onClick={toggleMenu}>ESTETISKA INJEKTIONSBEHANDLINGAR</Link></li>
     <li><Link to="/tradlyft-priser" onClick={toggleMenu}>TRÅDLYFT</Link></li>
     <li><Link to="/laserbehandlingar-priser" onClick={toggleMenu}>LASERBEHANDLINGAR</Link></li>
     <li><Link to="/ansiktsbehandlingar-priser" onClick={toggleMenu}>ANSIKTSBEHANDLINGAR</Link></li>
