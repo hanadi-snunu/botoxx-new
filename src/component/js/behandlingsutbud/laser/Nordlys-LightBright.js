@@ -1,5 +1,6 @@
+
 import React, { useState } from "react";
-import laserImg from "../../../img/injection.png"; // byt till din faktiska bild
+import laserImg from "../../../img/injection.png";
 import ConsultationImage from "../../../img/piccc.jpg";
 import { Link } from "react-router-dom";
 import "../../../css/Massage.css";
@@ -7,59 +8,47 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const NordlysIPL = () => {
+const LightBright = () => {
   const [openQuestion, setOpenQuestion] = useState(null);
   const toggleQuestion = (index) => setOpenQuestion(openQuestion === index ? null : index);
 
   const faqQuestions = [
     {
-      question: "Hur fungerar IPL-behandling?",
-      answer: "IPL använder intensivt pulserande ljus för att behandla hudproblem som pigmentfläckar, blodkärl och rodnad."
-    },
-    {
-      question: "Gör behandlingen ont?",
-      answer: "Behandlingen är relativt skonsam men kan kännas som ett lätt snärtande obehag."
+      question: "Vad är Light & Bright?",
+      answer: "En kombinationsbehandling som använder både Frax och IPL för förbättrad hudstruktur och ton."
     },
     {
       question: "Hur många behandlingar behövs?",
-      answer: "Vanligtvis rekommenderas en kur på 3–5 behandlingar med några veckors mellanrum."
+      answer: "Det varierar individuellt, men oftast krävs 3–5 behandlingar för bästa resultat."
+    },
+    {
+      question: "Gör behandlingen ont?",
+      answer: "Mild till måttlig värme kan kännas under behandlingen, men den är generellt väl tolererad."
     },
     {
       question: "Finns det någon återhämtningstid?",
-      answer: "Nej, du kan återgå till vardagen direkt men bör undvika sol några dagar efter."
-    },
+      answer: "Lätt rodnad kan uppstå men du kan oftast återgå till vardagen direkt efter behandlingen."
+    }
   ];
 
   const treatments = [
     {
       image: laserImg,
-      title: "IPL | Mindre område",
-      description: "Behandla små pigmentfläckar eller kärl lokalt.",
-      link: "/IPL-MindreOmrade"
+      title: "Light & Bright | Ansikte",
+      description: "Hudföryngring för hela ansiktet.",
+      link: "/LightBright-Ansikte"
     },
     {
       image: laserImg,
-      title: "IPL | Ansikte",
-      description: "Förbättra hudton och minska rodnad i hela ansiktet.",
-      link: "/IPL-Ansikte"
+      title: "Light & Bright | Ansikte + Hals",
+      description: "Kombinerad behandling för både ansikte och hals.",
+      link: "/LightBright-Ansikte-Hals"
     },
     {
       image: laserImg,
-      title: "IPL | Ansikte + Hals",
-      description: "Kombinerad behandling för jämn hud på ansikte och hals.",
-      link: "/IPL-Ansikte-Hals"
-    },
-    {
-      image: laserImg,
-      title: "IPL | Ansikte + Hals + Dekolletage",
-      description: "Fulltäckande behandling för hela det övre området.",
-      link: "/IPL-Ansikte-Hals-Dekolletage"
-    },
-    {
-      image: laserImg,
-      title: "IPL | Dekolletage eller Hals",
-      description: "Fokuserad behandling på enskilt område.",
-      link: "/IPL-Dekolletage-Hals"
+      title: "Light & Bright | Ansikte + Hals + Dekolletage",
+      description: "Behandla hela det övre hudområdet samtidigt.",
+      link: "/LightBright-Ansikte-Hals-Dekolletage"
     },
   ];
 
@@ -76,40 +65,39 @@ const NordlysIPL = () => {
 
   return (
     <div>
-      {/* Header */}
       <header className="massage-header" style={{ backgroundImage: `url(${laserImg})` }}>
         <div className="massage-overlay">
-          <h1 className="massage-title">Nordlys | IPL</h1>
-          <p className="massage-description">Skonsam och effektiv behandling med intensivt pulserande ljus</p>
+          <h1 className="massage-title">Nordlys | Light & Bright</h1>
+          <p className="massage-description">Kombinerad laserbehandling för synlig hudföryngring</p>
         </div>
       </header>
 
-      {/* Info Text */}
       <section className="massage-info-section">
         <div className="massage-info-container only-text">
           <div className="massage-info-text-container">
-            <h2 className="info-title">Nordlys | IPL</h2>
+            <h2 className="info-title">Nordlys | Light & Bright</h2>
             <p className="info-text">
-              Intense Pulsed Light också kallad för IPL, detta är en annan laser teknik som Nordlys även erbjuder.
-              Denna behandlingen använder intensivt pulserande ljus för att behandla olika hudproblem.
+              En kombinationsbehandling som har visat sig vara väldigt populär är Light and Bright vilket består av en behandling av Frax och IPL laser.
+              En extra effektiv behandling som arbetar på hudföryngring på flera områden parallellt.
             </p>
             <p className="info-text">
-              Behandlingen är skonsam mot huden och ger snabba resultat med minimal återhämningstid.
-              Genom att använda olika filter kan man anpassa behandlingen mot de hudproblem som önskas att behandlas.
+              Detta laserenegrin som behandlingen erbjuder främjar hudens naturliga läkeprocess vilket resulterar i att hudproblemen växer ihop och blir mindre synliga.
+              Hur många behandlingar som krävs är individuellt, det hjälper våra experter dig med på din konsultations tid.
             </p>
-            <p className="info-text"><strong>IPL behandlar områden inom:</strong></p>
+            <p className="info-text"><strong>Kombinationen av fraktionerad laser behandlar:</strong></p>
             <ul className="info-text">
-              <li> Pigmentfläckar</li>
-              <li> Rosacea</li>
-              <li> Blodkärl</li>
+              <li> Ojämn hudton</li>
+              <li> Rodnad</li>
+              <li> Kärl och pigmenteringar</li>
+              <li> Uppstramning av huden</li>
+              <li> Ökad kollagen produktion</li>
             </ul>
           </div>
         </div>
       </section>
 
-      {/* Slider Section */}
       <section className="massage-treatments-section">
-        <h2 className="massage-section-title">Tillgängliga IPL-behandlingar</h2>
+        <h2 className="massage-section-title">Tillgängliga Light & Bright-behandlingar</h2>
         <Slider {...settings}>
           {treatments.map((t, index) => (
             <div key={index} className="massage-treatment-card">
@@ -124,7 +112,6 @@ const NordlysIPL = () => {
         </Slider>
       </section>
 
-      {/* FAQ */}
       <section className="massage-faq-section">
         <h2 className="massage-faq-title">Vanliga frågor</h2>
         <div className="massage-faq-list">
@@ -140,13 +127,12 @@ const NordlysIPL = () => {
         </div>
       </section>
 
-      {/* Consultation */}
       <div className="consultation-section" style={{ backgroundImage: `url(${ConsultationImage})` }}>
         <div className="consultation-overlay">
           <div className="consultation-content">
             <h2 className="consultation-title">Boka en kostnadsfri digital konsultation</h2>
             <p className="consultation-description">
-              Vi hjälper dig att avgöra vilken IPL-behandling som passar dina behov bäst.
+              Vi hjälper dig att avgöra vilken Light & Bright-behandling som passar dina behov bäst.
             </p>
             <Link to="/Bokatid" className="consultation-button">Boka nu</Link>
           </div>
@@ -156,4 +142,4 @@ const NordlysIPL = () => {
   );
 };
 
-export default NordlysIPL;
+export default LightBright;

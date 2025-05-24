@@ -130,8 +130,14 @@ const Navbar = () => {
               </ul>
             </li>
             <li>
-              <Link to="/Laserbehandlingar">LASERBEHANDLINGAR</Link>
-            </li>
+  <Link to="/Laserbehandlingar">LASERBEHANDLINGAR</Link>
+  <ul>
+    <li><Link to="/NordlysIpl">Nordlys | IPL</Link></li>
+    <li><Link to="/Nordlys-Frax1550">Nordlys | Frax 1550</Link></li>
+    <li><Link to="/Nordlys-LightBright">Nordlys | Light & Bright</Link></li>
+  </ul>
+</li>
+
             <li>
               <Link to="/Ansiktsbehandlingar">ANSIKTSBEHANDLINGAR</Link>
               <ul>
@@ -368,15 +374,24 @@ const Navbar = () => {
           <span className="arrow" onClick={() => openSubMenu("trådlyft")}> 
             <FontAwesomeIcon icon={faChevronRight} /></span>
         </div>
+        </li>
+<li>
+      <div className="submenu-trigger">
+  <Link to="/Laserbehandlingar" onClick={toggleMenu}>LASERBEHANDLINGAR</Link>
+  <span className="arrow" onClick={() => openSubMenu("laser")}>
+    <FontAwesomeIcon icon={faChevronRight} />
+  </span>
+</div>
+</li>
 
-      </li>
-      <li><Link to="/Laserbehandlingar" onClick={toggleMenu}>LASERBEHANDLINGAR</Link></li>
-      <li>
+        <li>
         <div className="submenu-trigger">
           <Link to="/Ansiktsbehandlingar" onClick={toggleMenu}>ANSIKTSBEHANDLINGAR</Link>
-          <span className="arrow" onClick={() => openSubMenu("ansiktsbehandlingar")}> <FontAwesomeIcon icon={faChevronRight} /></span>
+          <span className="arrow" onClick={() => openSubMenu("ansiktsbehandlingar")}> 
+            <FontAwesomeIcon icon={faChevronRight} /></span>
         </div>
       </li>
+
       <li>
         <div className="submenu-trigger">
           <Link to="/HydraFacial" onClick={toggleMenu}>HYDRA FACIAL</Link>
@@ -627,6 +642,79 @@ const Navbar = () => {
     <li><Link to="/Carboxy-Ogon" onClick={toggleMenu}>Carboxy Ögon</Link></li>
   </ul>
 
+
+) : subMenu === "laser" ? (
+  <ul className="mobile-submenuu">
+    <li className="submenu-item-with-arrow">
+      <Link to="/NordlysIpl" onClick={toggleMenu} className="mobile-link-with-arrow">
+        Nordlys | IPL
+      </Link>
+      <span
+        className="arrow"
+        onClick={(e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          openSubMenu("ipl");
+        }}
+      >
+        <FontAwesomeIcon icon={faChevronRight} />
+      </span>
+    </li>
+
+    <li className="submenu-item-with-arrow">
+      <Link to="/Nordlys-Frax1550" onClick={toggleMenu} className="mobile-link-with-arrow">
+        Nordlys | Frax 1550
+      </Link>
+      <span
+        className="arrow"
+        onClick={(e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          openSubMenu("frax");
+        }}
+      >
+        <FontAwesomeIcon icon={faChevronRight} />
+      </span>
+    </li>
+
+    <li className="submenu-item-with-arrow">
+      <Link to="/Nordlys-LightBright" onClick={toggleMenu} className="mobile-link-with-arrow">
+        Nordlys | Light & Bright
+      </Link>
+      <span
+        className="arrow"
+        onClick={(e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          openSubMenu("lightbright");
+        }}
+      >
+        <FontAwesomeIcon icon={faChevronRight} />
+      </span>
+    </li>
+  </ul>
+
+) : subMenu === "ipl" ? (
+  <ul className="mobile-submenuu">
+    <li><Link to="/IPL-MindreOmrade" onClick={toggleMenu}>IPL | Mindre område</Link></li>
+    <li><Link to="/IPL-Ansikte" onClick={toggleMenu}>IPL | Ansikte</Link></li>
+    <li><Link to="/IPL-Ansikte-Hals" onClick={toggleMenu}>IPL | Ansikte + Hals</Link></li>
+    <li><Link to="/IPL-Ansikte-Hals-Dekolletage" onClick={toggleMenu}>IPL | Ansikte + Hals + Dekolletage</Link></li>
+    <li><Link to="/IPL-Dekolletage-Hals" onClick={toggleMenu}>IPL | Dekolletage eller Hals</Link></li>
+  </ul>
+) : subMenu === "frax" ? (
+  <ul className="mobile-submenuu">
+    <li><Link to="/Frax1550-Ansikte" onClick={toggleMenu}>Frax 1550 | Ansikte</Link></li>
+    <li><Link to="/Frax1550-Ansikte-Hals" onClick={toggleMenu}>Frax 1550 | Ansikte + Hals</Link></li>
+    <li><Link to="/Frax1550-Ansikte-Hals-Dekolletage" onClick={toggleMenu}>Frax 1550 | Ansikte + Hals + Dekolletage</Link></li>
+    <li><Link to="/Frax1550-Hals-Dekolletage" onClick={toggleMenu}>Frax 1550 | Hals eller Dekolletage</Link></li>
+  </ul>
+) : subMenu === "lightbright" ? (
+  <ul className="mobile-submenuu">
+    <li><Link to="/LightBright-Ansikte" onClick={toggleMenu}>Light & Bright | Ansikte</Link></li>
+    <li><Link to="/LightBright-Ansikte-Hals" onClick={toggleMenu}>Light & Bright | Ansikte + Hals</Link></li>
+    <li><Link to="/LightBright-Ansikte-Hals-Dekolletage" onClick={toggleMenu}>Light & Bright | Ansikte + Hals + Dekolletage</Link></li>
+  </ul>
 
 
 

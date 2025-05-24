@@ -7,59 +7,53 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const NordlysIPL = () => {
+const Frax1550 = () => {
   const [openQuestion, setOpenQuestion] = useState(null);
   const toggleQuestion = (index) => setOpenQuestion(openQuestion === index ? null : index);
 
   const faqQuestions = [
     {
-      question: "Hur fungerar IPL-behandling?",
-      answer: "IPL använder intensivt pulserande ljus för att behandla hudproblem som pigmentfläckar, blodkärl och rodnad."
+      question: "Hur fungerar FRAX 1550?",
+      answer: "Frax 1550 är en fraktionerad laser som skapar små kontrollerade skador i huden vilket stimulerar kollagenproduktionen."
     },
     {
-      question: "Gör behandlingen ont?",
-      answer: "Behandlingen är relativt skonsam men kan kännas som ett lätt snärtande obehag."
+      question: "Vad kan behandlingen hjälpa mot?",
+      answer: "Behandlingen används bland annat mot ärr, fina linjer, ojämn hudstruktur och förstorade porer."
+    },
+    {
+      question: "Hur lång är återhämtningstiden?",
+      answer: "De flesta upplever lätt rodnad och svullnad i några dagar, men kan återgå till vardagliga aktiviteter ganska snart."
     },
     {
       question: "Hur många behandlingar behövs?",
-      answer: "Vanligtvis rekommenderas en kur på 3–5 behandlingar med några veckors mellanrum."
-    },
-    {
-      question: "Finns det någon återhämtningstid?",
-      answer: "Nej, du kan återgå till vardagen direkt men bör undvika sol några dagar efter."
+      answer: "Antalet varierar men vanligtvis rekommenderas en kur på 3–5 behandlingar."
     },
   ];
 
   const treatments = [
     {
       image: laserImg,
-      title: "IPL | Mindre område",
-      description: "Behandla små pigmentfläckar eller kärl lokalt.",
-      link: "/IPL-MindreOmrade"
+      title: "Frax 1550 | Ansikte",
+      description: "Förbättra hudstruktur och minska fina linjer i ansiktet.",
+      link: "/Frax1550-Ansikte"
     },
     {
       image: laserImg,
-      title: "IPL | Ansikte",
-      description: "Förbättra hudton och minska rodnad i hela ansiktet.",
-      link: "/IPL-Ansikte"
+      title: "Frax 1550 | Ansikte + Hals",
+      description: "Behandling för både ansikte och hals med fraktionerad laser.",
+      link: "/Frax1550-Ansikte-Hals"
     },
     {
       image: laserImg,
-      title: "IPL | Ansikte + Hals",
-      description: "Kombinerad behandling för jämn hud på ansikte och hals.",
-      link: "/IPL-Ansikte-Hals"
+      title: "Frax 1550 | Ansikte + Hals + Dekolletage",
+      description: "Omfattande behandling för övre delen av kroppen.",
+      link: "/Frax1550-Ansikte-Hals-Dekolletage"
     },
     {
       image: laserImg,
-      title: "IPL | Ansikte + Hals + Dekolletage",
-      description: "Fulltäckande behandling för hela det övre området.",
-      link: "/IPL-Ansikte-Hals-Dekolletage"
-    },
-    {
-      image: laserImg,
-      title: "IPL | Dekolletage eller Hals",
-      description: "Fokuserad behandling på enskilt område.",
-      link: "/IPL-Dekolletage-Hals"
+      title: "Frax 1550 | Hals eller Dekolletage",
+      description: "Fokuserad behandling för hals eller dekolletage.",
+      link: "/Frax1550-Hals-Dekolletage"
     },
   ];
 
@@ -76,40 +70,38 @@ const NordlysIPL = () => {
 
   return (
     <div>
-      {/* Header */}
       <header className="massage-header" style={{ backgroundImage: `url(${laserImg})` }}>
         <div className="massage-overlay">
-          <h1 className="massage-title">Nordlys | IPL</h1>
-          <p className="massage-description">Skonsam och effektiv behandling med intensivt pulserande ljus</p>
+          <h1 className="massage-title">Nordlys | Frax 1550</h1>
+          <p className="massage-description">Fraktionerad laser för djupverkande hudföryngring</p>
         </div>
       </header>
 
-      {/* Info Text */}
       <section className="massage-info-section">
         <div className="massage-info-container only-text">
           <div className="massage-info-text-container">
-            <h2 className="info-title">Nordlys | IPL</h2>
+            <h2 className="info-title">Nordlys | Frax 1550</h2>
             <p className="info-text">
-              Intense Pulsed Light också kallad för IPL, detta är en annan laser teknik som Nordlys även erbjuder.
-              Denna behandlingen använder intensivt pulserande ljus för att behandla olika hudproblem.
+              Denna laserbehandling är en del av Nordlyssystemet, en fraktionerad laser är en behandling som behandlar en del av huden genom att göra tusentals små kontrollerade skador i vävnaden och kollagenstimulerande på djupet vilket ger minimala skador och därmed snabb återhämtning.
             </p>
             <p className="info-text">
-              Behandlingen är skonsam mot huden och ger snabba resultat med minimal återhämningstid.
-              Genom att använda olika filter kan man anpassa behandlingen mot de hudproblem som önskas att behandlas.
+              Fraktionerad laser är effektiv på att behandla flertalet områden tack vare möjligheten att justera olika inställningar med Nordlys maskinen.
             </p>
-            <p className="info-text"><strong>IPL behandlar områden inom:</strong></p>
+            <p className="info-text"><strong>Frax fokuserar på områden som:</strong></p>
             <ul className="info-text">
-              <li> Pigmentfläckar</li>
-              <li> Rosacea</li>
-              <li> Blodkärl</li>
+              <li> Förstorade porer eller ojämn hudyta</li>
+              <li> Rynkor och fina linjer</li>
+              <li> Slapp och åldrande hy</li>
+              <li> Kirurgiska ärr</li>
+              <li> Acne ärr</li>
+              <li> Hudstruktur</li>
             </ul>
           </div>
         </div>
       </section>
 
-      {/* Slider Section */}
       <section className="massage-treatments-section">
-        <h2 className="massage-section-title">Tillgängliga IPL-behandlingar</h2>
+        <h2 className="massage-section-title">Tillgängliga Frax 1550-behandlingar</h2>
         <Slider {...settings}>
           {treatments.map((t, index) => (
             <div key={index} className="massage-treatment-card">
@@ -124,7 +116,6 @@ const NordlysIPL = () => {
         </Slider>
       </section>
 
-      {/* FAQ */}
       <section className="massage-faq-section">
         <h2 className="massage-faq-title">Vanliga frågor</h2>
         <div className="massage-faq-list">
@@ -140,13 +131,12 @@ const NordlysIPL = () => {
         </div>
       </section>
 
-      {/* Consultation */}
       <div className="consultation-section" style={{ backgroundImage: `url(${ConsultationImage})` }}>
         <div className="consultation-overlay">
           <div className="consultation-content">
             <h2 className="consultation-title">Boka en kostnadsfri digital konsultation</h2>
             <p className="consultation-description">
-              Vi hjälper dig att avgöra vilken IPL-behandling som passar dina behov bäst.
+              Vi hjälper dig att avgöra vilken Frax 1550-behandling som passar dina behov bäst.
             </p>
             <Link to="/Bokatid" className="consultation-button">Boka nu</Link>
           </div>
@@ -156,4 +146,4 @@ const NordlysIPL = () => {
   );
 };
 
-export default NordlysIPL;
+export default Frax1550;

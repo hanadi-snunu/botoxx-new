@@ -122,6 +122,15 @@ import IPLAnsikte from "./component/js/behandlingsutbud/laser/IPL-Ansikte";
 import IPLAnsikteHals from "./component/js/behandlingsutbud/laser/IPL-Ansikte-Hals";
 import IPLAnsikteHalsDekolletage from "./component/js/behandlingsutbud/laser/IPL-Ansikte-Hals-Dekolletage";
 import IPLDekolletageHals from "./component/js/behandlingsutbud/laser/IPL-Dekolletage-Hals";
+import Frax1550 from "./component/js/behandlingsutbud/laser/Nordlys-Frax1550";
+import FraxAnsikteHalsDekolletage from "./component/js/behandlingsutbud/laser/Frax1550-Ansikte-Hals-Dekolletage";
+import FraxAnsikteHals from "./component/js/behandlingsutbud/laser/Frax1550-Ansikte-Hals";
+import FraxAnsikte from "./component/js/behandlingsutbud/laser/Frax1550-Ansikte";
+import FraxHalsDekolletage from "./component/js/behandlingsutbud/laser/Frax1550-Hals-Dekolletage";
+import LightBright from "./component/js/behandlingsutbud/laser/Nordlys-LightBright";
+import LightBrightAnsikte from "./component/js/behandlingsutbud/laser/LightBright-Ansikte";
+import LightBrightAnsikteHals from "./component/js/behandlingsutbud/laser/LightBright-Ansikte-Hals";
+import LightBrightAnsikteHalsDekolletage from "./component/js/behandlingsutbud/laser/LightBright-Ansikte-Hals-Dekolletage";
 
 
 function App() {
@@ -133,7 +142,20 @@ function App() {
     
       <div className="main-content"> {/* Main-content-klass för att placera innehåll rätt */}
         <Routes>
+          <Route path="/LightBright-Ansikte" element={<LightBrightAnsikte />} />
+          <Route path="/LightBright-Ansikte-Hals" element={<LightBrightAnsikteHals />} />
+          <Route path="/LightBright-Ansikte-Hals-Dekolletage" element={<LightBrightAnsikteHalsDekolletage />} />
 
+          <Route path="/Nordlys-LightBright" element={<LightBright />} />
+
+          <Route path="/Frax1550-Ansikte-Hals-Dekolletage" element={<FraxAnsikteHalsDekolletage />} />
+          <Route path="/Frax1550-Ansikte-Hals" element={<FraxAnsikteHals />} />
+          <Route path="/Frax1550-Ansikte" element={<FraxAnsikte />} />
+          <Route path="/Frax1550-Hals-Dekolletage" element={<FraxHalsDekolletage />} />
+
+
+
+          <Route path="/Nordlys-Frax1550" element={<Frax1550 />} />
            <Route path="/Laserbehandlingar" element={<Laser />} />
             <Route path="/NordlysIpl" element={<NordlysIPL />} />
              <Route path="/IPL-MindreOmrade" element={<IPLMindreOmrade />} />
