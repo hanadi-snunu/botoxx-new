@@ -31,7 +31,8 @@ const Kontakt = () => {
         <p className="info-text">
           E-post: <a href="mailto:houseofaesthetics.se@hotmail.com">houseofaesthetics.se@hotmail.com</a><br />
           Instagram: <a href="https://www.instagram.com/_houseofaesthetics?igsh=ZG9mcHdxdTk0bWky" target="_blank" rel="noopener noreferrer">@houseofaesthetics</a><br />
-          Telefon: <a href="tel:040 - 511101">040 - 511101</a>
+          Telefon: <a href="tel:040 - 511101">040 - 51 11 01</a><br />
+          SMS kontakt: <a href="tel:073-666 74 34">073-666 74 34</a>
         </p>
         <div className="contact-locations">
           <div className="locationK">

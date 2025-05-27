@@ -583,6 +583,8 @@
     }
 
 
+    @media (max-width: 768px) {
+
     .relax-treatment-card {
         flex-direction: column;
         max-width: 100%;
@@ -605,13 +607,17 @@
     }
 
     .relax-treatment-description {
-        font-size: 14px;
-        margin-bottom: 25px;
-        text-align: justify; /* Justerar texten så den är lättare att läsa */
-    word-wrap: break-word; /* Gör att långa ord bryts och visas korrekt */
-    overflow-wrap: break-word; /* Hanterar ord som är för långa för behållaren */
-    padding: 0 40px;
-    }
+    font-size: 14px;
+    font-family: 'Mulish', sans-serif;
+    color: #666666;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    text-align: left; /* Undvik glapp mellan ord */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto; /* Bättre ordbrytning om stöds */
+    padding: 0px 10px 20px; /* Mindre padding för mobil */
+  }
 
     .relax-treatment-details strong {
         text-align: left;
@@ -638,4 +644,5 @@
         font-size: 14px; /* Minskar textstorleken för innehållet */
         margin-bottom: 10px;
     }
+}
 }

@@ -67,7 +67,7 @@ const Omoss = () => {
                 {/* Medarbetare 4 */}
                 <div className="medarbetare-card">
                     <img src={Medarbetare} alt="Medarbetare" />
-                    <h3>Sofie Huhtala P.</h3>
+                    <h3>Rita Badawi</h3>
                     <p>Cert. Hudterapeut
                     </p>
                 </div>
@@ -82,8 +82,8 @@ const Omoss = () => {
                 {/* Medarbetare 6 */}
                 <div className="medarbetare-card">
                     <img src={Medarbetare} alt="Medarbetare" />
-                    <h3>Nazi (Laserterapeuten)</h3>
-                    <p>Cert. Laserterapeut</p>
+                    <h3>Thuy Tran</h3>
+                    <p>Cert. Massör</p>
                 </div>
                 {/* Medarbetare 7 */}
                 <div className="medarbetare-card">

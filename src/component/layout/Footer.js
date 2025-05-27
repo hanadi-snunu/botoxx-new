@@ -24,7 +24,7 @@ const Footer = () => {
         <div className="footer-locations">
           <div className="location">
             
-            <p>Djäknegatan 4 <br />211 35 Malmö</p>
+            <p>Östra Tullgatan 4 <br />211 28 Malmö</p>
             <p><a href="tel:0102040998">073-666 74 32</a></p>
             <p><a href="mailto:houseofaesthetics.se@hotmail.com">houseofaesthetics.se@hotmail.com</a></p>
           </div>

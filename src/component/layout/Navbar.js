@@ -90,7 +90,7 @@ const Navbar = () => {
     <li><Link to="/Skinboosters">Skinbooster</Link></li>
     <li><Link to="/Profhilo">Prohilo</Link></li>
     <li><Link to="/PRP">PRP-PRF</Link></li>
-    <li><Link to="/Carboxy">Carboxy-Cellutrix</Link></li>
+    <li><Link to="/Carboxy-Cellutrix">Carboxy-Cellutrix</Link></li>
     <li><Link to="/Vitamindropp">Vitamindropp</Link></li>
   </ul>
 </li>
@@ -561,7 +561,7 @@ const Navbar = () => {
 
    <li className="submenu-item-with-arrow">
   <Link
-    to="/Carboxy"
+    to="/Carboxy-Cellutrix"
     onClick={toggleMenu}
     className="mobile-link-with-arrow"
   >
