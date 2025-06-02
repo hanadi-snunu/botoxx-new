@@ -31,7 +31,7 @@ const Omoss = () => {
     Vi på House of Aesthetics har en lång historia av att erbjuda estetiska behandlingar av högsta kvalitet. Vårt team består av certifierade experter som brinner för att hjälpa dig att uppnå dina skönhetsmål.<br /><br />
     Här utförs estetiska injektions- och skönhetsbehandlingar av en legitimerad sjuksköterska och certifierad hudterapeut. Kliniken ligger centralt i Malmö och är lättillgänglig med både buss och tåg. Alla behandlingar och produkter håller högsta kvalitet, med fokus på att ge dig som kund den bästa servicen och upplevelsen.<br /><br />
     Boka din tid genom att välja önskad behandling nedan. När du bokar accepterar du våra 24-timmars avbokningsvillkor, och avbokning sker endast via Bokadirekt med din avbokningskod.<br /><br />
-    Enligt nya lagkrav måste en konsultation bokas minst 48 timmar innan behandlingen om du inte tidigare genomfört den aktuella behandlingen, eller om det gått mer än sex månader sedan senaste behandlingstillfället.
+     Enligt nya lagkrav måste en konsultation bokas minst 48 timmar innan <strong>injektionsbehandlingar</strong> om du inte tidigare genomfört den aktuella behandlingen, eller om det gått mer än sex månader sedan senaste behandlingstillfället. <strong>För övriga behandlingar gäller inte denna regel.</strong>
 </p>
                     </div>
                 </div>

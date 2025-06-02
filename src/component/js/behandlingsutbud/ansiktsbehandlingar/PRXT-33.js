@@ -28,7 +28,7 @@ innan och efter behandlingen. Om du är gravid eller ammande kan du inte utfö
 denna behandling.
 "
       afterText="Undvik sol och exfoliering i minst 48 timmar för att skydda huden."
-      bookLink="/Bokatid"
+      bookLink="https://www.bokadirekt.se/places/house-of-aesthetics-34817"
       bookButtonText="Boka PRX T-33"
     />
   );

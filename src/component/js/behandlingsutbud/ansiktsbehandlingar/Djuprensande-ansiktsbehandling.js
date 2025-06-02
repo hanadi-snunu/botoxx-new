@@ -22,7 +22,7 @@ const DjuprensandeAnsiktsbehandling = () => {
       ]}
       beforeText="Undvik makeup och exfoliering minst 24 timmar innan behandlingen."
       afterText="Återfukta huden och undvik stark sol i minst 48 timmar efter behandlingen."
-      bookLink="/Bokatid"
+      bookLink="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/djuprensande-ansiktsbehandling-60-min-1693256"
       bookButtonText="Boka Djuprensande Ansiktsbehandling"
     />
   );

@@ -22,7 +22,7 @@ ansiktsmask och en avslappnande ansikts massage! "
       ]}
       beforeText="Kom osminkad och undvik exfoliering minst 24 timmar före behandlingen."
       afterText="Återfukta huden regelbundet och använd solskydd efter behandlingen."
-      bookLink="/Bokatid"
+      bookLink="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/klassisk-ansiktsbehandling-60-min-1693234"
       bookButtonText="Boka Klassisk Ansiktsbehandling"
     />
   );

@@ -29,12 +29,12 @@ const KlippkortX5 = () => {
             <div className="relax-treatment-details">
               <ul>
                 <li><strong>Antal behandlingar:</strong> 5 behandlingar</li>
-                <li><strong>Pris:</strong> 2000 kr</li>
+                <li><strong>Pris:</strong> 3000 kr</li>
                 <li><strong>Fördelar:</strong> Flexibilitet, rabatterat pris, regelbunden avkoppling</li>
                 <li><strong>Rekommenderat för:</strong> Alla som vill ha kontinuerlig stresshantering och välmående</li>
               </ul>
               <div className="relax-treatment-button-wrapper">
-    <Link to="/Bokatid" className="relax-treatment-button">
+    <Link to="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/massage-60-min-klippkort-x5-3258621" className="relax-treatment-button">
         Boka klippkort
     </Link>
 </div>

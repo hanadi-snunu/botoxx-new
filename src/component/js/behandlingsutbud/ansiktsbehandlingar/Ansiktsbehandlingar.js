@@ -27,11 +27,11 @@ const Ansikte = () => {
   };
 
   const treatments = [
-    {
-      image: ansikte1,
-      title: "Dermaplaning",
-      description: "En behandling som avlägsnar döda hudceller och små fjun för en jämnare hudton.",
-      link: "/Dermaplaning",
+     {
+      image: ansikte4,
+      title: "Klassisk Ansiktsbehandling",
+      description: "En tidlös behandling som rengör, återfuktar och fräschar upp huden.",
+      link: "/Klassisk-ansiktsbehandling",
     },
     {
       image: ansikte3,
@@ -39,11 +39,11 @@ const Ansikte = () => {
       description: "Rengör huden på djupet och återfuktar för en fräsch känsla.",
       link: "/Djuprensande-ansiktsbehandling",
     },
-    {
-      image: ansikte4,
-      title: "HydraFacial",
-      description: "En avancerad behandling som rengör, återfuktar och förbättrar hudens struktur.",
-      link: "/Hydra-facial",
+     {
+      image: ansikte1,
+      title: "Lyx Ansiktsbehandling",
+      description: "En exklusiv behandling för maximal återhämtning och hudförbättring.",
+      link: "/Lyx-ansiktsbehandling",
     },
     {
       image: ansikte5,
@@ -58,34 +58,10 @@ const Ansikte = () => {
       link: "/Instant-glow",
     },
     {
-      image: ansikte3,
-      title: "Milk Peel",
-      description: "Exfolierar huden och förbättrar dess struktur och ton.",
-      link: "/Kemisk-peel",
-    },
-    {
-      image: ansikte4,
-      title: "Klassisk Ansiktsbehandling",
-      description: "En tidlös behandling som rengör, återfuktar och fräschar upp huden.",
-      link: "/Klassisk-ansiktsbehandling",
-    },
-    {
-      image: ansikte5,
-      title: "LED Ljusterapi",
-      description: "Stimulerar hudens läkningsprocess och förbättrar hudens kvalitet.",
-      link: "/LED-Ljusterapi",
-    },
-    {
       image: ansikte1,
-      title: "Lyx Ansiktsbehandling",
-      description: "En exklusiv behandling för maximal återhämtning och hudförbättring.",
-      link: "/Lyx-ansiktsbehandling",
-    },
-    {
-      image: ansikte3,
-      title: "Microneedling",
-      description: "Stimulerar kollagenproduktionen och förbättrar hudens elasticitet.",
-      link: "/Microneedling",
+      title: "Dermaplaning",
+      description: "En behandling som avlägsnar döda hudceller och små fjun för en jämnare hudton.",
+      link: "/Dermaplaning",
     },
     {
       image: ansikte4,
@@ -93,6 +69,26 @@ const Ansikte = () => {
       description: "En avancerad behandling som förnyar huden utan att orsaka fjällning.",
       link: "/PRXT-33",
     },
+  
+    {
+      image: ansikte3,
+      title: "Microneedling",
+      description: "Stimulerar kollagenproduktionen och förbättrar hudens elasticitet.",
+      link: "/Microneedling",
+    },
+      {
+      image: ansikte5,
+      title: "LED Ljusterapi",
+      description: "Stimulerar hudens läkningsprocess och förbättrar hudens kvalitet.",
+      link: "/LED-Ljusterapi",
+    },
+    {
+      image: ansikte3,
+      title: "Milk Peel",
+      description: "Exfolierar huden och förbättrar dess struktur och ton.",
+      link: "/Kemisk-peel",
+    },
+
      {
       image: ansikte4,
       title: "BioRepeel",

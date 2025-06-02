@@ -26,7 +26,13 @@ const RelaxTime = () => {
   <div className="relax-treatment-content">
     <h3 className="relax-treatment-title">Relaxing Time</h3>
     <p className="relax-treatment-description">
-    Känner du spänningarna byggas upp i nacke och axlar? Då är det dags att ta en paus och unna dig själv en avkopplande massage. Våra erfarna massageterapeuter är redo att hjälpa dig lösa upp muskelspänningar och få dig att slappna av med en kort men effektiv massage som fokuserar på problemområdena. Dessutom kommer du även unna dig en avslappnande skalpmassage för att ytterligare öka ditt välbefinnande. Boka din behandling redan idag och upplev ren njutning!
+    Känner du spänningarna byggas upp i nacke och axlar? Då är det dags att ta en 
+    paus och unna dig själv en avkopplande massage. Våra erfarna massageterapeuter 
+    är redo att hjälpa dig lösa upp muskelspänningar och få dig att slappna av med 
+    en kort men effektiv massage som fokuserar på problemområdena. Dessutom kommer 
+    du även unna dig en avslappnande skalpmassage för att ytterligare öka ditt 
+    välbefinnande. Boka din behandling redan idag och upplev ren njutning! 
+    Behandlingen kan betalas med Epassi/Friskvård. 
     </p>
   </div>
   <div className="relax-treatment-details-container">
@@ -39,8 +45,8 @@ const RelaxTime = () => {
         <li><strong>Rekommenderat för:</strong> Alla som behöver minska spänningar och stress</li>
       </ul>
       <div className="relax-treatment-button-wrapper">
-    <Link to="/Bokatid" className="relax-treatment-button">
-        Boka klippkort
+    <Link to="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/relaxing-time-30-min-1969874" className="relax-treatment-button">
+        Boka Relaxing Time
     </Link>
 </div>
 

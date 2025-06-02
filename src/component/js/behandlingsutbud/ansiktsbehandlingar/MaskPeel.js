@@ -16,7 +16,7 @@ const MaskPeel = () => (
     ]}
     beforeText="Undvik syror, retinol, rakning och vaxning 4–5 dagar innan behandling."
     afterText="Skydda huden med fukt och SPF. Undvik starka produkter några dagar efter behandling."
-    bookLink="/Bokatid"
+    bookLink="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/mask-peel-1693261"
     bookButtonText="Boka Mask Peel"
   />
 );

@@ -16,7 +16,7 @@ const BioRepeel = () => (
     ]}
     beforeText="Undvik retinolprodukter, antibiotika, vaxning, pågående herpes och skadad hud innan behandling."
     afterText="Rodnad och torrhet kan förekomma några dagar efteråt. Undvik solexponering direkt efter behandling."
-    bookLink="/Bokatid"
+    bookLink="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/biorepeel-2976516"
     bookButtonText="Boka BioRepeel"
   />
 );

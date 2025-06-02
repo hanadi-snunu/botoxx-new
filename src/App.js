@@ -131,6 +131,13 @@ import LightBright from "./component/js/behandlingsutbud/laser/Nordlys-LightBrig
 import LightBrightAnsikte from "./component/js/behandlingsutbud/laser/LightBright-Ansikte";
 import LightBrightAnsikteHals from "./component/js/behandlingsutbud/laser/LightBright-Ansikte-Hals";
 import LightBrightAnsikteHalsDekolletage from "./component/js/behandlingsutbud/laser/LightBright-Ansikte-Hals-Dekolletage";
+import AvkopplandeMassage from "./component/js/behandlingsutbud/massage/AvkopplandeMassage";
+import HotstoneMassage from "./component/js/behandlingsutbud/massage/HotstoneMassage";
+import Helkroppsmassage from "./component/js/behandlingsutbud/massage/Helkroppsmassage";
+import Sportmassage from "./component/js/behandlingsutbud/massage/Sportmassage";
+import Fotmassage from "./component/js/behandlingsutbud/massage/Fotmassage";
+import Ryggmassage from "./component/js/behandlingsutbud/massage/Ryggmassage";
+import Gravidmassage from "./component/js/behandlingsutbud/massage/Gravidmassage";
 
 
 function App() {
@@ -250,6 +257,14 @@ function App() {
           <Route path="/RelaxingTime" element={<RelaxTime />} /> 
           <Route path="/KlippkortX5" element={<KlippkortX5 />} /> 
           <Route path="/Ansiktsmassage" element={<AnsiktsMassage />} /> 
+          <Route path="/AvkopplandeMassage" element={<AvkopplandeMassage />} /> 
+          <Route path="/HotstoneMassage" element={<HotstoneMassage />} /> 
+          <Route path="/Helkroppsmassage" element={<Helkroppsmassage />} />
+          <Route path="/Sportmassage" element={<Sportmassage />} />
+          <Route path="/Fotmassage" element={<Fotmassage />} />
+          <Route path="/Ryggmassage" element={<Ryggmassage />} />
+          <Route path="/Gravidmassage" element={<Gravidmassage />} />
+          
           <Route path="/Vaxning" element={<Vaxning />} /> 
           <Route path="/Armar" element={<Armar />} /> 
           <Route path="/ArmarMen" element={<ArmarMan />} /> 

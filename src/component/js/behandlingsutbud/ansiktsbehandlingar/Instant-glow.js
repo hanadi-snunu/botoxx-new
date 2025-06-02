@@ -21,7 +21,7 @@ bara saknar det där extra!"
       ]}
       beforeText="Kom gärna osminkad och återfukta huden innan behandlingen."
       afterText="Använd milda hudprodukter och undvik direkt sol under 24 timmar."
-      bookLink="/Bokatid"
+      bookLink="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/instant-glow-1719504"
       bookButtonText="Boka Instant-Glow" 
     />
   );

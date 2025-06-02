@@ -26,7 +26,7 @@ Rekommenderat antalet behandlingar är var 3-5 veckor för att bibehålla samma 
 intensiv träning, bastu och hög värme i 48h efter behandling. Huden kan vara röd och 
 knottrig efter behandling, använd då mild rengöring, en återfuktande kräm samt undvik 
 röra huden närmsta timmarna."
-      bookLink="/Bokatid"
+      bookLink="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/dermaplaning-45-min-2183823"
       bookButtonText="Boka Dermaplaning" 
     />
   );

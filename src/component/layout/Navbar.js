@@ -141,17 +141,32 @@ const Navbar = () => {
             <li>
               <Link to="/Ansiktsbehandlingar">ANSIKTSBEHANDLINGAR</Link>
               <ul>
-              <li>
-                  <Link to="/Dermaplaning">Dermaplaning</Link>
-                </li>
                 <li>
+                  <Link to="/Klassisk-ansiktsbehandling">Klassisk Ansiktsbehandling</Link>
+                </li>
+                 <li>
                   <Link to="/Djuprensande-ansiktsbehandling">Djuprensande Ansiktsbehandling</Link>
                 </li>
                 <li>
+                  <Link to="/Lyx-ansiktsbehandling">Lyx Ansiktsbehandling</Link>
+                </li>
+                  <li>
                   <Link to="/Instant-clean">Instant Clean</Link>
                 </li>
                 <li>
                   <Link to="/Instant-glow">Instant Glow</Link>
+                </li>
+              <li>
+                  <Link to="/Dermaplaning">Dermaplaning</Link>
+                </li>
+                <li>
+                  <Link to="/PRXT-33">PRX T-33</Link>
+                </li>
+                <li>
+                  <Link to="/Microneedling">Microneedling</Link>
+                </li>
+              <li>
+                  <Link to="/LED-Ljusterapi">LED Ljusterapi</Link>
                 </li>
                 <li>
                   <Link to="/Kemisk-peel">Milk Peel</Link>
@@ -162,21 +177,11 @@ const Navbar = () => {
                 <li>
                   <Link to="/MaskPeel">Mask Peel</Link>
                 </li>
-                <li>
-                  <Link to="/Klassisk-ansiktsbehandling">Klassisk Ansiktsbehandling</Link>
-                </li>
-                <li>
-                  <Link to="/LED-Ljusterapi">LED Ljusterapi</Link>
-                </li>
-                <li>
-                  <Link to="/Lyx-ansiktsbehandling">Lyx Ansiktsbehandling</Link>
-                </li>
-                <li>
-                  <Link to="/Microneedling">Microneedling</Link>
-                </li>
-                <li>
-                  <Link to="/PRXT-33">PRX T-33</Link>
-                </li>
+                
+                
+                
+                
+                
 
 
               </ul>
@@ -184,32 +189,59 @@ const Navbar = () => {
             <li>
               <Link to="/HydraFacial">HYDRA FACIAL</Link>
               <ul>
+                <li>
+                  <Link to="/Standard-HydraFacial">Hydra Facial | Standard</Link>
+                </li>
               <li>
                   <Link to="/Deluxe-HydraFacial">Hydra Facial | Deluxe</Link>
-                </li>
-                <li>
-                  <Link to="/HydraFacial-Gravida">Hydra Facial | För gravida</Link>
                 </li>
                 <li>
                   <Link to="/Platinum-HydraFacial">Hydra Facial | Platinum</Link>
                 </li>
                 <li>
-                  <Link to="/Standard-HydraFacial">Hydra Facial | Standard</Link>
+                  <Link to="/HydraFacial-Gravida">Hydra Facial | För gravida</Link>
                 </li>
+                
+                
               </ul>
             </li>
             <li>
               <Link to="/Massagee">MASSAGE</Link>
               <ul>
+                <li>
+                  <Link to="/AvkopplandeMassage">Massage | Avkopplande </Link>
+                </li>
+                <li>
+                  <Link to="/HotstoneMassage">Massage | Hotstone </Link>
+                </li>
+                <li>
+                  <Link to="/Helkroppsmassage">Massage | Helkropps </Link>
+                </li>
+                <li>
+                  <Link to="/Sportmassage">Massage | Sport</Link>
+                </li>
+                <li>
+                  <Link to="/Ansiktsmassage">Massage | Ansikte</Link>
+                </li>
+                <li>
+                  <Link to="/Fotmassage">Massage | Fot</Link>
+                </li>
+                <li>
+                  <Link to="/Ryggmassage">Massage | Rygg</Link>
+                </li>
+            
               <li>
-                  <Link to="/KlippkortX5">Klippkort x5</Link>
+                  <Link to="/RelaxingTime">Massage | Relaxing Time</Link>
+                </li>
+
+              <li>
+                  <Link to="/KlippkortX5">Massage | Klippkort x5</Link>
                 </li>
                 <li>
-                  <Link to="/Ansiktsmassage">Ansiktsmassage</Link>
+                  <Link to="/Gravidmassage">Massage | Gravid</Link>
                 </li>
-                <li>
-                  <Link to="/RelaxingTime">Relaxing Time</Link>
-                </li>
+                
+                
               </ul>
             </li>
             <li>
@@ -413,31 +445,48 @@ const Navbar = () => {
     </ul>
   ) : subMenu === "ansiktsbehandlingar" ? (
     <ul className="mobile-submenuu">
-      <li><Link to="/Dermaplaning" onClick={toggleMenu}>Dermaplaning</Link></li>
+
+      <li><Link to="/Klassisk-ansiktsbehandling" onClick={toggleMenu}>Klassisk Ansiktsbehandling</Link></li>
       <li><Link to="/Djuprensande-ansiktsbehandling" onClick={toggleMenu}>Djuprensande Ansiktsbehandling</Link></li>
+      <li><Link to="/Lyx-ansiktsbehandling" onClick={toggleMenu}>Lyx Ansiktsbehandling</Link></li>
       <li><Link to="/Instant-clean" onClick={toggleMenu}>Instant Clean</Link></li>
       <li><Link to="/Instant-glow" onClick={toggleMenu}>Instant Glow</Link></li>
+      <li><Link to="/Dermaplaning" onClick={toggleMenu}>Dermaplaning</Link></li>
+      <li><Link to="/PRXT-33" onClick={toggleMenu}>PRX T-33</Link></li>
+      <li><Link to="/Microneedling" onClick={toggleMenu}>Microneedling</Link></li>
+      <li><Link to="/LED-Ljusterapi" onClick={toggleMenu}>LED Ljusterapi</Link></li>
       <li><Link to="/Kemisk-peel" onClick={toggleMenu}>Milk Peel</Link></li>
       <li><Link to="/BioRepeel" onClick={toggleMenu}>BioRepeel</Link></li>
       <li><Link to="/MaskPeel" onClick={toggleMenu}>Mask Peel</Link></li>
-      <li><Link to="/Klassisk-ansiktsbehandling" onClick={toggleMenu}>Klassisk Ansiktsbehandling</Link></li>
-      <li><Link to="/LED-Ljusterapi" onClick={toggleMenu}>LED Ljusterapi</Link></li>
-      <li><Link to="/Lyx-ansiktsbehandling" onClick={toggleMenu}>Lyx Ansiktsbehandling</Link></li>
-      <li><Link to="/Microneedling" onClick={toggleMenu}>Microneedling</Link></li>
-      <li><Link to="/PRXT-33" onClick={toggleMenu}>PRX T-33</Link></li>
+      
+      
+      
+     
+      
     </ul>
   ) : subMenu === "hydrafacial" ? (
     <ul className="mobile-submenuu">
-      <li><Link to="/Deluxe-HydraFacial" onClick={toggleMenu}>Hydra Facial | Deluxe</Link></li>
-      <li><Link to="/HydraFacial-Gravida" onClick={toggleMenu}>Hydra Facial | För gravida</Link></li>
-      <li><Link to="/Platinum-HydraFacial" onClick={toggleMenu}>Hydra Facial | Platinum</Link></li>
       <li><Link to="/Standard-HydraFacial" onClick={toggleMenu}>Hydra Facial | Standard</Link></li>
+      <li><Link to="/Deluxe-HydraFacial" onClick={toggleMenu}>Hydra Facial | Deluxe</Link></li>
+      <li><Link to="/Platinum-HydraFacial" onClick={toggleMenu}>Hydra Facial | Platinum</Link></li>
+      <li><Link to="/HydraFacial-Gravida" onClick={toggleMenu}>Hydra Facial | För gravida</Link></li>
+     
     </ul>
   ) : subMenu === "massage" ? (
     <ul className="mobile-submenuu">
-      <li><Link to="/KlippkortX5" onClick={toggleMenu}>Klippkort x5</Link></li>
-      <li><Link to="/Ansiktsmassage" onClick={toggleMenu}>Ansiktsmassage</Link></li>
-      <li><Link to="/RelaxingTime" onClick={toggleMenu}>Relaxing Time</Link></li>
+
+<li><Link to="/AvkopplandeMassage" onClick={toggleMenu}>Massage | Avkopplande</Link></li>
+<li><Link to="/HotstoneMassage" onClick={toggleMenu}>Massage | Hotstone</Link></li>
+<li><Link to="/Helkroppsmassage" onClick={toggleMenu}>Massage | Helkropps</Link></li>
+<li><Link to="/Sportmassage" onClick={toggleMenu}>Massage | Sport</Link></li>
+<li><Link to="/Ansiktsmassage" onClick={toggleMenu}>Massage | Ansikte</Link></li>
+<li><Link to="/Fotmassage" onClick={toggleMenu}>Massage | Fot</Link></li>
+<li><Link to="/Ryggmassage" onClick={toggleMenu}>Massage | Rygg</Link></li>
+<li><Link to="/RelaxingTime" onClick={toggleMenu}>Massage | Relaxing Time</Link></li>
+<li><Link to="/KlippkortX5" onClick={toggleMenu}>Massage | Klippkort x5</Link></li>
+<li><Link to="/Gravidmassage" onClick={toggleMenu}>Massage | Gravid</Link></li>
+
+      
     </ul>
     ) : subMenu === "trådlyft" ? (
       <ul className="mobile-submenuu">

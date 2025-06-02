@@ -17,7 +17,7 @@ const KemiskPeel = () => {
       ]}
       beforeText="Undvik starka produkter och direkt sol några dagar före behandlingen."
       afterText="Använd solskydd och återfuktande produkter för att skydda huden efter behandlingen."
-      bookLink="/Bokatid"
+      bookLink="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/milk-peel-1693260"
       bookButtonText="Boka Milk Peel" 
     />
 

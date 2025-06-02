@@ -23,7 +23,7 @@ Lyxigare än detta blir det inte!`}
       ]}
       beforeText="Kom med ren hud och undvik smink för att maximera behandlingen."
       afterText="Återfukta huden och använd solskydd för att bevara resultaten."
-      bookLink="/Bokatid"
+      bookLink="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/ansiktsbehandling-lyx-75-min-1719503"
       bookButtonText="Boka Lyx Ansiktsbehandling"
     />
   );

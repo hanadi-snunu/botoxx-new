@@ -37,7 +37,7 @@ const Microneedling = () => {
       ]}
       beforeText="Undvik direkt solljus och exfoliering i 24 timmar innan behandlingen."
       afterText="Återfukta huden och använd solskydd för att skydda och bevara resultaten."
-      bookLink="/Bokatid"
+      bookLink="https://www.bokadirekt.se/places/house-of-aesthetics-34817"
       bookButtonText="Boka Microneedling"
     />
   );

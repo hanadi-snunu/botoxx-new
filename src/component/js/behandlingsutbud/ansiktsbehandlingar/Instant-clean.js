@@ -22,7 +22,7 @@ möjligt! "
       ]}
       beforeText="Kom gärna osminkad för bästa resultat."
       afterText="Undvik makeup och starka hudprodukter i 24 timmar."
-      bookLink="/Bokatid"
+      bookLink="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/instant-clean-portomning-1719529"
       bookButtonText="Boka Instant-Clean" 
     />
   );

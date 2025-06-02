@@ -37,24 +37,71 @@ const questions = [
 ];
 
   const treatments = [
+{
+    image: massage2,
+    title: "Avkopplande Massage",
+    description: "För total avslappning och återhämtning.",
+    link: "/AvkopplandeMassage"
+  },
+  {
+    image: massage2,
+    title: "Hotstone Massage",
+    description: "Varm stenmassage som lindrar spänningar och stress.",
+    link: "/HotstoneMassage"
+  },
+  {
+    image: massage2,
+    title: "Helkropps Massage",
+    description: "Djupgående helkroppsbehandling för muskelavslappning.",
+    link: "/Helkroppsmassage"
+  },
+   {
+    image: massage2,
+    title: "Sport Massage",
+    description: "Behandling för dig som tränar mycket.",
+    link: "/Sportmassage"
+  },
+  {
+        image: massage3,
+        title: "Ansikts Massage",
+        description: "En lyxig ansiktsmassage som förbättrar blodcirkulationen och ger en fräsch känsla.",
+        link: "/Ansiktsmassage"
+    },
+    {
+    image: massage2,
+    title: "Fot Massage",
+    description: "Lindrar trötta fötter och ökar cirkulationen.",
+    link: "/Fotmassage"
+  },
+  {
+    image: massage2,
+    title: "Rygg Massage",
+    description: "Minska spänningar i rygg och axlar.",
+    link: "/Ryggmassage"
+  },
+
     {
         image: massage2,
         title: "RelaxTime",
         description: "En avkopplande massage för att minska stress och öka välbefinnandet. Perfekt för en lugn stund.",
         link: "/RelaxingTime"
     },
-    {
-        image: massage3,
-        title: "Ansiktsmassage",
-        description: "En lyxig ansiktsmassage som förbättrar blodcirkulationen och ger en fräsch känsla.",
-        link: "/Ansiktsmassage"
-    },
+    
     {
         image: massage4,
         title: "Klippkort X5",
         description: "För dig som vill ha regelbundna massagebehandlingar. Klippkortet ger dig fem behandlingar till ett rabatterat pris.",
         link: "/KlippkortX5"
-    }
+    },
+    
+ 
+  
+  {
+    image: massage2,
+    title: "Gravid Massage",
+    description: "Minska spänningar i rygg och axlar.",
+    link: "/Gravidmassage"
+  },
     
 ];
 
@@ -146,7 +193,7 @@ const settings = {
               <tbody>
                 <tr>
                   <td>Klippkort (5 behandlingar)</td>
-                  <td>2000 kr</td>
+                  <td>3000 kr</td>
                 </tr>
               </tbody>
             </table>
@@ -174,6 +221,119 @@ const settings = {
           </div>
         )}
       </div>
+
+      {/* Avkopplande massage */}
+<div className="price-section">
+  <div className="price-header" onClick={() => toggleSection('avkopplande')}>
+    <h3 className={`price-toggle ${activeSection === 'avkopplande' ? 'open' : ''}`}>
+      {activeSection === 'avkopplande' ? '−' : '+'} Avkopplande massage
+    </h3>
+  </div>
+  {activeSection === 'avkopplande' && (
+    <div className="price-content">
+      <table className="price-table">
+        <tbody>
+          <tr><td>60 minuter</td><td>695 kr</td></tr>
+          <tr><td>90 minuter</td><td>1050 kr</td></tr>
+        </tbody>
+      </table>
+    </div>
+  )}
+</div>
+{/* Hotstone massage */}
+<div className="price-section">
+  <div className="price-header" onClick={() => toggleSection("hotstone")}>
+    <h3 className={`price-toggle ${activeSection === "hotstone" ? "open" : ""}`}>
+      {activeSection === "hotstone" ? "−" : "+"} Hotstone massage
+    </h3>
+  </div>
+  {activeSection === "hotstone" && (
+    <div className="price-content">
+      <table className="price-table">
+        <tbody>
+          <tr><td>60 minuter</td><td>695 kr</td></tr>
+          <tr><td>90 minuter</td><td>1050 kr</td></tr>
+        </tbody>
+      </table>
+    </div>
+  )}
+</div>
+
+{/* Helkroppsmassage */}
+<div className="price-section">
+  <div className="price-header" onClick={() => toggleSection("helkropp")}>
+    <h3 className={`price-toggle ${activeSection === "helkropp" ? "open" : ""}`}>
+      {activeSection === "helkropp" ? "−" : "+"} Helkroppsmassage
+    </h3>
+  </div>
+  {activeSection === "helkropp" && (
+    <div className="price-content">
+      <table className="price-table">
+        <tbody>
+          <tr><td>60 minuter</td><td>695 kr</td></tr>
+          <tr><td>90 minuter</td><td>1050 kr</td></tr>
+        </tbody>
+      </table>
+    </div>
+  )}
+</div>
+
+{/* Sportmassage */}
+<div className="price-section">
+  <div className="price-header" onClick={() => toggleSection("sport")}>
+    <h3 className={`price-toggle ${activeSection === "sport" ? "open" : ""}`}>
+      {activeSection === "sport" ? "−" : "+"} Sportmassage
+    </h3>
+  </div>
+  {activeSection === "sport" && (
+    <div className="price-content">
+      <table className="price-table">
+        <tbody>
+          <tr><td>60 minuter</td><td>695 kr</td></tr>
+          <tr><td>90 minuter</td><td>1050 kr</td></tr>
+        </tbody>
+      </table>
+    </div>
+  )}
+</div>
+
+{/* Fotmassage */}
+<div className="price-section">
+  <div className="price-header" onClick={() => toggleSection("fot")}>
+    <h3 className={`price-toggle ${activeSection === "fot" ? "open" : ""}`}>
+      {activeSection === "fot" ? "−" : "+"} Fotmassage
+    </h3>
+  </div>
+  {activeSection === "fot" && (
+    <div className="price-content">
+      <table className="price-table">
+        <tbody>
+          <tr><td>30 minuter</td><td>450 kr</td></tr>
+        </tbody>
+      </table>
+    </div>
+  )}
+</div>
+
+{/* Ryggmassage */}
+<div className="price-section">
+  <div className="price-header" onClick={() => toggleSection("rygg")}>
+    <h3 className={`price-toggle ${activeSection === "rygg" ? "open" : ""}`}>
+      {activeSection === "rygg" ? "−" : "+"} Ryggmassage
+    </h3>
+  </div>
+  {activeSection === "rygg" && (
+    <div className="price-content">
+      <table className="price-table">
+        <tbody>
+          <tr><td>30 minuter</td><td>580 kr</td></tr>
+        </tbody>
+      </table>
+    </div>
+  )}
+</div>
+
+
     </div>
 
    {/* Grid-sektion för behandlingar */}
