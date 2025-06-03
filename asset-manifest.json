@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.12b21730.css",
-    "main.js": "/static/js/main.e131f9ba.js",
+    "main.css": "/static/css/main.fd8fd3f5.css",
+    "main.js": "/static/js/main.b76ef470.js",
     "static/js/453.f35b76dc.chunk.js": "/static/js/453.f35b76dc.chunk.js",
     "static/media/omossss.jpg": "/static/media/omossss.5bd532b562e0a04e26b8.jpg",
     "static/media/ansiktsbehandling.jpg": "/static/media/ansiktsbehandling.cfbd6702c8ba0cb45848.jpg",
@@ -18,9 +18,8 @@
     "static/media/massage1.jpg": "/static/media/massage1.3cdb004785ac0e11f555.jpg",
     "static/media/kontakt.jpg": "/static/media/kontakt.223eb0252fceb1dd634f.jpg",
     "static/media/picc.png": "/static/media/picc.89ac0a0b32018cbd4003.png",
+    "static/media/injection.png": "/static/media/injection.d16b04cd63a168b9b5ae.png",
     "static/media/Bokatid.jpg": "/static/media/Bokatid.5fd75891067dbc975d12.jpg",
-    "static/media/laser.png": "/static/media/laser.f060c2a2a43eba94d6f9.png",
-    "static/media/injection.png": "/static/media/injection.7d5b6c807656e1a2fd04.png",
     "static/media/vaxningb.jpg.png": "/static/media/vaxningb.jpg.c52a2d0d0e56a8ee2800.png",
     "static/media/vaxning.jpg.png": "/static/media/vaxning.jpg.2698c029c092e61e163a.png",
     "static/media/omoss.jpg": "/static/media/omoss.519e7a07ceb5c07b321d.jpg",
@@ -38,12 +37,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.12b21730.css.map": "/static/css/main.12b21730.css.map",
-    "main.e131f9ba.js.map": "/static/js/main.e131f9ba.js.map",
+    "main.fd8fd3f5.css.map": "/static/css/main.fd8fd3f5.css.map",
+    "main.b76ef470.js.map": "/static/js/main.b76ef470.js.map",
     "453.f35b76dc.chunk.js.map": "/static/js/453.f35b76dc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.12b21730.css",
-    "static/js/main.e131f9ba.js"
+    "static/css/main.fd8fd3f5.css",
+    "static/js/main.b76ef470.js"
   ]
 }
