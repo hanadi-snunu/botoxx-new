@@ -21,7 +21,7 @@ const RynkbehandlingGlabella = () => {
       - Undvik träning samma dag.<br />
       - Undvik att ligga ner de första 4 timmarna.<br />
       Resultat syns vanligtvis inom 3–5 dagar och håller i sig upp till 4–5 månader.`}
-      bookLink="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/botox-1-omrade-1040523"
+      bookLink="https://www.bokadirekt.se/places/house-of-aesthetics-34817?rs=1040534"
       bookButtonText="Boka Botox | Glabella"
     />
   );

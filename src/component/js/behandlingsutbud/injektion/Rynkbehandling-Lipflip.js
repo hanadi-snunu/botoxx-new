@@ -19,7 +19,7 @@ const RynkbehandlingLipflip = () => {
       beforeText={`Undvik rökning, smink och blodförtunnande 24 timmar före behandling. Kom med ren hud.`}
       afterText={`- Undvik att dricka med sugrör eller göra starka munrörelser första dygnet.<br />
       - Resultatet syns inom 3–5 dagar och håller i cirka 2–3 månader.`}
-      bookLink="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/botox-1-omrade-1040523"
+      bookLink="https://www.bokadirekt.se/places/house-of-aesthetics-34817?rs=1040534"
       bookButtonText="Boka Botox | Lipflip"
     />
   );

@@ -35,7 +35,7 @@ const Armhala = () => {
                 <li><strong>Rekommenderat för:</strong> Alla som vill ha en hårfri och ren känsla i armhålorna</li>
               </ul>
               <div className="relax-treatment-button-wrapper">
-                <Link to="/Bokatid" className="relax-treatment-button">
+                <Link to="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/armhala-1887305" className="relax-treatment-button">
                   Boka armhålevaxning
                 </Link>
               </div>
@@ -68,7 +68,7 @@ const Armhala = () => {
             <p className="consultation-description">
               Vi erbjuder kostnadsfria konsultationer för att hjälpa dig att välja rätt behandling och svara på dina frågor.
             </p>
-            <Link to="/Bokatid" className="consultation-button">Boka nu</Link>
+            <Link to="/HittaBehandling" className="consultation-button">Boka nu</Link>
           </div>
         </div>
       </div>

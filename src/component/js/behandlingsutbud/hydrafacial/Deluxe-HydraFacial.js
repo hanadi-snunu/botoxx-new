@@ -22,7 +22,7 @@ const DeluxHydraFacial = () => {
       ]}
       beforeText="Undvik starka produkter och exfoliering i 24 timmar innan behandlingen."
       afterText="Skydda huden med SPF och undvik direkt sol i 48 timmar efter behandlingen."
-      bookLink="/Bokatid"
+      bookLink="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/hydra-facial-deluxe-2611765"
       bookButtonText="Boka Deluxe HydraFacial"
     />
   );

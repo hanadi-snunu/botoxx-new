@@ -20,7 +20,7 @@ const RynkbehandlingBrowlift = () => {
       afterText={`Ligg inte ner och undvik träning de första 4 timmarna.<br />
       - Ingen massage eller tryck i området.<br />
       - Resultatet syns gradvis inom 3–5 dagar och håller i 3–4 månader.`}
-      bookLink="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/botox-1-omrade-1040523"
+      bookLink="https://www.bokadirekt.se/places/house-of-aesthetics-34817?rs=1040534"
       bookButtonText="Boka Botox | Browlift"
     />
   );

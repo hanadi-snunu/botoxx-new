@@ -36,7 +36,7 @@ const HelabenBikini = () => {
                 <li><strong>Rekommenderat för:</strong> De som önskar släta ben och en välvårdad bikinilinje utan dagligt underhåll</li>
               </ul>
               <div className="relax-treatment-button-wrapper">
-                <Link to="/Bokatid" className="relax-treatment-button">
+                <Link to="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/hela-ben-bikini-1887312" className="relax-treatment-button">
                   Boka hela ben + bikini vaxning
                 </Link>
               </div>
@@ -69,7 +69,7 @@ const HelabenBikini = () => {
             <p className="consultation-description">
               Vi erbjuder kostnadsfria konsultationer för att hjälpa dig att välja den behandling som bäst passar dina behov.
             </p>
-            <Link to="/Bokatid" className="consultation-button">Boka nu</Link>
+            <Link to="/HittaBehandling" className="consultation-button">Boka nu</Link>
           </div>
         </div>
       </div>

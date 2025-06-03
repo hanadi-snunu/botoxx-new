@@ -21,7 +21,7 @@ const RynkbehandlingPannan = () => {
       - Dag 1–3: Undvik smink och massage i området.<br />
       - Dag 4+: Resultatet börjar synas.<br />
       Effekten varar ca 3–5 månader.`}
-      bookLink="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/botox-1-omrade-1040523"
+      bookLink="https://www.bokadirekt.se/places/house-of-aesthetics-34817?rs=1040534"
       bookButtonText="Boka Botox | Pannan"
     />
   );

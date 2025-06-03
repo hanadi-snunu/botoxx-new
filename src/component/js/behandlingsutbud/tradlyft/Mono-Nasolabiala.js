@@ -35,7 +35,7 @@ För en optimal återhämtning rekommenderar vi följande:<br />
 - Första veckan: Undvik träning helt.<br />
 - Andra veckan: Lätt träning för gradvis återgång till din normala aktivitetsnivå.<br />
 - Tredje veckan: Du kan återgå till dina vanliga aktiviteter.<br />"
-      bookLink="/Bokatid"
+      bookLink="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/mono-nasolabiala-3040527"
       bookButtonText="Boka Mono | Nasolabiala"
     />
   );

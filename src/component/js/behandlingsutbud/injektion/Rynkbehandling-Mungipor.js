@@ -19,7 +19,7 @@ const RynkbehandlingMungipor = () => {
       beforeText={`Undvik alkohol, smink och stark ansiktsmimik före behandling. Kom med rengjord hud utan produkter.`}
       afterText={`Undvik stark mimik, massage och smink på området under första dygnet.<br />
       - Effekten syns ofta inom 3–5 dagar och håller i upp till 4 månader.`}
-      bookLink="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/botox-1-omrade-1040523"
+      bookLink="https://www.bokadirekt.se/places/house-of-aesthetics-34817?rs=1040534"
       bookButtonText="Boka Botox | Sura mungipor"
     />
   );

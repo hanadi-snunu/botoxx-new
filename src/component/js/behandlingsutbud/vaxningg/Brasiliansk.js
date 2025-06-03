@@ -37,7 +37,7 @@ const Brasiliansk = () => {
                 <li><strong>Rekommenderat för:</strong> Alla som vill ha en noggrant utförd intimvaxning med ett långvarigt resultat</li>
               </ul>
               <div className="relax-treatment-button-wrapper">
-                <Link to="/Bokatid" className="relax-treatment-button">
+                <Link to="https://www.bokadirekt.se/places/house-of-aesthetics-34817?rs=1040534" className="relax-treatment-button">
                   Boka brasiliansk vaxning
                 </Link>
               </div>
@@ -70,7 +70,7 @@ const Brasiliansk = () => {
             <p className="consultation-description">
               Vi erbjuder kostnadsfria konsultationer för att hjälpa dig att förstå vilken behandling som passar dig bäst och svara på dina frågor.
             </p>
-            <Link to="/Bokatid" className="consultation-button">Boka nu</Link>
+            <Link to="/HittaBehandling" className="consultation-button">Boka nu</Link>
           </div>
         </div>
       </div>

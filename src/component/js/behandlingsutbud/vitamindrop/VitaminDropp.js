@@ -112,6 +112,12 @@ const Vitamindrop = () => {
         </div>
       </section>
 
+      <div className="relax-treatment-button-wrapper">
+                      <Link to="https://www.bokadirekt.se/places/house-of-aesthetics-34817?rs=1040534" className="relax-treatment-button">
+                        Boka Vitamindropp
+                      </Link>
+                    </div>
+
       <div className="separator-line">
         <span className="separator-dot">•</span>
       </div>
@@ -124,7 +130,7 @@ const Vitamindrop = () => {
             <p className="consultation-description">
               Vi hjälper dig gärna att hitta rätt behandling för ditt välmående och din hälsa.
             </p>
-            <Link to="/Bokatid" className="consultation-button">Boka nu</Link>
+            <Link to="/HittaBehandling" className="consultation-button">Boka nu</Link>
           </div>
         </div>
       </div>

@@ -25,7 +25,7 @@ const TradlyftKindben = () => {
       - Första veckan: Undvik träning helt.<br />
       - Andra veckan: Lättare träning kan återupptas.<br />
       - Tredje veckan: Återgå till din normala aktivitetsnivå.<br />"
-      bookLink="/Bokatid"
+      bookLink="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/tradlyft-kindben-2166478"
       bookButtonText="Boka Trådlyft | Kindben"
     />
   );

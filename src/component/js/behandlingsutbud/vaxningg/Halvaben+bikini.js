@@ -37,7 +37,7 @@ const HalvabenBikini = () => {
                 <li><strong>Rekommenderat för:</strong> De som önskar en kombinerad behandling för ben och bikinilinje</li>
               </ul>
               <div className="relax-treatment-button-wrapper">
-                <Link to="/Bokatid" className="relax-treatment-button">
+                <Link to="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/halva-ben-bikini-1887314" className="relax-treatment-button">
                   Boka halva ben + bikini vaxning
                 </Link>
               </div>
@@ -70,7 +70,7 @@ const HalvabenBikini = () => {
             <p className="consultation-description">
               Vi erbjuder kostnadsfria konsultationer för att hjälpa dig att välja rätt behandling för dina behov.
             </p>
-            <Link to="/Bokatid" className="consultation-button">Boka nu</Link>
+            <Link to="/HittaBehandling" className="consultation-button">Boka nu</Link>
           </div>
         </div>
       </div>

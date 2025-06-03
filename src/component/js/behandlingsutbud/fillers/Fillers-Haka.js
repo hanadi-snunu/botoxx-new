@@ -19,7 +19,7 @@ const FillersHaka = () => {
       ]}
       beforeText="Undvik sol, bad, bastu, alkohol och intensiv träning inom 48h efter behandlingen. Inga flygresor inom 24h. Undvik smink och att röra vid behandlingsområdet i minst 12h."
       afterText="Viss svullnad, ömhet eller blåmärken kan förekomma. Undvik att vila hakan på händerna första dygnet och följ behandlarens rekommendationer."
-      bookLink="/Bokatid"
+      bookLink="https://www.bokadirekt.se/places/house-of-aesthetics-34817?rs=1040534"
       bookButtonText="Boka Fillers | Haka"
     />
   );

@@ -13,13 +13,13 @@ const FillersNasolabialveck = () => {
       Genom att injicera fillers i dessa områden kan man återställa volymen och släta ut linjerna, vilket resulterar i ett mer ungdomligt och balanserat ansiktsuttryck. Behandlingen bidrar även till att förbättra ansiktets konturer."
       details={[
         { label: 'Behandlingstid', value: '30 minuter' },
-        { label: 'Pris', value: 'Från 3 000 kr' },
+        { label: 'Pris', value: 'Från 3 300 kr' },
         { label: 'Fördelar', value: 'Mjukare linjer, återställd volym, förbättrad symmetri' },
         { label: 'Rekommenderat för', value: 'Personer med tydliga veck från näsa till mun' },
       ]}
       beforeText="Undvik sol, bad, bastu, alkohol och intensiv träning inom 48h efter behandlingen. Inga flygresor inom 24h. Undvik smink och att röra vid behandlingsområdet i minst 12h."
       afterText="Svullnad, rodnad eller blåmärken kan förekomma. Undvik tryck på det behandlade området under första dygnet. Följ noggrant eftervårdsinstruktioner."
-      bookLink="/Bokatid"
+      bookLink="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/naskorrigering-ml-1040533"
       bookButtonText="Boka Fillers | Nasolabialveck"
     />
   );

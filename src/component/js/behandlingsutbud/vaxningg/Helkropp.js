@@ -37,7 +37,7 @@ const Helkropp = () => {
                 <li><strong>Rekommenderat för:</strong> Alla som vill ha en slät och hårfri hud på hela kroppen</li>
               </ul>
               <div className="relax-treatment-button-wrapper">
-                <Link to="/Bokatid" className="relax-treatment-button">
+                <Link to="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/helkropp-vax-1924570" className="relax-treatment-button">
                   Boka helkroppsvaxning
                 </Link>
               </div>
@@ -70,7 +70,7 @@ const Helkropp = () => {
             <p className="consultation-description">
               Vi erbjuder kostnadsfria konsultationer för att hjälpa dig att förstå vilken behandling som passar dig bäst. Vi svarar på alla dina frågor.
             </p>
-            <Link to="/Bokatid" className="consultation-button">Boka nu</Link>
+            <Link to="/HittaBehandling" className="consultation-button">Boka nu</Link>
           </div>
         </div>
       </div>

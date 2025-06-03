@@ -25,7 +25,7 @@ const TradlyftKaklinjen = () => {
       - Första veckan: Undvik träning helt.<br />
       - Andra veckan: Lättare träning kan återupptas.<br />
       - Tredje veckan: Återgå till din normala aktivitetsnivå."
-      bookLink="/Bokatid"
+      bookLink="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/tradlyft-kaklinjen-2166468"
       bookButtonText="Boka Trådlyft | Käklinjen"
     />
   );

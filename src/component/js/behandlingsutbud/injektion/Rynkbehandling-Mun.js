@@ -20,7 +20,7 @@ const RynkbehandlingMun = () => {
       afterText={`Undvik att dricka med sugrör, röka eller belasta området första dagen.<br />
       - Undvik ansiktsmassage eller träning första 24 timmarna.<br />
       - Resultatet utvecklas under 3–5 dagar och håller i 3–4 månader.`}
-      bookLink="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/botox-1-omrade-1040523"
+      bookLink="https://www.bokadirekt.se/places/house-of-aesthetics-34817?rs=1040534"
       bookButtonText="Boka Botox | Runt munnen"
     />
   );

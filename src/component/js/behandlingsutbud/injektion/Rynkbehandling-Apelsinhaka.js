@@ -19,7 +19,7 @@ const RynkbehandlingApelsinhaka = () => {
       beforeText={`Undvik rökning, alkohol och smink på behandlingsdagen. Kom utan produkter i ansiktet.`}
       afterText={`Undvik massage av området, träning och stark ansiktsmimik i 24 timmar.<br />
       Resultat märks ofta efter 2–4 dagar och håller i upp till 3–4 månader.`}
-      bookLink="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/botox-1-omrade-1040523"
+      bookLink="https://www.bokadirekt.se/places/house-of-aesthetics-34817?rs=1040534"
       bookButtonText="Boka Botox | Apelsinhaka"
     />
   );

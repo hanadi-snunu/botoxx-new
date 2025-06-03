@@ -19,7 +19,7 @@ const RynkbehandlingBunnylines = () => {
       beforeText={`Undvik alkohol, blodförtunnande läkemedel och intensiv ansiktsrörelse innan behandlingen. Kom utan smink.`}
       afterText={`Undvik tryck på området de första timmarna. Ingen träning eller bastu på 24 timmar.<br />
       Resultatet märks vanligtvis inom 2–5 dagar och varar i cirka 3–4 månader.`}
-      bookLink="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/botox-1-omrade-1040523"
+      bookLink="https://www.bokadirekt.se/places/house-of-aesthetics-34817?rs=1040534"
       bookButtonText="Boka Botox | Bunnylines"
     />
   );

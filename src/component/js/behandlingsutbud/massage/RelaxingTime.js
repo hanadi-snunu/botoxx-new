@@ -85,7 +85,7 @@ const RelaxTime = () => {
             <p className="consultation-description">
               Vi erbjuder kostnadsfria digitala konsultationer för att hjälpa dig att förstå vilken behandling som passar dig bäst. Vi svarar på alla dina frågor och hjälper dig att boka den tid som passar dig.
             </p>
-            <Link to="/Bokatid" className="consultation-button">
+            <Link to="/HittaBehandling" className="consultation-button">
               Boka nu
             </Link>
           </div>

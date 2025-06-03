@@ -26,7 +26,7 @@ const PlatinumHydraFacial = () => {
       ]}
       beforeText="Undvik alkohol och exfolierande produkter innan behandlingen."
       afterText="Använd milda hudvårdsprodukter och återfuktande krämer efter behandlingen."
-      bookLink="/Bokatid"
+      bookLink="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/hydra-facial-platinum-2611766"
       bookButtonText="Boka Platinum Hydra Facial"
     />
   );

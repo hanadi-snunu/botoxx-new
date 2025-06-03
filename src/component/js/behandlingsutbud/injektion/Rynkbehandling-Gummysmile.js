@@ -19,7 +19,7 @@ const RynkbehandlingGummysmile = () => {
       beforeText={`Undvik rökning, alkohol och smink på behandlingsdagen. Kom med ren hud och informera om eventuella mediciner.`}
       afterText={`Undvik att le stort, gnugga området eller träna under första 24 timmarna.<br />
       - Resultatet märks ofta inom 3 dagar och håller i upp till 3–4 månader.`}
-      bookLink="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/botox-1-omrade-1040523"
+      bookLink="https://www.bokadirekt.se/places/house-of-aesthetics-34817?rs=1040534"
       bookButtonText="Boka Botox | Gummysmile"
     />
   );

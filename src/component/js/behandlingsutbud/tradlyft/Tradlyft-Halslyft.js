@@ -25,7 +25,7 @@ const TradlyftHalslyft = () => {
       - Första veckan: Undvik träning helt.<br />
       - Andra veckan: Lättare träning kan återupptas.<br />
       - Tredje veckan: Återgå till din normala aktivitetsnivå."
-      bookLink="/Bokatid"
+      bookLink="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/tradlyft-halslyft-2166475"
       bookButtonText="Boka Trådlyft | Halslyft"
     />
   );

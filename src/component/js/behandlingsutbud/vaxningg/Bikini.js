@@ -35,7 +35,7 @@ const Bikini = () => {
                 <li><strong>Rekommenderat för:</strong> Alla som vill ha en hårfri bikinilinje med långvariga resultat</li>
               </ul>
               <div className="relax-treatment-button-wrapper">
-                <Link to="/Bokatid" className="relax-treatment-button">
+                <Link to="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/bikini-1887301" className="relax-treatment-button">
                   Boka bikinivaxning
                 </Link>
               </div>
@@ -68,7 +68,7 @@ const Bikini = () => {
             <p className="consultation-description">
               Vi erbjuder kostnadsfria konsultationer för att hjälpa dig att förstå vilken behandling som passar dig bäst och svara på dina frågor.
             </p>
-            <Link to="/Bokatid" className="consultation-button">Boka nu</Link>
+            <Link to="/HittaBehandling" className="consultation-button">Boka nu</Link>
           </div>
         </div>
       </div>

@@ -24,7 +24,7 @@ const StandardHydraFacial = () => {
       ]}
       beforeText="Tvätta ansiktet med en mild rengöring innan behandlingen."
       afterText="Undvik att använda makeup direkt efter behandlingen för bästa resultat."
-      bookLink="/Bokatid"
+      bookLink="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/hydra-facial-standard-2611754"
       bookButtonText="Boka Standard HydraFacial"
     />
   );

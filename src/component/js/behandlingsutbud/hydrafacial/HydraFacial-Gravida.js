@@ -26,7 +26,7 @@ const GravidaHydraFacial = () => {
       ]}
       beforeText="Informera din terapeut om din graviditet för en skräddarsydd behandling."
       afterText="Använd SPF och milda hudvårdsprodukter efter behandlingen."
-      bookLink="/Bokatid"
+      bookLink="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/hydra-facial-for-gravida-2632735"
       bookButtonText="Boka HydraFacial för Gravida"
     />
   );

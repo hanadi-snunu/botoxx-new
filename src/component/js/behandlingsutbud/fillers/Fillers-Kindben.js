@@ -19,7 +19,7 @@ const FillersKindben = () => {
       ]}
       beforeText="Undvik sol, bad, bastu, alkohol och högintensiv träning inom 48h efter behandling. Inom 24h inga flygresor efter behandling. Undvik att sminka, vidröra eller gnugga området 12h efter behandling."
       afterText="Du kan uppleva svullnad eller blåmärken i det behandlade området, vilket vanligtvis lägger sig inom några dagar. Undvik tryck eller massage på området den första tiden."
-      bookLink="/Bokatid"
+      bookLink="https://www.bokadirekt.se/places/house-of-aesthetics-34817?rs=1040534"
       bookButtonText="Boka Fillers | Kindben"
     />
   );

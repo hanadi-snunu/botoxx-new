@@ -18,7 +18,7 @@ const FillersKaklinje = () => {
       ]}
       beforeText="Undvik sol, bad, bastu, alkohol och intensiv träning inom 48h efter behandlingen. Inga flygresor inom 24h. Undvik smink och att röra vid behandlingsområdet i minst 12h."
       afterText="En viss svullnad eller rodnad kan förekomma i området efter behandlingen. Undvik tryck på käken och följ din behandlares eftervårdsinstruktioner för bästa resultat."
-      bookLink="/Bokatid"
+      bookLink="https://www.bokadirekt.se/places/house-of-aesthetics-34817?rs=1040534"
       bookButtonText="Boka Fillers | Käklinje"
     />
   );

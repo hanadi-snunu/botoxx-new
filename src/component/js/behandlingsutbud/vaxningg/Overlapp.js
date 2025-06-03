@@ -36,7 +36,7 @@ const Overlapp = () => {
                 <li><strong>Rekommenderat för:</strong> De som vill ha en hårfri och mjuk överläpp</li>
               </ul>
               <div className="relax-treatment-button-wrapper">
-                <Link to="/Bokatid" className="relax-treatment-button">
+                <Link to="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/overlapp-1887310" className="relax-treatment-button">
                   Boka överläpp vaxning
                 </Link>
               </div>
@@ -69,7 +69,7 @@ const Overlapp = () => {
             <p className="consultation-description">
               Vi erbjuder kostnadsfria konsultationer för att hjälpa dig att välja den bästa behandlingen för dina behov.
             </p>
-            <Link to="/Bokatid" className="consultation-button">Boka nu</Link>
+            <Link to="/HittaBehandling" className="consultation-button">Boka nu</Link>
           </div>
         </div>
       </div>

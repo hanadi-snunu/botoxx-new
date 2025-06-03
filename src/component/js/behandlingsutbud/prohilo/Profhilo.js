@@ -106,7 +106,7 @@ const Prohilo = () => {
             <p className="consultation-description">
               Vi hjälper dig gärna att hitta rätt biostimulerande behandling för din hud.
             </p>
-            <a href="/Bokatid" className="consultation-button">Boka nu</a>
+            <a href="/HittaBehandling" className="consultation-button">Boka nu</a>
           </div>
         </div>
       </div>

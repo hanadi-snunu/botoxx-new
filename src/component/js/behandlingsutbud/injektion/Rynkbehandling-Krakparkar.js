@@ -21,7 +21,7 @@ const RynkbehandlingKrakparkar = () => {
       - Undvik träning och smink första dagen.<br />
       - Undvik värme och bastu första 48 timmarna.<br />
       Resultatet syns efter 2–5 dagar och håller i ca 3–4 månader.`}
-      bookLink="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/botox-1-omrade-1040523"
+      bookLink="https://www.bokadirekt.se/places/house-of-aesthetics-34817?rs=1040534"
       bookButtonText="Boka Botox | Kråksparkar"
     />
   );

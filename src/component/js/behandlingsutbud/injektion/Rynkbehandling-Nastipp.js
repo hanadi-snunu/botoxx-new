@@ -19,7 +19,7 @@ const RynkbehandlingNastipp = () => {
       beforeText={`Undvik alkohol, koffein och smink innan behandlingen. Ta inte blodförtunnande 24 timmar före.`}
       afterText={`Ingen beröring eller tryck på näsan första timmarna. Undvik glasögon och solglasögon om möjligt första dygnet.<br />
       Effekten märks inom några dagar och varar upp till 3–4 månader.`}
-      bookLink="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/botox-1-omrade-1040523"
+      bookLink="https://www.bokadirekt.se/places/house-of-aesthetics-34817?rs=1040534"
       bookButtonText="Boka Botox | Nästippen"
     />
   );

@@ -37,7 +37,7 @@ const Helaben = () => {
                 <li><strong>Rekommenderat för:</strong> De som önskar släta och hårfria ben under en längre tid</li>
               </ul>
               <div className="relax-treatment-button-wrapper">
-                <Link to="/Bokatid" className="relax-treatment-button">
+                <Link to="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/hela-ben-1887304" className="relax-treatment-button">
                   Boka hela ben vaxning
                 </Link>
               </div>
@@ -70,7 +70,7 @@ const Helaben = () => {
             <p className="consultation-description">
               Vi erbjuder kostnadsfria konsultationer för att hjälpa dig att förstå vilken behandling som passar dig bäst.
             </p>
-            <Link to="/Bokatid" className="consultation-button">Boka nu</Link>
+            <Link to="/HittaBehandling" className="consultation-button">Boka nu</Link>
           </div>
         </div>
       </div>

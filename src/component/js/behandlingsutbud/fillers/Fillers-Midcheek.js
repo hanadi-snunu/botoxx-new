@@ -18,7 +18,7 @@ const FillersMidcheek = () => {
       ]}
       beforeText="Undvik sol, bad, bastu, alkohol och intensiv träning inom 48h efter behandlingen. Inga flygresor inom 24h. Undvik smink och att röra vid behandlingsområdet i minst 12h."
       afterText="Eventuell svullnad eller blåmärken kan uppstå efter behandlingen. Dessa är tillfälliga och försvinner oftast inom några dagar. Följ alltid behandlarens instruktioner för optimal återhämtning."
-      bookLink="/Bokatid"
+      bookLink="https://www.bokadirekt.se/places/house-of-aesthetics-34817?rs=1040534"
       bookButtonText="Boka Fillers | Midcheek"
     />
   );

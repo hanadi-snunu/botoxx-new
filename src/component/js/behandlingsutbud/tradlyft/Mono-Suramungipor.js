@@ -30,7 +30,7 @@ const MonoSuramungipor = () => {
       - Första veckan: Undvik träning helt.<br />
       - Andra veckan: Lättare träning kan återupptas.<br />
       - Tredje veckan: Återgå till normal aktivitet.<br />"
-      bookLink="/Bokatid"
+      bookLink="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/mono-suramungipor-3040538"
       bookButtonText="Boka Mono | Suramungipor"
     />
   );

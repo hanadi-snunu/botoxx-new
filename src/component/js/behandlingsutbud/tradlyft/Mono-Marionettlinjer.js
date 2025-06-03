@@ -35,7 +35,7 @@ För att säkerställa en framgångsrik återhämtning föreslår vi följande t
 - Första veckan: rekommenderar vi att du undviker träning helt.<br />
 - Andra veckan: rekommenderar vi lättare träning för att gradvis återgå till din normala aktivitetsnivå.<br />
 - Tredje veckan: kan du återgå till din normala aktivitet.<br />"
-      bookLink="/Bokatid"
+      bookLink="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/mono-marionettlinjer-2166477"
       bookButtonText="Boka Mono | Marionettlinjer"
     />
   );

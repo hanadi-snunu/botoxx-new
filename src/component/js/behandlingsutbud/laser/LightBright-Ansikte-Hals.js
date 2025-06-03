@@ -16,7 +16,7 @@ const LightBrightAnsikteHals = () => {
          { label: 'Rekommenderat för', value: 'Personer med ålderstecken i både ansikte och hals'}]}
       beforeText="Undvik solexponering, bastu och träning första dygnet. Använd alltid solskydd efter behandlingen."
       afterText="Rodnad eller lätt svullnad kan förekomma. Återfukta huden regelbundet och undvik att pilla på behandlat område."
-      bookLink="/Bokatid"
+      bookLink="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/light-bright-ansikte-hals-3183328"
       bookButtonText="Boka Light & Bright | Ansikte + Hals"
     />
   );
