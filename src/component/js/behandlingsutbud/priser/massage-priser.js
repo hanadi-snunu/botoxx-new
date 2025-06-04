@@ -10,9 +10,23 @@ const MassagePriser = () => {
         {
           title: "Avslappnande och terapeutiska massagebehandlingar",
           prices: [
-            { name: "Relaxing Time", ordPris: 450, arskort: "-" },
-            { name: "Ansiktsmassage", ordPris: 450, arskort: "-" },
-            { name: "Klippkort x5", ordPris: 200, arskort: "-" },
+
+            { name: "Avkopplande Massage | 60 min", ordPris: 695, arskort: "-" },
+            { name: "Avkopplande Massage | 90 min", ordPris: 1050, arskort: "-" },
+            { name: "Hotstone Massage | 60 min", ordPris: 695, arskort: "-" },
+            { name: "Hotstone Massage | 90 min", ordPris: 1050, arskort: "-" },
+            { name: "Helkropps Massage | 60 min", ordPris: 695, arskort: "-" },
+            { name: "Helkropps Massage | 90 min", ordPris: 1050, arskort: "-" },
+            { name: "Sport Massage | 60 min", ordPris: 695, arskort: "-" },
+            { name: "Sport Massage | 90 min", ordPris: 1050, arskort: "-" },
+            { name: "Ansikts Massage | 30 min", ordPris: 450, arskort: "-" },
+            { name: "Fot Massage | 30 min", ordPris: 450, arskort: "-" },
+            { name: "Rygg Massage | 30 min", ordPris: 580, arskort: "-" },
+            { name: "Relaxing Time | 30 min", ordPris: 450, arskort: "-" },
+             { name: "Klippkort x5 | 60 min", ordPris: 3000, arskort: "-" },
+            { name: "Gravid Massage | 60 min", ordPris: 695, arskort: "-" },
+            { name: "Gravid Massage | 90 min", ordPris: 1050, arskort: "-" },
+           
             
           ],
         },

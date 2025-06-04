@@ -107,7 +107,7 @@ const Hem = () => {
                     <div className="home-treatment-card">
                         <img src={CommonImage} alt="Behandling" className="home-treatment-image" />
                         <div className="home-treatment-content">
-                            <h3 className="home-treatment-title">Injektionsbehandlingar</h3>
+                            <h3 className="home-treatment-title">Estetiska Injektionsbehandlingar</h3>
                             <p className="home-treatment-description">
                                 Vi erbjuder både hudförbättrande injektioner och volymökande behandlingar för att passa dina behov.
                             </p>

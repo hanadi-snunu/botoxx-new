@@ -10,10 +10,10 @@ const HydraFacialPriser = () => {
         {
             title: "Hydra Facial-behandlingar för djupgående rengöring och föryngring",
             prices: [
-              { name: "Hydra Facial | Deluxe", ordPris: 1495, arskort: "-" },
-              { name: "Hydra Facial | För gravida", ordPris: 1195, arskort: "-" },
-              { name: "Hydra Facial | Platinum", ordPris: 1795, arskort: "-" },
               { name: "Hydra Facial | Standard", ordPris: 1195, arskort: "-" },
+              { name: "Hydra Facial | Deluxe", ordPris: 1495, arskort: "-" },
+              { name: "Hydra Facial | Platinum", ordPris: 1795, arskort: "-" },
+              { name: "Hydra Facial | För gravida", ordPris: 1195, arskort: "-" },
              
             ],
           },
