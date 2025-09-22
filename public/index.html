@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script>
+  (function () {
+    var s = window.location.search;
+    if (s && s.indexOf('?p=') === 0) {
+      var params = new URLSearchParams(s);
+      var p = params.get('p') || '/';
+      var q = params.get('q');
+      var h = params.get('h');
+      var finalUrl = p + (q ? ('?' + q) : '') + (h ? ('#' + h) : '');
+      window.history.replaceState(null, '', finalUrl);
+    }
+  })();
+</script>
+
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/logga.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
