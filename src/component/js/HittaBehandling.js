@@ -61,7 +61,9 @@ const [isChecked, setIsChecked] = useState(false); // <-- Nytt state
         <form ref={form} onSubmit={sendEmail} style={{ maxWidth: '500px', margin: '0 auto' }}>
           <input type="text" name="namn" placeholder="Förnamn" required />
           <input type="text" name="efternamn" placeholder="Efternamn" required />
-          <input type="text" name="personnummer" placeholder="Personnummer (ÅÅÅÅMMDD-XXXX)" required />
+          <input type="tel" name="telefon" placeholder="Telefon (valfritt)" />
+
+          {/*<input type="text" name="personnummer" placeholder="Personnummer (ÅÅÅÅMMDD-XXXX)" required />*/}
           <input type="email" name="email" placeholder="E-postadress" required />
           <textarea name="beskrivning" placeholder="Vad behöver du hjälp med?" required />
 
