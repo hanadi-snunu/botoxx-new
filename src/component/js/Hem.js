@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import '../css/Hem.css';
 import BackgroundImage from '../img/hemm.jpg';
 import CommonImage from '../img/injektion.jpg';
@@ -58,6 +58,51 @@ const testimonials = [
 
 const Hem = () => {
 
+// === "Under arbete" popup state ===
+const [showNotice, setShowNotice] = useState(false);
+
+
+// Visa popup en gång per session (första sidladdningen i fliken)
+useEffect(() => {
+try {
+const seen = sessionStorage.getItem('maintenanceSeen');
+if (!seen) {
+setShowNotice(true);
+sessionStorage.setItem('maintenanceSeen', '1'); // markera som visad för denna session
+}
+} catch (e) {
+// Om sessionStorage inte är tillgänglig, fallback: visa popup
+setShowNotice(true);
+}
+}, []);
+
+
+const dismissNotice = () => setShowNotice(false);
+
+
+const modalStyles = {
+overlay: {
+position: 'fixed', inset: 0, background: 'rgba(0,0,0,.55)',
+display: 'flex', alignItems: 'center', justifyContent: 'center',
+zIndex: 9999, padding: 16
+},
+card: {
+width: '100%', maxWidth: 520, background: '#fff', borderRadius: 16,
+padding: 20, boxShadow: '0 10px 30px rgba(0,0,0,.2)', textAlign: 'center'
+},
+badge: {
+display: 'inline-block', fontSize: 12, fontWeight: 700, letterSpacing: .6,
+textTransform: 'uppercase', padding: '6px 10px', borderRadius: 999,
+background: '#111', color: '#fff', marginBottom: 8
+},
+title: { fontSize: 20, margin: '4px 0 6px' },
+text: { fontSize: 16, lineHeight: 1.5, margin: '0 0 16px' },
+button: {
+display: 'inline-block', border: 'none', borderRadius: 999, padding: '12px 18px',
+fontWeight: 600, cursor: 'pointer', background: '#111', color: '#fff', width: '100%'
+}
+};
+
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const goToNext = () => {
@@ -77,6 +122,24 @@ const Hem = () => {
 
     return (
         <div>
+
+            {/* UNDER ARBETE POPUP */}
+{showNotice && (
+<div style={modalStyles.overlay} role="dialog" aria-modal="true" aria-labelledby="maint-title">
+<div style={modalStyles.card}>
+<span style={modalStyles.badge}>OBS</span>
+<h3 id="maint-title" style={modalStyles.title}>Denna sida är under arbete</h3>
+<p style={modalStyles.text}>
+Vi förbättrar just nu innehållet och funktionerna. <br />
+Viss information kan saknas eller ändras.
+</p>
+<button style={modalStyles.button} onClick={dismissNotice} aria-label="Stäng meddelandet">
+Jag förstår
+</button>
+</div>
+</div>
+)}
+
        <div className="home-section" style={{ backgroundImage: `url(${BackgroundImage})` }}> 
        <div className="overlay">
         <h1 className="home-title">HOUSE OF AESTHETICS</h1>

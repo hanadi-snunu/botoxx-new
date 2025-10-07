@@ -12,7 +12,7 @@ const Kontakt = () => {
           <div className="contact-content-block">
             <h1 className="contact-title">Kontakt</h1>
             <p className="contact-subtitle">
-              Här hittar du adress och kontakt-information till alla våra kliniker. Tveka inte att höra av dig om du har några frågor. Vill du boka tid? Klicka på knappen nedan.
+              Här hittar du adress och kontakt-information till vår klinik. Tveka inte att höra av dig om du har några frågor. Vill du boka tid? Klicka på knappen nedan.
             </p>
             <Link to="/Bokatid" className="contact-button">
               Boka tid
