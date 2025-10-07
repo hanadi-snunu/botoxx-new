@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Startsida -->
+  <url>
+    <loc>https://houseofaesthetics.se/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Huvudsidor -->
+  <url>
+    <loc>https://houseofaesthetics.se/Priser</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://houseofaesthetics.se/HittaBehandling</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://houseofaesthetics.se/OmOss</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://houseofaesthetics.se/Kontakt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Injektionsbehandlingar -->
+  <url>
+    <loc>https://houseofaesthetics.se/Injektionsbehandlingar</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Laserbehandlingar -->
+  <url>
+    <loc>https://houseofaesthetics.se/Laserbehandlingar</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+ 
+
+  <!-- Massage -->
+  <url>
+    <loc>https://houseofaesthetics.se/Massagee</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+
+</urlset>
