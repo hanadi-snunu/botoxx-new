@@ -5,7 +5,8 @@ import nastippImage from '../../../img/injection.png'; // Du kan byta till speci
 const RynkbehandlingNastipp = () => {
   return (
     <CommonTreatmentPage
-      backgroundImage={nastippImage}
+      /*backgroundImage={nastippImage}*/
+       headerStyle="plain" 
       title="Botox | Nästippen"
       description="Lyft nästippen diskret med hjälp av muskelavslappnande behandling."
       extraDescription={`Genom att injicera små mängder botox i muskeln som drar ned nästippen kan du få ett subtilt lyft av näsan. <br /><br />

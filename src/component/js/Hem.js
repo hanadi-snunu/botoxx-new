@@ -11,48 +11,34 @@ import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons
 
 const testimonials = [
     {
-        text: "Underbar behandling och så skön massage under tiden masken verkade 🥰",
-        author: "Sabrina N."
+        text: "Som tidigare känner jag mig trygg när jag blir behandlad. Tydlig kommunikation och ett mjukt och fint sätt att bli bemött på. Rekommenderar HOA varmt oavsett om det är Felicia eller Linda som tar hand om mig",
+        author: "Carina"
     },
     {
-        text: "Lugn miljö Kompetens Rekommenderar",
-        author: "Isabel K."
+        text: "Underbara Felicia, som vänder en smärtsam men fantastisk behandling till ett gott skratt och en önskan om att få göra om den. Professionell och personlig- kan inte bli bättre! Så nöjd, ser redan fram emot nästa besök! Tack!",
+        author: "Li"
     },
     {
-        text: "Fint bemötande, proffesionella tjejer och alltid lika nöjd!",
-        author: "Siri B."
+        text: "Jag är så otroligt nöjd varje gång jag besöker HOA! Personalen är proffsig, omhändertagande och får en verkligen att känna sig trygg. Rekommenderas varmt.",
+        author: "Alexandra"
     },
     {
-        text: "Alltid en lika fantastisk upplevelse 💕",
-        author: "Linda F."
+        text: "Linda är så duktig och vet precis vad hon gör! Lyssnar på dig och utgår från dina önskemål. Jag har varit hos henne tidigare och blivit lika nöjd varje gång!!",
+        author: "Melissa"
     },
     {
-        text: "Jätte nöjd med mina ögonfransar",
-        author: "Shams A."
+        text: "Proffsigt ställe, gjorde microneedling och det gick hur bra som helst! Jättefin personal och fint och lugnt bemötande.",
+        author: "Emma"
     },
     {
-        text: "Felicia är fantastisk! Får en att känna sig trygg med sin värme och enkelhet. Rekommenderar!",
-        author: "Sandra L."
+        text: "Tjejerna som jobbar där är helt fantastiska, varje gång man kommer dit så känner man sig så välkommen och fint bemött. Jobbet som de utför är är 100 av 10",
+        author: "Louise"
     }, 
+    
+
     {
-        text: "Jätte duktig och professionell. Blir alltid jätte nöjd🙏🏽",
-        author: "Josefine R."
-    },
-    {
-        text: "Felicia var fantastisk och tar hand om en så väl!",
-        author: "Elin L."
-    },
-    {
-        text: "Finns inga bättre än House of Aesthetics! Så professionella, snälla, trevliga, kunniga, underbara och otroliga proffs på det de gör. Man känner sig alltid så trygg, välkommen och otroligt nöjd efter varje besök!! 🥰😍❤️🤗",
-        author: "Alina A."
-    },
-    {
-        text: "Fantastiskt som alltid ❤️",
+        text: "Fantastiskt som alltid",
         author: "Karolina J."
-    },
-    {
-        text: "Fantastiskt som vanligt, rekommenderar varmt Felicia för både botox och trådlyft. Hon är otroligt kunnig och professionell + gulligaste personen i världen. Hon ger ärliga råd om vad som passar och inte och har förmågan att vara både pedagogisk och vänlig på samma gång. Tog sig tid för att lugna min oro kring ett trådlyft utan att jag behövde känna mig som en besvärlig kund. Kan bara rekommendera. Har även varit hos Linda som också är toppen!",
-        author: "Isabella B."
     }
 ];
 

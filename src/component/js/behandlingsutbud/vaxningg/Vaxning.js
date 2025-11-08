@@ -51,12 +51,7 @@ const Vaxning = () => {
         description: "Skapa en prydlig bikinilinje med vår bikini-vaxning.",
         link: "/Bikini"
     },
-    {
-        image: vaxning1,
-        title: "Brasiliansk",
-        description: "Upplev en silkeslen känsla med vår brasilianska vaxning.",
-        link: "/Brasiliansk"
-    },
+   
     {
         image: vaxning1,
         title: "Bröst + Mage",

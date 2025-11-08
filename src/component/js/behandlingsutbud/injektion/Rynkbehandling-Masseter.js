@@ -5,7 +5,8 @@ import masseterImage from '../../../img/injection.png'; // Byt gärna till speci
 const RynkbehandlingMasseter = () => {
   return (
     <CommonTreatmentPage
-      backgroundImage={masseterImage}
+      /*backgroundImage={masseterImage}*/
+       headerStyle="plain" 
       title="Botox | Käkmuskler (Masseter)"
       description="Minska spända käkar, tandgnissling och få en smalare ansiktsform."
       extraDescription={`Masseterbehandling med botox är perfekt för dig som lider av spända käkar, huvudvärk eller tandgnissling. <br /><br />

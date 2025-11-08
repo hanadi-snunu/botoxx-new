@@ -1,6 +1,12 @@
 import React from 'react';
-import OmOss from '../img/omoss.jpg';
-import HistoriaBild from '../img/omossss.jpg';
+import OmOss from '../img/bild1.jpg';
+import HistoriaBild from '../img/bild2.jpg';
+import Felicia from '../img/Felicia.png';
+import Anna from '../img/Anna.png';
+import Linda from '../img/Linda.png';
+import Sara from '../img/Sara.png';
+import Zeanab from '../img/Zaenab.png';
+import Rita from '../img/Rita.png';
 import '../css/omoss.css';
 import Medarbetare from '../img/medarbetare.jpg';
 import ConsultationImage from "../img/piccc.jpg";
@@ -9,16 +15,18 @@ const Omoss = () => {
     
     return (
         <div>
-            <div className="omoss-header-section" style={{ backgroundImage: `url(${OmOss})` }}>
-                <div className="omoss-overlay">
-                    <div className="omoss-content-block">
-                        <h1 className="omoss-title">Om House of Aesthetics</h1>
-                        <p className="omoss-subtitle">
-                        House of Aesthetics är en skönhetsklinik där vi erbjuder en rad olika estetiska behandlingar. Vi strävar alltid efter högsta kvalitet och kundnöjdhet.
-                        </p>
-                    </div>
-                </div>
-            </div>
+           <div className="omoss-header-section">
+  <img src={OmOss} alt="" className="omoss-hero" />
+  <div className="omoss-overlay">
+    <div className="omoss-content-block">
+      <h1 className="omoss-title">Om House of Aesthetics</h1>
+      <p className="omoss-subtitle">
+        House of Aesthetics är en skönhetsklinik där vi erbjuder en rad olika estetiska behandlingar. Vi strävar alltid efter högsta kvalitet och kundnöjdhet.
+      </p>
+    </div>
+  </div>
+</div>
+
 
             <div className="omoss-history-section">
                 <div className="omoss-history-content">
@@ -44,21 +52,21 @@ const Omoss = () => {
             <div className="medarbetare-grid">
                 {/* Medarbetare 1 */}
                 <div className="medarbetare-card">
-                    <img src={Medarbetare} alt="Medarbetare" />
+                    <img src={Linda} alt="Medarbetare" />
                     <h3>Linda Falk</h3>
                     <p>Klinikägare & Leg. Sjuksköterska</p>
                 </div>
 
                 {/* Medarbetare 2 */}
                 <div className="medarbetare-card">
-                    <img src={Medarbetare} alt="Medarbetare" />
+                    <img src={Anna} alt="Medarbetare" />
                     <h3>Anna Matanovic</h3>
                     <p>Verksamhetschef</p>
                 </div>
 
                 {/* Medarbetare 3 */}
                 <div className="medarbetare-card">
-                    <img src={Medarbetare} alt="Medarbetare" />
+                    <img src={Felicia} alt="Medarbetare" />
                     <h3>Felicia Becker</h3>
                     <p>Leg. Specialistsjuksköterska</p>
                     
@@ -66,7 +74,7 @@ const Omoss = () => {
 
                 {/* Medarbetare 4 */}
                 <div className="medarbetare-card">
-                    <img src={Medarbetare} alt="Medarbetare" />
+                    <img src={Rita} alt="Medarbetare" />
                     <h3>Rita Badawi</h3>
                     <p>Cert. Hudterapeut
                     </p>
@@ -74,20 +82,15 @@ const Omoss = () => {
                 
                 {/* Medarbetare 5 */}
                 <div className="medarbetare-card">
-                    <img src={Medarbetare} alt="Medarbetare" />
+                    <img src={Zeanab} alt="Medarbetare" />
                     <h3>Zaenab Hamza</h3>
                     <p>Leg. Läkare</p>
                 </div>
                 
-                {/* Medarbetare 6 */}
-                <div className="medarbetare-card">
-                    <img src={Medarbetare} alt="Medarbetare" />
-                    <h3>Thuy Tran</h3>
-                    <p>Cert. Massör</p>
-                </div>
+            
                 {/* Medarbetare 7 */}
                 <div className="medarbetare-card">
-                    <img src={Medarbetare} alt="Medarbetare" />
+                    <img src={Sara} alt="Medarbetare" />
                     <h3>Sara Parvizinia (Lashlab_bysara)</h3>
                     <p>Fransstylist</p>
                 </div>

@@ -5,7 +5,8 @@ import lipflipImage from '../../../img/injection.png'; // Byt vid behov
 const RynkbehandlingLipflip = () => {
   return (
     <CommonTreatmentPage
-      backgroundImage={lipflipImage}
+      /*backgroundImage={lipflipImage}*/
+       headerStyle="plain" 
       title="Botox | Lipflip"
       description="Framhäv överläppens form med en subtil avslappning av muskeln."
       extraDescription={`Lipflip är en populär behandling som använder små mängder botox i överläppens muskel för att få läppen att "vändas utåt" en aning. <br /><br />

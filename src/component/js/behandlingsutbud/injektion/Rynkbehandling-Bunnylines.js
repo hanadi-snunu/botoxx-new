@@ -5,7 +5,8 @@ import bunnylinesImage from '../../../img/injection.png'; // Byt gärna till en 
 const RynkbehandlingBunnylines = () => {
   return (
     <CommonTreatmentPage
-      backgroundImage={bunnylinesImage}
+      /*backgroundImage={bunnylinesImage}*/
+       headerStyle="plain" 
       title="Botox | Bunnylines"
       description="Minska synliga skrattrynkor längs näsryggen för ett mjukare utseende."
       extraDescription={`Bunnylines är de små rynkor som uppstår längs näsryggen vid skratt eller när du rynkar på näsan. <br /><br />

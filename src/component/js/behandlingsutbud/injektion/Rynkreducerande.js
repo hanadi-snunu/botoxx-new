@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import injection4 from "../../../img/bild4.jpg";
+import injection5 from "../../../img/bild5.jpg";
 import injection2 from "../../../img/injection.png";
 import ConsultationImage from "../../../img/piccc.jpg";
 import { Link } from "react-router-dom";
@@ -121,7 +123,8 @@ const Rynkreducerande = () => {
   return (
     <div>
       {/* Header Section */}
-      <header className="massage-header" style={{ backgroundImage: `url(${injection2})` }}>
+      <header className="massage-header" style={{ backgroundImage: `url(${injection4})` }}>
+
         <div className="massage-overlay">
           <h1 className="massage-title">Rynkreducerande injektionsbehandlingar</h1>
           <p className="massage-description">
@@ -132,8 +135,9 @@ const Rynkreducerande = () => {
 
       {/* Info Section */}
       <section className="massage-info-section">
+        
         <div className="massage-info-container">
-          <img src={injection2} alt="Rynkbehandling" className="massage-info-image" />
+          <img src={injection5} alt="Rynkbehandling" className="massage-info-image" />
           <div className="massage-info-text-container">
             <h2 className="info-title">Rynkreducerande Injektionsbehandlingar</h2>
             <p className="info-text">

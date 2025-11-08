@@ -5,7 +5,8 @@ import glabellaImage from '../../../img/injection.png'; // Byt gärna till en sp
 const RynkbehandlingGlabella = () => {
   return (
     <CommonTreatmentPage
-      backgroundImage={glabellaImage}
+      /*backgroundImage={glabellaImage}*/
+       headerStyle="plain" 
       title="Botox | Glabella (bekymmersrynkan)"
       description="Minska de vertikala rynkorna mellan ögonbrynen för ett mer avslappnat utseende."
       extraDescription={`Glabellaområdet, även kallat bekymmersrynkan, är vanligt att behandla med muskelavslappnande injektioner. <br /><br />

@@ -14,7 +14,6 @@ const VaxningPriser = () => {
             { name: "Armar män", ordPris: 400, arskort: "-" },
             { name: "Armhåla", ordPris: 250, arskort: "-" },
             { name: "Bikini", ordPris: 250, arskort: "-" },
-            { name: "Brasiliansk", ordPris: 400, arskort: "-" },
             { name: "Bröst + mage", ordPris: 400, arskort: "-" },
             { name: "Halva ben", ordPris: 350, arskort: "-" },
             { name: "Halva ben + bikini", ordPris: 550, arskort: "-" },

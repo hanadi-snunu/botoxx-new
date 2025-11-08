@@ -5,7 +5,8 @@ import browliftImage from '../../../img/injection.png'; // Byt gärna till en s�
 const RynkbehandlingBrowlift = () => {
   return (
     <CommonTreatmentPage
-      backgroundImage={browliftImage}
+      /*backgroundImage={browliftImage}*/
+       headerStyle="plain" 
       title="Botox | Browlift"
       description="Skapa ett subtilt lyft i ögonbrynen för ett piggare uttryck."
       extraDescription={`Browlift med botox är en populär behandling för att öppna upp blicken och ge ett lyft i ögonbrynsområdet – utan kirurgi. <br /><br />

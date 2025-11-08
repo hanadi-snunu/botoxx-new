@@ -5,7 +5,8 @@ import trapeziusImage from '../../../img/injection.png'; // Ändra till specifik
 const RynkbehandlingTrapezius = () => {
   return (
     <CommonTreatmentPage
-      backgroundImage={trapeziusImage}
+      /*backgroundImage={trapeziusImage}*/
+       headerStyle="plain" 
       title="Botox | Trapezius (axelavslappning)"
       description="Lindra spänningar i axlar och nacke med hjälp av botoxinjektioner."
       extraDescription={`Trapeziusbehandling med botox hjälper till att minska spända och stela axlar, vilket är vanligt vid stress eller statiskt arbete. <br /><br />

@@ -37,19 +37,20 @@ const BokaTid = () => {
         <div className="booking-info-column">
           <h3 className="booking-info-title">Konsultation</h3>
           <p className="booking-info-text">
-            Alla våra konsultationer är kostnadsfria. Vi svarar på dina frågor och ger förslag på vilka behandlingar som kan passa för dig.
+           Enligt den nya lagen måste du boka en konsultation 48 h innan din injektionsbehandling, dvs om du aldrig tidigare genomfört önskad behandling eller om det gått mer än sex månader sedan du genomförde behandlingen. Alla våra konsultationer är kostnadsfria. Under konsultationen svarar vi på dina frågor och ger rekommendationer om vilka behandlingar som passar dig bäst. Vi går igenom risker och biverkningar. 
           </p>
         </div>
         <div className="booking-info-column">
           <h3 className="booking-info-title">Avboka</h3>
           <p className="booking-info-text">
-            Avbokning kan göras kostnadsfritt senast 48 timmar före din inbokade tid. Om du avbokar senare än så, eller uteblir från ditt bokade besök, kommer en avbokningsavgift att debiteras via faktura.
+            Avbokning ska ske senast 24 timmar innan din bokade tid. Vid senare avbokning eller uteblivet besök debiteras du dessvärre en avgift.
           </p>
         </div>
         <div className="booking-info-column">
           <h3 className="booking-info-title">Betalning</h3>
           <p className="booking-info-text">
-            Vi erbjuder betalning med Bankkort, Swish och Sveaekonomi (faktura eller avbetalning). Vi tar inte emot kontanter.
+            Vi erbjuder betalning med bankkort, Swish, Klarna eller Qliro.
+Observera att vi inte tar emot kontanter.
           </p>
         </div>
       </div>

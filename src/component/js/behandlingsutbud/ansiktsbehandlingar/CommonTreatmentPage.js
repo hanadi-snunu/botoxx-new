@@ -15,19 +15,33 @@ const CommonTreatmentPage = ({
   beforeText, 
   afterText, 
   bookLink, 
-  bookButtonText 
+  bookButtonText, 
+  headerStyle = "image" // <-- ny, default som idag
 }) => {
   const isExternal = bookLink?.startsWith('http');
+  const isPlain = headerStyle === "plain" || !backgroundImage;
   
   return (
     <div>
-      {/* Header Section */}
-      <header className="massage-header" style={{ backgroundImage: `url(${backgroundImage})` }}>
-        <div className="massage-overlay">
-          <h1 className="massage-title">{title}</h1>
-          <p className="massage-description">{description}</p>
-        </div>
-      </header>
+       {/* Header Section */}
+      {isPlain ? (
+        <header className="massage-header plain">
+          <div className="massage-plain">
+            <h1 className="massage-title plain">{title}</h1>
+            <p className="massage-description plain">{description}</p>
+          </div>
+        </header>
+      ) : (
+        <header
+          className="massage-header"
+          style={{ backgroundImage: `url(${backgroundImage})` }}
+        >
+          <div className="massage-overlay">
+            <h1 className="massage-title">{title}</h1>
+            <p className="massage-description">{description}</p>
+          </div>
+        </header>
+      )}
 
       {/* Main Content Section */}
       <div>

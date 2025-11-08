@@ -1,3 +1,33 @@
+/* === PLAIN VARIANT (utan bild) === */
+.massage-header.plain {
+  height: 80vh;                  /* samma höjd som originalet */
+  background: none !important;   /* ingen bild */
+  background-color: #ffffff;     /* bakgrunden blir ren vit */
+  display: flex;                 /* samma centrerade layout */
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+/* Behåll centrerad layout som overlay: */
+.massage-plain {
+  padding: 40px;                 /* exakt som .massage-overlay använder */
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Svart text istället för vit */
+.massage-title.plain {
+  color: #4a4a4a !important;     /* samma nyans som dina rubriker */
+}
+
+.massage-description.plain {
+  color: #666666 !important;     /* samma brödtextfärg som i info-sektionerna */
+  max-width: 600px;              /* exakt samma bredd som före */
+  margin: 20px auto 30px;        /* behåll spacing */
+  text-align: center;            /* samma stil som bildversionen */
+}
 
 
 .massage-header {
@@ -38,6 +68,41 @@
     text-align: left;
     
   }
+/* ----------- HEADER UTAN BILD (PLAIN) ----------- */
+
+.massage-header.plain {
+  background: none !important;     /* Ingen bild */
+  background-color: #ffffff;       /* Vit bakgrund */
+  height: 80vh;                    /* Behåll samma höjd */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+/* Behåll overlayens centrering och spacing */
+.massage-header.plain .massage-overlay {
+  padding: 40px;
+  text-align: center;
+}
+
+/* Svart text istället för vit */
+.massage-header.plain .massage-title {
+  color: #4a4a4a !important;       /* Samma rubrikfärg du använder i dina infosektioner */
+}
+
+.massage-header.plain .massage-description {
+  color: #666666 !important;       /* Standard brödtextfärg */
+  text-align: center;              /* Matcha headern → center */
+  max-width: 600px;
+  margin: 20px auto 30px;
+}
+
+
+
+
+
+
   
   .separator-line {
     display: flex;

@@ -5,7 +5,8 @@ import gummysmileImage from '../../../img/injection.png'; // Byt till specifik b
 const RynkbehandlingGummysmile = () => {
   return (
     <CommonTreatmentPage
-      backgroundImage={gummysmileImage}
+      /*backgroundImage={gummysmileImage}*/
+       headerStyle="plain" 
       title="Botox | Gummysmile"
       description="Behandla ett synligt tandköttsleende med hjälp av muskelavslappnande injektioner."
       extraDescription={`Gummysmile innebär att en stor del av tandköttet syns vid leende, något många upplever som störande. <br /><br />

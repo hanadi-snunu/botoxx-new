@@ -28,7 +28,7 @@ import Armar from "./component/js/behandlingsutbud/vaxningg/Armar";
 import ArmarMan from "./component/js/behandlingsutbud/vaxningg/ArmarMen";
 import Armhala from "./component/js/behandlingsutbud/vaxningg/Armhala";
 import Bikini from "./component/js/behandlingsutbud/vaxningg/Bikini";
-import Brasiliansk from "./component/js/behandlingsutbud/vaxningg/Brasiliansk";
+
 import BrostMage from "./component/js/behandlingsutbud/vaxningg/Brost+Mage";
 import Halvaben from "./component/js/behandlingsutbud/vaxningg/Halvaben";
 import HalvabenBikini from "./component/js/behandlingsutbud/vaxningg/Halvaben+bikini";
@@ -270,7 +270,7 @@ function App() {
           <Route path="/ArmarMen" element={<ArmarMan />} /> 
           <Route path="/Armhala" element={<Armhala />} /> 
           <Route path="/Bikini" element={<Bikini />} /> 
-          <Route path="/Brasiliansk" element={<Brasiliansk />} /> 
+         
           <Route path="/Brost+Mage" element={<BrostMage />} /> 
           <Route path="/Halvaben" element={<Halvaben />} /> 
           <Route path="/Halvaben+bikini" element={<HalvabenBikini />} /> 

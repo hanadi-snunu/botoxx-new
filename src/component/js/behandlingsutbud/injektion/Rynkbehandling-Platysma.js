@@ -5,7 +5,8 @@ import platysmaImage from '../../../img/injection.png'; // Byt gärna till en sp
 const RynkbehandlingPlatysma = () => {
   return (
     <CommonTreatmentPage
-      backgroundImage={platysmaImage}
+      /*backgroundImage={platysmaImage}*/
+       headerStyle="plain" 
       title="Botox | Platysma"
       description="Behandla vertikala band och horisontella linjer på halsen för ett föryngrat utseende."
       extraDescription={`Platysma är muskeln som löper från käken ned längs halsen. När den blir spänd med åren kan vertikala band och horisontella linjer framträda. <br /><br />

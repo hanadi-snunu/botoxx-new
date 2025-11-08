@@ -67,7 +67,14 @@ const Skinbooster = () => {
       title: "Skinbooster | RRS Eyes",
       description: "Ljusa upp och föryngra huden runt ögonen med en behandling som kombinerar hyaluronsyra, antioxidanter och vitaminer.",
       link: "/Skinbooster-RRSEyes"
-    }
+    },
+    {
+  image: injection2,
+  title: "Skinbooster | Profhilo",
+  description: "Bioremodellerande behandling som förbättrar hudens struktur och elasticitet.",
+  link: "/Profhilo"
+}
+
   ];
 
   const settings = {

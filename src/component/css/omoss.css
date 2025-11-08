@@ -1,5 +1,5 @@
 /* Sektion 1 - Fullbredd bild */
-.omoss-header-section {
+/*.omoss-header-section {
     height: 70vh;
     width: 100%;
     background-size: cover;
@@ -20,7 +20,31 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}*/
+/* Container: låt bilden styra höjden, overlay ligger ovanpå */
+.omoss-header-section {
+  position: relative;
+  width: 100%;
+  /* ta bort: height, background-* (de används inte längre här) */
 }
+
+/* Bilden visas i sin helhet utan beskärning */
+.omoss-hero {
+  width: 100%;
+  height: auto;           /* viktig – behåll proportioner */
+  display: block;         /* inga vita glipor */
+}
+
+/* Overlay och text oförändrat, men täcker nu hela bilden */
+.omoss-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .omoss-content-block {
     text-align: left;
@@ -67,11 +91,19 @@
     margin-top: -10px;
 }
 
-.history-image {
+/*.history-image {
     width: 100%;
     max-width: 400px;
     height: 600px;
+}*/
+
+.history-image {
+  width: 100%;
+  max-width: 500px;   /* valfritt – lite större än 400 om du vill */
+  height: auto;       /* ← viktig: behåll proportioner */
+  object-fit: contain;/* säkerställer att inget beskärs om container tvingar storlek */
 }
+
 
 .history-title {
     margin-bottom: 40px;

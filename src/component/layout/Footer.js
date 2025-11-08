@@ -24,7 +24,16 @@ const Footer = () => {
         <div className="footer-locations">
           <div className="location">
             
-            <p>Östra Tullgatan 4 <br />211 28 Malmö</p>
+            <p>
+  <a
+    href="https://www.google.com/maps/dir/?api=1&destination=Östra+Tullgatan+4,+211+28+Malmö"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Östra Tullgatan 4 <br />211 28 Malmö
+  </a>
+</p>
+
             <p><a href="tel:0102040998">073-666 74 32</a></p>
             <p><a href="mailto:houseofaesthetics.se@hotmail.com">houseofaesthetics.se@hotmail.com</a></p>
           </div>
@@ -45,6 +54,10 @@ const Footer = () => {
         <p className="made-by">
           Made by: <a href="https://hanadisnunu.se/" target="_blank" rel="noopener noreferrer">Hanadi Snunu</a>
         </p>
+        <p className="made-by">
+  Photos by: <a href="https://vsco.co/gabrielwidgren/gallery" target="_blank" rel="noopener noreferrer">Ig @gabrielwidgren</a>
+</p>
+
       </div>
     </footer>
   );

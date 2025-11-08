@@ -5,7 +5,8 @@ import munImage from '../../../img/injection.png'; // Byt vid behov till specifi
 const RynkbehandlingMun = () => {
   return (
     <CommonTreatmentPage
-      backgroundImage={munImage}
+      /*backgroundImage={munImage}*/
+       headerStyle="plain" 
       title="Botox | Rynkor runt munnen"
       description="Behandling av fina linjer runt munnen – periorala linjer."
       extraDescription={`De små vertikala linjerna runt munnen, även kallade rökrynkor eller periorala linjer, uppstår ofta med ålder, rökning eller solskador. <br /><br />

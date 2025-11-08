@@ -5,7 +5,8 @@ import hakaImage from '../../../img/injection.png'; // Byt vid behov till en spe
 const RynkbehandlingApelsinhaka = () => {
   return (
     <CommonTreatmentPage
-      backgroundImage={hakaImage}
+      /*backgroundImage={hakaImage}*/
+       headerStyle="plain" 
       title="Botox | Apelsinhaka"
       description="Släta ut gropar och ojämnheter i hakan för ett jämnare intryck."
       extraDescription={`Apelsinhaka uppstår av spänningar i hakmuskeln och ger ett ojämnt, gropigt utseende – likt en apelsinskalstruktur. <br /><br />

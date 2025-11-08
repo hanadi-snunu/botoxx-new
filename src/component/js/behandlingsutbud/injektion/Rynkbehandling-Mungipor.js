@@ -5,7 +5,8 @@ import mungiporImage from '../../../img/injection.png'; // Byt till specifik bil
 const RynkbehandlingMungipor = () => {
   return (
     <CommonTreatmentPage
-      backgroundImage={mungiporImage}
+      /*backgroundImage={mungiporImage}*/
+       headerStyle="plain" 
       title="Botox | Sura mungipor"
       description="Lyft nedåtgående mungipor för ett gladare och mer öppet ansiktsuttryck."
       extraDescription={`Många upplever att deras mungipor dras nedåt med tiden, vilket kan ge ett trött eller surt intryck. <br /><br />

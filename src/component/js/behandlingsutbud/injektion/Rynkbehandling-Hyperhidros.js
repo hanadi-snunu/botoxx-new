@@ -5,7 +5,7 @@ import hyperhidrosImage from '../../../img/injection.png'; // Byt till specifik 
 const RynkbehandlingHyperhidros = () => {
   return (
     <CommonTreatmentPage
-      backgroundImage={hyperhidrosImage}
+      /*backgroundImage={hyperhidrosImage}*/
       title="Botox | Hyperhidros (överdriven svettning)"
       description="Effektiv behandling mot överdriven svettning i armhålor, händer eller fötter."
       extraDescription={`Hyperhidros är ett tillstånd där kroppen producerar mer svett än nödvändigt, vilket kan påverka livskvaliteten. <br /><br />

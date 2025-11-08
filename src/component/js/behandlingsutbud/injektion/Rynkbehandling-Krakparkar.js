@@ -5,7 +5,8 @@ import krakparkarImage from '../../../img/injection.png'; // Byt gärna till spe
 const RynkbehandlingKrakparkar = () => {
   return (
     <CommonTreatmentPage
-      backgroundImage={krakparkarImage}
+      /*backgroundImage={krakparkarImage}*/
+       headerStyle="plain" 
       title="Botox | Kråksparkar"
       description="Behandling för fina linjer kring ögonens ytterkanter, även kallat kråksparkar."
       extraDescription={`Kråksparkar uppstår naturligt med åren vid skratt, leenden och mimik. Med hjälp av botox kan dessa linjer reduceras för ett mjukare, mer ungdomligt utseende.<br /><br />

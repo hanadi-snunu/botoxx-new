@@ -88,7 +88,6 @@ const Navbar = () => {
     <li><Link to="/Rynkreducerande">Rynkreducerande injektionsbehandlingar</Link></li>
     <li><Link to="/Fillers">Filler</Link></li>
     <li><Link to="/Skinboosters">Skinbooster</Link></li>
-    <li><Link to="/Profhilo">Prohilo</Link></li>
     <li><Link to="/PRP">PRP-PRF</Link></li>
     <li><Link to="/Carboxy-Cellutrix">Carboxy-Cellutrix</Link></li>
     <li><Link to="/Vitamindropp">Vitamindropp</Link></li>
@@ -259,9 +258,7 @@ const Navbar = () => {
                 <li>
                   <Link to="/Bikini">Bikini</Link>
                 </li>
-                <li>
-                  <Link to="/Brasiliansk">Braziliansk</Link>
-                </li>
+                
                 <li>
                   <Link to="/Brost+Mage">Bröst + mage</Link>
                 </li>
@@ -510,7 +507,7 @@ const Navbar = () => {
       <li><Link to="/ArmarMen" onClick={toggleMenu}>Armar män</Link></li>
       <li><Link to="/Armhala" onClick={toggleMenu}>Armhåla</Link></li>
       <li><Link to="/Bikini" onClick={toggleMenu}>Bikini</Link></li>
-      <li><Link to="/Brasiliansk" onClick={toggleMenu}>Brasiliansk</Link></li>
+      
       <li><Link to="/Brost+Mage" onClick={toggleMenu}>Bröst + mage</Link></li>
       <li><Link to="/Halvaben" onClick={toggleMenu}>Halva ben</Link></li>
       <li><Link to="/Halvaben+bikini" onClick={toggleMenu}>Halva ben + bikini</Link></li>
@@ -573,7 +570,7 @@ const Navbar = () => {
     onClick={toggleMenu}
     className="mobile-link-with-arrow"
   >
-    Skinbooster
+    Skinbooster/biostim  
   </Link>
   <span
     className="arrow"
@@ -629,7 +626,7 @@ const Navbar = () => {
 </li>
 
     <li><Link to="/Vitamindropp" onClick={toggleMenu}>Vitamindropp</Link></li>
-    <li><Link to="/Profhilo" onClick={toggleMenu}>Prohilo</Link></li>
+    
   </ul>
 
   ) : subMenu === "rynkbehandlingar" ? (
@@ -671,6 +668,7 @@ const Navbar = () => {
     <li><Link to="/Skinbooster-Restylane" onClick={toggleMenu}>Skinbooster | Restylane</Link></li>
     <li><Link to="/Skinbooster-Sunekos" onClick={toggleMenu}>Skinbooster | Sunekos</Link></li>
     <li><Link to="/Skinbooster-RRSEyes" onClick={toggleMenu}>Skinbooster | RRS Eyes</Link></li>
+    <li><Link to="/Profhilo" onClick={toggleMenu}>Skinbooster | Profhilo</Link></li>
   </ul>
 
 

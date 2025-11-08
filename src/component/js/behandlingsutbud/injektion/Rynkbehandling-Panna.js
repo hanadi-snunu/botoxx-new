@@ -5,7 +5,7 @@ import pannanImage from '../../../img/injection.png'; // Du kan byta ut till en 
 const RynkbehandlingPannan = () => {
   return (
     <CommonTreatmentPage
-      backgroundImage={pannanImage}
+       headerStyle="plain" 
       title="Botox | Pannan"
       description="Behandling för att släta ut horisontella rynkor i pannan."
       extraDescription={`Pannan är ett av de vanligaste områdena för botoxbehandling. Med små doser toxin slappnas musklerna av vilket reducerar linjer och förebygger djupare rynkor. <br /><br />
