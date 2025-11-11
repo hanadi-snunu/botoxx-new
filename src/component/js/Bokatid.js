@@ -1,25 +1,26 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import '../css/Bokatid.css'; // Använd filvägen för din CSS-fil
-
-import BookingHeaderImage from "../img/Bokatid.jpg"; // Lägg till rätt bild för första sektionen
+import '../css/omoss.css';
+import BookingHeaderImage from "../img/bild1.jpg"; // Lägg till rätt bild för första sektionen
 
 
 const BokaTid = () => {
   return (
     <div>
       {/* Första sektionen - Bokning Hero */}
-      <div className="booking-hero" style={{ backgroundImage: `url(${BookingHeaderImage})` }}>
-        <div className="booking-hero-overlay">
-          <div className="booking-hero-content">
-            <h1 className="booking-hero-title">Boka tid</h1>
-            <p className="booking-hero-subtitle">
-              Här kan du boka tid till våra kliniker. Du kan både boka konsultation och behandlingar via länkarna nedan.
-            </p>
-           
-          </div>
-        </div>
-      </div>
+      <div className="omoss-header-section">
+  <img src={BookingHeaderImage} alt="" className="omoss-hero" />
+  <div className="omoss-overlay">
+    <div className="omoss-content-block">
+      <h1 className="omoss-title">Boka tid</h1>
+      <p className="omoss-subtitle">
+        Här kan du boka tid till våra kliniker. Du kan både boka konsultation och behandlingar via länkarna nedan.
+      </p>
+    </div>
+  </div>
+</div>
+
 
       {/* Andra sektionen - BokaDirekt */}
       <div className="booking-bokadirekt">

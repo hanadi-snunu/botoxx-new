@@ -1,26 +1,30 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import '../../css/behandlingsutbud.css';
+import "../../css/omoss.css";
 
-import HeroImage from "../../img/pic.jpg";
-import HealthImage from "../../img/picc.png";
-import ConsultationImage from "../../img/piccc.jpg";
+
+import HeroImage from "../../img/bild1.jpg"; 
+import HealthImage from "../../img/konsultation.jpg";
+import ConsultationImage from "../../img/konsultation.jpg";
 
 const Behandlingsutbud = () => {
   return (
     <div>
       {/* Hero Section: Full-width image with title, text, and button */}
-      <div className="hero-section" style={{ backgroundImage: `url(${HeroImage})` }}>
-        <div className="hero-overlay">
-          <div className="hero-content">
-            <h1 className="hero-title">Vårt behandlingsutbud</h1>
-            <p className="hero-subtitle">
-              Vi har ett holistiskt skönhetsperspektiv med balans och harmoni som mål. Vårt behandlingsutbud vilar på två fundament, volymbehandlingar och hudbehandlingar.
-            </p>
-            
-          </div>
-        </div>
-      </div>
+      <div className="omoss-header-section">
+  <img src={HeroImage} alt="" className="omoss-hero" />
+  <div className="omoss-overlay">
+    <div className="omoss-content-block">
+      <h1 className="omoss-title">Vårt behandlingsutbud</h1>
+      <p className="omoss-subtitle">
+        Vi har ett holistiskt skönhetsperspektiv med balans och harmoni som mål. 
+        Vårt behandlingsutbud vilar på två fundament, volymbehandlingar och hudbehandlingar.
+      </p>
+    </div>
+  </div>
+</div>
+
 
       {/* Health Section */}
       <div className="health-section">

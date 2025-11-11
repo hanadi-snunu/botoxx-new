@@ -84,6 +84,11 @@
     margin-top: -10px;
 }
 
+.omoss-subtitle {
+    font: 18px Mulish, sans-serif;
+    margin: 30px 0 50px;
+}
+
 .history-text-container {
     flex: 1;
     max-width: 50%;

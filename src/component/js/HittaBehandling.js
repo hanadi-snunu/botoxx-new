@@ -1,7 +1,7 @@
 
 import "../css/behandlingsutbud.css";
-import HeroImage from "../img/pic.jpg";
-import ConsultationImage from "../img/piccc.jpg";
+import HeroImage from "../img/bild1.jpg";
+import ConsultationImage from "../img/konsultation.jpg";
 import { Link } from "react-router-dom";
 import React, { useRef, useState  } from 'react';
 import emailjs from '@emailjs/browser';

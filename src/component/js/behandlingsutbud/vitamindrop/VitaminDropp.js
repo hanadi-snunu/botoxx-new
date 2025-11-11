@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import vitamindropImage from "../../../img/injection.png";
+import vitamindropImage from "../../../img/vitamindropp.png";
 import ConsultationImage from "../../../img/piccc.jpg";
 import { Link } from "react-router-dom";
-import "../../../css/Massage.css";
-
+import "../../../css/Massage.css"; 
+import "../../../css/omoss.css";
 const Vitamindrop = () => {
   const [openQuestion, setOpenQuestion] = useState(null);
 
@@ -14,14 +14,18 @@ const Vitamindrop = () => {
   return (
     <div>
       {/* Header Section */}
-      <header className="massage-header" style={{ backgroundImage: `url(${vitamindropImage})` }}>
-        <div className="massage-overlay">
-          <h1 className="massage-title">Vitamindropp</h1>
-          <p className="massage-description">
-            Återfukta kroppen och fyll på med viktiga vitaminer och mineraler.
-          </p>
-        </div>
-      </header>
+     <div className="omoss-header-section">
+  <img src={vitamindropImage} alt="Vitamindropp" className="omoss-hero" />
+  <div className="omoss-overlay">
+    <div className="omoss-content-block">
+      <h1 className="omoss-title">Vitamindropp</h1>
+      <p className="omoss-subtitle">
+        Återfukta kroppen och fyll på med viktiga vitaminer och mineraler.
+      </p>
+    </div>
+  </div>
+</div>
+
 
       {/* Info Section */}
       <section className="massage-info-section">

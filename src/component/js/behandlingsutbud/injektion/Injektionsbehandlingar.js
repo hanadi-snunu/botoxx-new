@@ -1,8 +1,14 @@
 import React from "react";
-import injection1 from "../../../img/injection.png";
-import injection2 from "../../../img/injection.png";
-import injection3 from "../../../img/injection.png";
-import ConsultationImage from "../../../img/piccc.jpg";
+import injection1 from "../../../img/rynkreducerandeinjektioner.png";
+import injection2 from "../../../img/fillers.png";
+import injection3 from "../../../img/skinbooster.png";
+
+import injection4 from "../../../img/skinbooster.png";
+import injection5 from "../../../img/injection.png";
+import injection6 from "../../../img/PRPPRF.png";
+import injection7 from "../../../img/vitamindropp.png";
+
+import ConsultationImage from "../../../img/konsultation.jpg";
 import { Link } from "react-router-dom";
 import "../../../css/Hem.css"; // Återanvänd din befintliga stilfil
 
@@ -25,26 +31,21 @@ const treatments = [
     description: "Förbättra hudens elasticitet och återfukta på djupet.",
     link: "/Skinboosters"
   },
+  
   {
-    image: injection1,
-    title: "Profhilo",
-    description: "Innovativ behandling som återfuktar och stramar upp huden inifrån.",
-    link: "/Profhilo"
-  },
-  {
-    image: injection2,
+    image: injection6,
     title: "PRP-PRF",
     description: "Naturlig föryngring med ditt eget blod – främjar kollagen och hudens kvalitet.",
     link: "/PRP"
   },
   {
-    image: injection3,
+    image: injection5,
     title: "Carboxy – Cellutrix",
     description: "Stimulerar blodcirkulation och cellförnyelse med koldioxidbehandling.",
     link: "/Carboxy-Cellutrix"
   },
   {
-    image: injection1,
+    image: injection7,
     title: "Vitamindropp",
     description: "IV-behandling med vitaminer och mineraler för ett inre välbefinnande.",
     link: "/VitaminDropp"

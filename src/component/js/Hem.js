@@ -1,9 +1,20 @@
 import React, { useState, useEffect } from 'react';
 import '../css/Hem.css';
-import BackgroundImage from '../img/hemm.jpg';
+import '../css/omoss.css';
+import BackgroundImage from '../img/bild1.jpg';
+
+import CommonImage1 from '../img/rynkreducerandeinjektioner.png';
+import CommonImage2 from '../img/ansiktsbehandling13.jpg';
+import CommonImage3 from '../img/hydrafacial14.jpg';
+import CommonImage4 from '../img/laserbehandling7.png';
+import CommonImage5 from '../img/vaxningHOF.png';
+import CommonImage6 from '../img/injektion.jpg';
 import CommonImage from '../img/injektion.jpg';
+
+
+
 import { Link } from 'react-router-dom';
-import ConsultationImage from "../img/piccc.jpg";
+import ConsultationImage from "../img/konsultation.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
@@ -126,16 +137,29 @@ Jag förstår
 </div>
 )}
 
-       <div className="home-section" style={{ backgroundImage: `url(${BackgroundImage})` }}> 
-       <div className="overlay">
-        <h1 className="home-title">HOUSE OF AESTHETICS</h1>
-        <p className="home-location-text">Malmö •</p>
-        <div className="home-button-group">
-            <Link to="/Bokatid" className="home-action-button">Boka tid</Link>
-            <Link to="/HittaBehandling" className="home-action-button">Hitta rätt behandling</Link>
-        </div>
-       </div>
-       </div>
+       {/* Hero på startsidan – använder OmOss-stilar */}
+<div className="omoss-header-section">
+  <img src={BackgroundImage} alt="" className="omoss-hero" />
+  <div className="omoss-overlay">
+    <div className="omoss-content-block">
+      <h1 className="omoss-title">HOUSE OF AESTHETICS</h1>
+      <p className="omoss-subtitle">Malmö •</p> 
+
+      
+
+
+      {/* Du kan behålla dina befintliga knapp-klasser */}
+      <div className="home-button-group">
+        <Link to="/Bokatid" className="home-action-button">Boka tid</Link>
+        <Link to="/HittaBehandling" className="home-action-button">Hitta rätt behandling</Link>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+       
        
        <div className="home-about-section">
                 <h2 className="home-about-title">Experter på estetiska behandlingar och avancerad hudvård</h2>
@@ -154,7 +178,7 @@ Jag förstår
                 <div className="home-treatments-grid">
                     {/* Injektionsbehandlingar */}
                     <div className="home-treatment-card">
-                        <img src={CommonImage} alt="Behandling" className="home-treatment-image" />
+                        <img src={CommonImage1} alt="Behandling" className="home-treatment-image" />
                         <div className="home-treatment-content">
                             <h3 className="home-treatment-title">Estetiska Injektionsbehandlingar</h3>
                             <p className="home-treatment-description">
@@ -166,7 +190,7 @@ Jag förstår
 
                     {/* Ansiktsbehandlingar */}
                     <div className="home-treatment-card">
-                        <img src={CommonImage} alt="Behandling" className="home-treatment-image" />
+                        <img src={CommonImage2} alt="Behandling" className="home-treatment-image" />
                         <div className="home-treatment-content">
                             <h3 className="home-treatment-title">Ansiktsbehandlingar</h3>
                             <p className="home-treatment-description">
@@ -179,7 +203,7 @@ Jag förstår
 
                     {/* Utbildningar */}
                     <div className="home-treatment-card">
-                        <img src={CommonImage} alt="Behandling" className="home-treatment-image" />
+                        <img src={CommonImage3} alt="Behandling" className="home-treatment-image" />
                         <div className="home-treatment-content">
                             <h3 className="home-treatment-title">Hydra Facial</h3>
                             <p className="home-treatment-description">
@@ -191,7 +215,7 @@ Jag förstår
 
                     {/* Laserbehandlingar */}
                     <div className="home-treatment-card">
-                        <img src={CommonImage} alt="Behandling" className="home-treatment-image" />
+                        <img src={CommonImage4} alt="Behandling" className="home-treatment-image" />
                         <div className="home-treatment-content">
                             <h3 className="home-treatment-title">Laserbehandlingar</h3>
                             <p className="home-treatment-description">
@@ -211,18 +235,10 @@ Jag förstår
                         </div>
                     </div>
 
-                    <div className="home-treatment-card">
-                        <img src={CommonImage} alt="Behandling" className="home-treatment-image" />
-                        <div className="home-treatment-content">
-                            <h3 className="home-treatment-title">Massage</h3>
-                            <p className="home-treatment-description">
-                            Slappna av och lindra spänningar med våra professionella massagebehandlingar. Främjar cirkulation och allmänt välbefinnande.                            </p>
-                            <Link to="/Massagee" className="home-treatment-link">Läs mer om massage här</Link>
-                        </div>
-                    </div>
+                
 
                     <div className="home-treatment-card">
-                        <img src={CommonImage} alt="Behandling" className="home-treatment-image" />
+                        <img src={CommonImage5} alt="Behandling" className="home-treatment-image" />
                         <div className="home-treatment-content">
                             <h3 className="home-treatment-title">Vaxning</h3>
                             <p className="home-treatment-description">

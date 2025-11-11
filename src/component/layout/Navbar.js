@@ -176,6 +176,11 @@ const Navbar = () => {
                 <li>
                   <Link to="/MaskPeel">Mask Peel</Link>
                 </li>
+                <li>
+                  <Link to="/AnsiktsmassageX5">AnsiktsmassageX5</Link>
+                </li>
+
+                
                 
                 
                 
@@ -204,7 +209,8 @@ const Navbar = () => {
                 
               </ul>
             </li>
-            <li>
+              
+            {/* <li>
               <Link to="/Massagee">MASSAGE</Link>
               <ul>
                 <li>
@@ -242,7 +248,8 @@ const Navbar = () => {
                 
                 
               </ul>
-            </li>
+            </li>*/} 
+
             <li>
               <Link to="/Vaxning">VAXNING</Link>
               <ul>
@@ -318,9 +325,9 @@ const Navbar = () => {
             <li>
               <Link to="/hydra-facial-priser">HYDRA FACIAL</Link>
             </li>
-            <li>
+           {/* <li>
               <Link to="/massage-priser">MASSAGE</Link>
-            </li>
+            </li>*/} 
             <li>
               <Link to="/vaxning-priser">VAXNING</Link>
             </li>
@@ -427,12 +434,12 @@ const Navbar = () => {
           <span className="arrow" onClick={() => openSubMenu("hydrafacial")}> <FontAwesomeIcon icon={faChevronRight} /></span>
         </div>
       </li>
-      <li>
+     {/**  <li>
         <div className="submenu-trigger">
           <Link to="/Massagee" onClick={toggleMenu}>MASSAGE</Link>
           <span className="arrow" onClick={() => openSubMenu("massage")}> <FontAwesomeIcon icon={faChevronRight} /></span>
         </div>
-      </li>
+      </li>*/}
       <li>
         <div className="submenu-trigger">
           <Link to="/Vaxning" onClick={toggleMenu}>VAXNING</Link>
@@ -455,6 +462,9 @@ const Navbar = () => {
       <li><Link to="/Kemisk-peel" onClick={toggleMenu}>Milk Peel</Link></li>
       <li><Link to="/BioRepeel" onClick={toggleMenu}>BioRepeel</Link></li>
       <li><Link to="/MaskPeel" onClick={toggleMenu}>Mask Peel</Link></li>
+      <li><Link to="/AnsiktsmassageX5" onClick={toggleMenu}>AnsiktsmassageX5</Link></li>
+
+      
       
       
       
@@ -469,7 +479,7 @@ const Navbar = () => {
       <li><Link to="/HydraFacial-Gravida" onClick={toggleMenu}>Hydra Facial | För gravida</Link></li>
      
     </ul>
-  ) : subMenu === "massage" ? (
+ /*  ) : subMenu === "massage" ? (
     <ul className="mobile-submenuu">
 
 <li><Link to="/AvkopplandeMassage" onClick={toggleMenu}>Massage | Avkopplande</Link></li>
@@ -482,9 +492,8 @@ const Navbar = () => {
 <li><Link to="/RelaxingTime" onClick={toggleMenu}>Massage | Relaxing Time</Link></li>
 <li><Link to="/KlippkortX5" onClick={toggleMenu}>Massage | Klippkort x5</Link></li>
 <li><Link to="/Gravidmassage" onClick={toggleMenu}>Massage | Gravid</Link></li>
-
-      
-    </ul>
+    </ul>*/
+    
     ) : subMenu === "trådlyft" ? (
       <ul className="mobile-submenuu">
       <li><Link to="/Tradlyft-Midface" onClick={toggleMenu}>Trådlyft | Midface</Link></li>
@@ -773,7 +782,7 @@ const Navbar = () => {
     <li><Link to="/laserbehandlingar-priser" onClick={toggleMenu}>LASERBEHANDLINGAR</Link></li>
     <li><Link to="/ansiktsbehandlingar-priser" onClick={toggleMenu}>ANSIKTSBEHANDLINGAR</Link></li>
     <li><Link to="/hydra-facial-priser" onClick={toggleMenu}>HYDRA FACIAL</Link></li>
-    <li><Link to="/massage-priser" onClick={toggleMenu}>MASSAGE</Link></li>
+    {/*<li><Link to="/massage-priser" onClick={toggleMenu}>MASSAGE</Link></li>*/}
     <li><Link to="/vaxning-priser" onClick={toggleMenu}>VAXNING</Link></li>
   </ul>
   ) : null}

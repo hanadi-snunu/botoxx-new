@@ -4,12 +4,12 @@ import HistoriaBild from '../img/bild2.jpg';
 import Felicia from '../img/Felicia.png';
 import Anna from '../img/Anna.png';
 import Linda from '../img/Linda.png';
-import Sara from '../img/Sara.png';
+import Sara from '../img/Saraa.png';
 import Zeanab from '../img/Zaenab.png';
 import Rita from '../img/Rita.png';
 import '../css/omoss.css';
 import Medarbetare from '../img/medarbetare.jpg';
-import ConsultationImage from "../img/piccc.jpg";
+import ConsultationImage from "../img/konsultation.jpg";
 import { Link } from "react-router-dom";
 const Omoss = () => {
     
@@ -92,7 +92,7 @@ const Omoss = () => {
                 <div className="medarbetare-card">
                     <img src={Sara} alt="Medarbetare" />
                     <h3>Sara Parvizinia (Lashlab_bysara)</h3>
-                    <p>Fransstylist</p>
+                    <p>Cert. Laserterapeut</p>
                 </div>
             </div>
         </div>

@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import vaxning1 from '../../../img/vaxning.jpg.png';
-import vaxning2 from '../../../img/vaxningb.jpg.png';
-import ConsultationImage from '../../../img/piccc.jpg';
+import vaxning1 from '../../../img/vaxningHOF.png';
+import vaxning2 from '../../../img/bild1.jpg';
+import ConsultationImage from '../../../img/konsultation.jpg';
 import { Link } from 'react-router-dom';
-import '../../../css/Massage.css'; // Använd samma CSS-fil som Massage för konsistens
+import '../../../css/Massage.css'; 
+import '../../../css/omoss.css';// Använd samma CSS-fil som Massage för konsistens
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
@@ -137,15 +138,21 @@ const Vaxning = () => {
 
 
   return (
-    <div>
-      <header className="massage-header" style={{ backgroundImage: `url(${vaxning2})` }}>
-        <div className="massage-overlay">
-          <h1 className="massage-title">Vaxning</h1>
-          <p className="massage-description">
-            Vaxning är en effektiv metod för att ta bort oönskat hår och ger en slät och mjuk hud som varar längre än vid rakning.
-          </p>
-        </div>
-      </header>
+    
+ <div>
+           <div className="omoss-header-section">
+  <img src={vaxning2} alt="" className="omoss-hero" />
+  <div className="omoss-overlay">
+    <div className="omoss-content-block">
+      <h1 className="omoss-title">Vaxning</h1>
+      <p className="omoss-subtitle">
+       Vaxning är en effektiv metod för att 
+            ta bort oönskat hår och ger en slät och mjuk hud som varar längre än vid rakning.
+      </p>
+    </div>
+  </div>
+</div>
+
 
       {/* Information Sektion */}
       <section className="massage-info-section">

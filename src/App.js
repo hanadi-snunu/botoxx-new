@@ -138,6 +138,12 @@ import Sportmassage from "./component/js/behandlingsutbud/massage/Sportmassage";
 import Fotmassage from "./component/js/behandlingsutbud/massage/Fotmassage";
 import Ryggmassage from "./component/js/behandlingsutbud/massage/Ryggmassage";
 import Gravidmassage from "./component/js/behandlingsutbud/massage/Gravidmassage";
+import AnsiktsmassageX5 from "./component/js/behandlingsutbud/ansiktsbehandlingar/AnsiktsmassageX5";
+
+
+
+
+
 
 
 function App() {
@@ -253,7 +259,8 @@ function App() {
           <Route path="/Platinum-HydraFacial" element={<PlatinumHydraFacial />} />
           <Route path="/Standard-HydraFacial" element={<StandardHydraFacial />} /> 
           <Route path="/HydraFacial-Gravida" element={<GravidaHydraFacial />} /> 
-          <Route path="/Massagee" element={<Massage />} /> 
+
+         {/** <Route path="/Massagee" element={<Massage />} /> 
           <Route path="/RelaxingTime" element={<RelaxTime />} /> 
           <Route path="/KlippkortX5" element={<KlippkortX5 />} /> 
           <Route path="/Ansiktsmassage" element={<AnsiktsMassage />} /> 
@@ -263,7 +270,7 @@ function App() {
           <Route path="/Sportmassage" element={<Sportmassage />} />
           <Route path="/Fotmassage" element={<Fotmassage />} />
           <Route path="/Ryggmassage" element={<Ryggmassage />} />
-          <Route path="/Gravidmassage" element={<Gravidmassage />} />
+          <Route path="/Gravidmassage" element={<Gravidmassage />} />*/} 
           
           <Route path="/Vaxning" element={<Vaxning />} /> 
           <Route path="/Armar" element={<Armar />} /> 
@@ -280,6 +287,9 @@ function App() {
           <Route path="/Overlapp" element={<Overlapp />} /> 
           <Route path="/Pverlapp+haka" element={<OverlappHaka />} /> 
           <Route path="/Rygg" element={<Rygg />} /> 
+
+        
+          <Route path="/AnsiktsmassageX5" element={<AnsiktsmassageX5 />} />
           <Route path="/Ansiktsbehandlingar" element={<Ansikte />} />
           <Route path="/Dermaplaning" element={<Dermaplaning />} />
           <Route path="/Djuprensande-ansiktsbehandling" element={<DjuprensandeAnsiktsbehandling />} />
@@ -307,7 +317,7 @@ function App() {
           <Route path="/injektionsbehandlingar-priser" element={<InjektionsbehandlingarPris />} />
           <Route path="/tradlyft-priser" element={<TradlyftPriser />} />
           <Route path="/vaxning-priser" element={<VaxningPriser />} />
-          <Route path="/massage-priser" element={<MassagePriser />} />
+         {/** <Route path="/massage-priser" element={<MassagePriser />} /> */}
           <Route path="/hydra-facial-priser" element={<HydraFacialPriser />} />
           <Route path="/ansiktsbehandlingar-priser" element={<AnsiktsbehandlingarPriser />} />
           <Route path="/laserbehandlingar-priser" element={<LaserbehandlingarPris />} />

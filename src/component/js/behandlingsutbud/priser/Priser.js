@@ -39,9 +39,7 @@ const Priser = () => {
           <Link to="/hydra-facial-priser" className="treatments-button">
             Hydra Facial
           </Link>
-          <Link to="/massage-priser" className="treatments-button">
-            Massage
-          </Link>
+          
           <Link to="/vaxning-priser" className="treatments-button">
             Vaxning
           </Link>

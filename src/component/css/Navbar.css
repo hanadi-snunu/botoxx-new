@@ -393,7 +393,7 @@ body, html {
   display: flex;
   flex-wrap: nowrap; /* Håll kategorierna i en rad */
   justify-content: space-between; /* Jämn fördelning med liknande avstånd */
-  gap: 20px; /* Mellanrum mellan kolumner */
+  gap: 70px; /* Mellanrum mellan kolumner */
   
 }
 /* Huvudkategori-stil */
@@ -405,6 +405,7 @@ body, html {
 /* Huvudkategori-stil */
 .dropdown-grid > li > a {
   font: 16px "Old Standard TT", Serif; /* Större textstorlek */
+   font-weight: 550; /* <-- gör texten tjockare */
   color: #666666;
   display: block;
   padding: 15px 0;

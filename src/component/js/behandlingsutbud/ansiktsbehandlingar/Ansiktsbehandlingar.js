@@ -34,6 +34,13 @@ const Ansikte = () => {
       link: "/Klassisk-ansiktsbehandling",
     },
     {
+  image: ansikte2,                       
+  title: "Ansiktsmassage X5",
+  description: "Paket med fem ansiktsmassager för kontinuerlig återhämtning och lyster.",
+  link: "/AnsiktsmassageX5",
+},
+
+    {
       image: ansikte3,
       title: "Djuprengörande Ansiktsbehandling",
       description: "Rengör huden på djupet och återfuktar för en fräsch känsla.",
