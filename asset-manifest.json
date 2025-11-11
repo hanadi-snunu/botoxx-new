@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.eedf6678.css",
-    "main.js": "/static/js/main.9ffffc41.js",
+    "main.css": "/static/css/main.fa2ce973.css",
+    "main.js": "/static/js/main.31028334.js",
     "static/js/453.f35b76dc.chunk.js": "/static/js/453.f35b76dc.chunk.js",
-    "static/media/omossss.jpg": "/static/media/omossss.5bd532b562e0a04e26b8.jpg",
     "static/media/ansiktsbehandling.jpg": "/static/media/ansiktsbehandling.cfbd6702c8ba0cb45848.jpg",
     "static/media/hydrafacial1.jpg": "/static/media/hydrafacial1.f5172ed7eb6facf52b3a.jpg",
     "static/media/hemm.jpg": "/static/media/hemm.d04f6e58da6313a0f547.jpg",
@@ -19,10 +18,19 @@
     "static/media/kontakt.jpg": "/static/media/kontakt.223eb0252fceb1dd634f.jpg",
     "static/media/picc.png": "/static/media/picc.89ac0a0b32018cbd4003.png",
     "static/media/injection.png": "/static/media/injection.d16b04cd63a168b9b5ae.png",
+    "static/media/Sara.png": "/static/media/Sara.ef1b07a6adfd0ea7efc5.png",
+    "static/media/Felicia.png": "/static/media/Felicia.fa961954ecc704768b9c.png",
+    "static/media/Linda.png": "/static/media/Linda.0e6fdfeac2a9d5016ced.png",
+    "static/media/Anna.png": "/static/media/Anna.5482c1bcb94fc601fa8a.png",
+    "static/media/Zaenab.png": "/static/media/Zaenab.e620d59136ddd8a1ce64.png",
     "static/media/Bokatid.jpg": "/static/media/Bokatid.5fd75891067dbc975d12.jpg",
+    "static/media/Rita.png": "/static/media/Rita.289cf8009f003ce285bf.png",
+    "static/media/bild1.jpg": "/static/media/bild1.e8b167446c84de666b83.jpg",
     "static/media/vaxningb.jpg.png": "/static/media/vaxningb.jpg.c52a2d0d0e56a8ee2800.png",
     "static/media/vaxning.jpg.png": "/static/media/vaxning.jpg.2698c029c092e61e163a.png",
-    "static/media/omoss.jpg": "/static/media/omoss.519e7a07ceb5c07b321d.jpg",
+    "static/media/bild2.jpg": "/static/media/bild2.171da6c24566557ef037.jpg",
+    "static/media/bild5.jpg": "/static/media/bild5.634c59434cd54b84e099.jpg",
+    "static/media/bild4.jpg": "/static/media/bild4.f7e32f348a2aefdf2670.jpg",
     "static/media/ansiktsbehandling4.jpg": "/static/media/ansiktsbehandling4.c409fec3db2efed190dc.jpg",
     "static/media/threadlift4.jpg": "/static/media/threadlift4.73e956a8c068bbfb27ec.jpg",
     "static/media/massage3.jpg": "/static/media/massage3.3c802f2d52f837db2a2a.jpg",
@@ -37,12 +45,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.eedf6678.css.map": "/static/css/main.eedf6678.css.map",
-    "main.9ffffc41.js.map": "/static/js/main.9ffffc41.js.map",
+    "main.fa2ce973.css.map": "/static/css/main.fa2ce973.css.map",
+    "main.31028334.js.map": "/static/js/main.31028334.js.map",
     "453.f35b76dc.chunk.js.map": "/static/js/453.f35b76dc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eedf6678.css",
-    "static/js/main.9ffffc41.js"
+    "static/css/main.fa2ce973.css",
+    "static/js/main.31028334.js"
   ]
 }
