@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import laserImg from "../../../img/injection.png"; // byt till din faktiska bild
+import laserImg from "../../../img/nordlysbild.jpg"; // byt till din faktiska bild
 import ConsultationImage from "../../../img/piccc.jpg";
 import { Link } from "react-router-dom";
 import "../../../css/Massage.css";

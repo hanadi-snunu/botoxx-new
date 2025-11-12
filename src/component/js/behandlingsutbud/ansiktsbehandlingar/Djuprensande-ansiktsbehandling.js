@@ -1,6 +1,6 @@
 import React from 'react';
 import CommonTreatmentPage from './CommonTreatmentPage';
-import djuprensandeImage from '../../../img/ansiktsbehandling3.jpg'; // Byt ut till rätt bildfil
+import djuprensandeImage from '../../../img/ansiktsbehandling2.jpg'; // Byt ut till rätt bildfil
 
 const DjuprensandeAnsiktsbehandling = () => {
   return (
@@ -21,7 +21,7 @@ const DjuprensandeAnsiktsbehandling = () => {
         { label: 'Rekommenderat för', value: 'Fet, blandad eller acnebenägen hud' },
       ]}
       beforeText="Undvik makeup och exfoliering minst 24 timmar innan behandlingen."
-      afterText="Återfukta huden och undvik stark sol i minst 48 timmar efter behandlingen."
+      afterText="Återfukta huden och undvik stark sol i minst 48 timmar efter behandlingen. Undvik exfoliering i minst 7 dagar för att skydda huden."
       bookLink="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/djuprensande-ansiktsbehandling-60-min-1693256"
       bookButtonText="Boka Djuprensande Ansiktsbehandling"
     />

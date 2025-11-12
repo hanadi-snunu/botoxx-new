@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import injection2 from "../../../img/injection.png";
+import injection2 from "../../../img/fillers.png";
 import ConsultationImage from "../../../img/piccc.jpg";
 import { Link } from "react-router-dom";
 import "../../../css/Massage.css";

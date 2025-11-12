@@ -1,5 +1,5 @@
 import React from 'react';
-import dermaplaningImage from '../../../img/ansiktsbehandling2.jpg';
+import dermaplaningImage from '../../../img/Dermapenmicroneedling.jpg';
 import CommonTreatmentPage from './CommonTreatmentPage';
 
 
@@ -25,7 +25,7 @@ Rekommenderat antalet behandlingar är var 3-5 veckor för att bibehålla samma 
       afterText="Undvik aktiva ingredienser (AHA, BHA, Retinol) i en vecka efter behandling. Undvik sol, 
 intensiv träning, bastu och hög värme i 48h efter behandling. Huden kan vara röd och 
 knottrig efter behandling, använd då mild rengöring, en återfuktande kräm samt undvik 
-röra huden närmsta timmarna."
+röra huden närmsta timmarna. Undvik exfoliering i minst 7 dagar för att skydda huden."
       bookLink="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/dermaplaning-45-min-2183823"
       bookButtonText="Boka Dermaplaning" 
     />

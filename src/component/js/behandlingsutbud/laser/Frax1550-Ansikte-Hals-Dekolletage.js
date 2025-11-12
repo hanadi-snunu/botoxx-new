@@ -1,6 +1,6 @@
 import React from 'react';
 import CommonTreatmentPage from '../ansiktsbehandlingar/CommonTreatmentPage';
-import laserImage from '../../../img/injection.png';
+import laserImage from '../../../img/nordlysbild.jpg';
 
 const FraxAnsikteHalsDekolletage = () => {
   return (

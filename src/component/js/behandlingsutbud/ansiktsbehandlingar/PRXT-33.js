@@ -1,6 +1,6 @@
 import React from 'react';
 import CommonTreatmentPage from './CommonTreatmentPage';
-import prxImage from '../../../img/ansiktsbehandling3.jpg'; // Byt till rätt bild
+import prxImage from '../../../img/PRXBiorepeel.png'; // Byt till rätt bild
 
 const PRXT33 = () => {
   return (
@@ -24,10 +24,10 @@ bästa möjliga resultatet! `}
         { label: 'Rekommenderat för', value: 'Trött, åldrande eller skadad hud' },
       ]}
       beforeText="Inför behandlingen behöver du pausa retinol 2 veckor innan och undvika sol 48h 
-innan och efter behandlingen. Om du är gravid eller ammande kan du inte utföra 
+innan. Om du är gravid eller ammande kan du inte utföra 
 denna behandling.
 "
-      afterText="Undvik sol och exfoliering i minst 48 timmar för att skydda huden."
+      afterText="Undvik sol och exfoliering i minst 7 dagar för att skydda huden."
       bookLink="https://www.bokadirekt.se/places/house-of-aesthetics-34817"
       bookButtonText="Boka PRX T-33"
     />

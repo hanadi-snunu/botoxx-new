@@ -1,6 +1,6 @@
 import React from 'react';
 import CommonTreatmentPage from './CommonTreatmentPage';
-import microneedlingImage from '../../../img/ansiktsbehandling4.jpg'; // Byt till rätt bild
+import microneedlingImage from '../../../img/Dermapenmicroneedling.jpg'; // Byt till rätt bild
 
 const Microneedling = () => {
   return (
@@ -35,8 +35,11 @@ const Microneedling = () => {
         { label: 'Fördelar', value: 'Ökad kollagenproduktion, jämnare hudton, minskade ärr' },
         { label: 'Rekommenderat för', value: 'Alla hudtyper som vill förbättra hudens struktur' },
       ]}
-      beforeText="Undvik direkt solljus och exfoliering i 24 timmar innan behandlingen."
-      afterText="Återfukta huden och använd solskydd för att skydda och bevara resultaten."
+      beforeText="Inför behandlingen behöver du pausa retinol 2 veckor innan och undvika sol 48h 
+innan behandlingen. Om du är gravid eller ammande kan du inte utföra 
+denna behandling.
+"
+      afterText="Undvik sol och exfoliering i minst 7 dagar för att skydda huden."
       bookLink="https://www.bokadirekt.se/places/house-of-aesthetics-34817"
       bookButtonText="Boka Microneedling"
     />

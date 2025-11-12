@@ -1,9 +1,12 @@
 import React, { useState } from "react";
-import ansikte1 from "../../../img/ansiktsbehandling.jpg"; 
-import ansikte2 from "../../../img/ansiktsbehandling1.jpg"; 
+import ansikte1 from "../../../img/ansiktsbehandling2.jpg"; 
+import ansikte2 from "../../../img/ansiktsbehandling2.jpg"; 
 import ansikte3 from "../../../img/ansiktsbehandling2.jpg"; 
-import ansikte4 from "../../../img/ansiktsbehandling3.jpg"; 
-import ansikte5 from "../../../img/ansiktsbehandling4.jpg"; 
+import ansikte4 from "../../../img/ansiktsbehandling2.jpg"; 
+import ansikte5 from "../../../img/ansiktsbehandling2.jpg"; 
+import ansikte6 from "../../../img/Dermapenmicroneedling.jpg"; 
+import ansikte7 from "../../../img/derma5.png";
+import ansikte8 from "../../../img/PRXBiorepeel.png"; 
 
 
 
@@ -65,20 +68,20 @@ const Ansikte = () => {
       link: "/Instant-glow",
     },
     {
-      image: ansikte1,
+      image: ansikte6,
       title: "Dermaplaning",
       description: "En behandling som avlägsnar döda hudceller och små fjun för en jämnare hudton.",
       link: "/Dermaplaning",
     },
     {
-      image: ansikte4,
+      image: ansikte7,
       title: "PRXT-33",
       description: "En avancerad behandling som förnyar huden utan att orsaka fjällning.",
       link: "/PRXT-33",
     },
   
     {
-      image: ansikte3,
+      image: ansikte6,
       title: "Microneedling",
       description: "Stimulerar kollagenproduktionen och förbättrar hudens elasticitet.",
       link: "/Microneedling",
@@ -97,7 +100,7 @@ const Ansikte = () => {
     },
 
      {
-      image: ansikte4,
+      image: ansikte8,
       title: "BioRepeel",
       description: "Biorepeel  jobbar med AHA, BHA och PHA som arbetar sig in i olika problem områden.",
       link: "/BioRepeel",

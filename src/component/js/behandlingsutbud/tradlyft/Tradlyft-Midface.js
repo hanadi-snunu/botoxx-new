@@ -1,6 +1,6 @@
 import React from 'react';
 import CommonTreatmentPage from '../ansiktsbehandlingar/CommonTreatmentPage';
-import midfaceImage from '../../../img/threadlift2.jpg'; // Uppdatera med rätt bildfil
+import midfaceImage from '../../../img/tradl.png'; // Uppdatera med rätt bildfil
 
 const TradlyftMidface = () => {
   return (

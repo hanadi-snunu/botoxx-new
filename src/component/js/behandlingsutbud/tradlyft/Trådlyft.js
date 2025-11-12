@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import threadLift1 from "../../../img/threadlift1.jpg"; // Byt ut till rätt bild
-import threadLift2 from "../../../img/threadlift2.jpg"; // Byt ut till rätt bild
-import threadLift3 from "../../../img/threadlift3.jpg"; // Byt ut till rätt bild
+import threadLift1 from "../../../img/tradl.png"; // Byt ut till rätt bild
+import threadLift2 from "../../../img/tradl.png"; // Byt ut till rätt bild
+import threadLift3 from "../../../img/tradl.png"; // Byt ut till rätt bild
 import ConsultationImage from "../../../img/piccc.jpg"; // Konsultationsbild
 import { Link } from "react-router-dom";
 import "../../../css/Massage.css";

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import monoKinderImage from '../../../img/threadlift1.jpg';
+import monoKinderImage from '../../../img/tradl.png';
 import CommonTreatmentPage from '../ansiktsbehandlingar/CommonTreatmentPage';
 const MonoKinder = () => {
   return (

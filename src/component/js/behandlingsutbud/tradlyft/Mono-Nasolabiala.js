@@ -1,4 +1,4 @@
-import monoNasolabialaImage from '../../../img/threadlift2.jpg';
+import monoNasolabialaImage from '../../../img/tradl.png';
 import CommonTreatmentPage from '../ansiktsbehandlingar/CommonTreatmentPage';
 import React from 'react';
 

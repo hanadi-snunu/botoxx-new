@@ -1,5 +1,5 @@
 import React from 'react';
-import monoSuramungiporImage from '../../../img/threadlift4.jpg';
+import monoSuramungiporImage from '../../../img/tradl.png';
 import CommonTreatmentPage from '../ansiktsbehandlingar/CommonTreatmentPage';
 
 const MonoSuramungipor = () => {

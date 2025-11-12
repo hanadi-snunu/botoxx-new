@@ -2,7 +2,7 @@ import React from 'react';
 
 
 import "../css/behandlingsutbud.css";
-import HeroImage from "../img/pic.jpg";
+import HeroImage from "../img/utbildning.png";
 import ConsultationImage from "../img/piccc.jpg";
 import { Link } from "react-router-dom";
 

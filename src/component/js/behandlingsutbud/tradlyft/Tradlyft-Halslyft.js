@@ -1,6 +1,6 @@
 import React from 'react';
 import CommonTreatmentPage from '../ansiktsbehandlingar/CommonTreatmentPage';
-import halslyftImage from '../../../img/threadlift3.jpg'; // Uppdatera med rätt bildfil
+import halslyftImage from '../../../img/tradl.png'; // Uppdatera med rätt bildfil
 
 const TradlyftHalslyft = () => {
   return (

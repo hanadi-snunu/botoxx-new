@@ -1,9 +1,9 @@
 // Laserbehandlingar.js
 import React from "react";
-import laserImage from "../../../img/injection.png"; // Byt till din hero-bild för laser
-import laser1 from "../../../img/injection.png"; // Skapa/byt namn på de här bilderna efter dina behov
-import laser2 from "../../../img/injection.png";
-import laser3 from "../../../img/injection.png";
+import laserImage from "../../../img/nordlysbild.jpg"; // Byt till din hero-bild för laser
+import laser1 from "../../../img/nordlysbild.jpg"; // Skapa/byt namn på de här bilderna efter dina behov
+import laser2 from "../../../img/nordlysbild.jpg";
+import laser3 from "../../../img/nordlysbild.jpg";
 import ConsultationImage from "../../../img/piccc.jpg";
 import { Link } from "react-router-dom";
 import "../../../css/Hem.css";

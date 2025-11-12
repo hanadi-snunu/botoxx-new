@@ -14,8 +14,11 @@ const MaskPeel = () => (
       { label: 'Fördelar', value: 'Renare hud, mindre finnar, dämpad inflammation' },
       { label: 'Rekommenderat för', value: 'Fet, blandad och acnebenägen hud' },
     ]}
-    beforeText="Undvik syror, retinol, rakning och vaxning 4–5 dagar innan behandling."
-    afterText="Skydda huden med fukt och SPF. Undvik starka produkter några dagar efter behandling."
+    beforeText="Inför behandlingen behöver du pausa retinol 2 veckor innan och undvika sol 48h 
+innan. Om du är gravid eller ammande kan du inte utföra 
+denna behandling.
+"
+      afterText="Undvik sol och exfoliering i minst 7 dagar för att skydda huden."
     bookLink="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/mask-peel-1693261"
     bookButtonText="Boka Mask Peel"
   />

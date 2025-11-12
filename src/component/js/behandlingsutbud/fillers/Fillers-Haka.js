@@ -1,6 +1,6 @@
 import React from 'react';
 import CommonTreatmentPage from '../ansiktsbehandlingar/CommonTreatmentPage';
-import fillerImage from '../../../img/injection.png';
+import fillerImage from '../../../img/fillers.png';
 
 const FillersHaka = () => {
   return (

@@ -1,4 +1,4 @@
-import monoMarionettlinjerImage from '../../../img/threadlift1.jpg';
+import monoMarionettlinjerImage from '../../../img/tradl.png';
 import CommonTreatmentPage from '../ansiktsbehandlingar/CommonTreatmentPage';
 import React from 'react';
 

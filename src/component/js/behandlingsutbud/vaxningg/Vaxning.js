@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import vaxning1 from '../../../img/vaxningHOF.png';
-import vaxning2 from '../../../img/bild1.jpg';
+import vaxning2 from '../../../img/vaxningHOF.png';
 import ConsultationImage from '../../../img/konsultation.jpg';
 import { Link } from 'react-router-dom';
 import '../../../css/Massage.css'; 

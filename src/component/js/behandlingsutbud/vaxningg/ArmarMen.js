@@ -1,5 +1,5 @@
 import React from 'react';
-import vaxning1 from '../../../img/vaxning.jpg.png';
+import vaxning1 from '../../../img/vaxningHOF.png';
 import { Link } from 'react-router-dom';
 import '../../../css/Vaxning.css';
 import ConsultationImage from '../../../img/piccc.jpg';

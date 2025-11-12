@@ -1,6 +1,6 @@
 
 import React, { useState } from "react";
-import laserImg from "../../../img/injection.png";
+import laserImg from "../../../img/nordlysbild.jpg";
 import ConsultationImage from "../../../img/piccc.jpg";
 import { Link } from "react-router-dom";
 import "../../../css/Massage.css";

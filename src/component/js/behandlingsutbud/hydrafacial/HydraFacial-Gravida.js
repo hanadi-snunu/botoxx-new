@@ -1,5 +1,5 @@
 import React from 'react';
-import gravidaImage from '../../../img/hydrafacial2.jpg'; // Byt till korrekt bild
+import gravidaImage from '../../../img/hylase.jpg'; // Byt till korrekt bild
 import CommonTreatmentPage from '../ansiktsbehandlingar/CommonTreatmentPage';
 
 const GravidaHydraFacial = () => {

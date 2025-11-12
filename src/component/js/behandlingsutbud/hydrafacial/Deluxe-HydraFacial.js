@@ -1,5 +1,5 @@
 import React from 'react';
-import beluxImage from '../../../img/hydrafacial2.jpg'; // Byt till korrekt bild
+import beluxImage from '../../../img/hylase.jpg'; // Byt till korrekt bild
 import CommonTreatmentPage from '../ansiktsbehandlingar/CommonTreatmentPage';
 
 const DeluxHydraFacial = () => {

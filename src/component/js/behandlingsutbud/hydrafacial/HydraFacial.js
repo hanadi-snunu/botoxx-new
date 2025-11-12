@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import hydraFacial1 from "../../../img/hydrafacial1.jpg"; // Byt ut till korrekt bild
-import hydraFacial2 from "../../../img/hydrafacial2.jpg"; // Byt ut till korrekt bild
-import hydraFacial3 from "../../../img/hydrafacial3.jpg"; // Byt ut till korrekt bild
-import ConsultationImage from "../../../img/piccc.jpg"; // Konsultationsbild
+import hydraFacial1 from "../../../img/hylase.jpg"; // Byt ut till korrekt bild
+import hydraFacial2 from "../../../img/hylase.jpg"; // Byt ut till korrekt bild
+import hydraFacial3 from "../../../img/hylase.jpg"; // Byt ut till korrekt bild
+import ConsultationImage from "../../../img/hylase.jpg"; // Konsultationsbild
 import { Link } from "react-router-dom";
 import "../../../css/Massage.css";
 import Slider from "react-slick";

@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-import platinumImage from '../../../img/hydrafacial3.jpg'; // Byt till korrekt bild
+import platinumImage from '../../../img/hylase.jpg'; // Byt till korrekt bild
 import CommonTreatmentPage from '../ansiktsbehandlingar/CommonTreatmentPage';
 
 const PlatinumHydraFacial = () => {

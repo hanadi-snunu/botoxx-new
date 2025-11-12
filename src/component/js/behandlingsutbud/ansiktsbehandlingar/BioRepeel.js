@@ -1,6 +1,6 @@
 import React from 'react';
 import CommonTreatmentPage from './CommonTreatmentPage';
-import peelImage from '../../../img/ansiktsbehandling2.jpg';
+import peelImage from '../../../img/PRXBiorepeel.png';
 
 const BioRepeel = () => (
   <CommonTreatmentPage
@@ -14,8 +14,11 @@ const BioRepeel = () => (
       { label: 'Fördelar', value: 'Pigmentutjämning, porförminskning, anti-aging, acnebehandling' },
       { label: 'Rekommenderat för', value: 'Alla hudtyper – särskilt vid acne, pigment eller ojämn hudton' },
     ]}
-    beforeText="Undvik retinolprodukter, antibiotika, vaxning, pågående herpes och skadad hud innan behandling."
-    afterText="Rodnad och torrhet kan förekomma några dagar efteråt. Undvik solexponering direkt efter behandling."
+   beforeText="Inför behandlingen behöver du pausa retinol 2 veckor innan och undvika sol 48h 
+innan. Om du är gravid eller ammande kan du inte utföra 
+denna behandling.
+"
+      afterText=" Undvik sol och exfoliering i minst 7 dagar för att skydda huden."
     bookLink="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/biorepeel-2976516"
     bookButtonText="Boka BioRepeel"
   />

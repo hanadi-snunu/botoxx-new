@@ -20,7 +20,7 @@ bara saknar det där extra!"
         { label: 'Rekommenderat för', value: 'Alla som vill ha en snabb huduppfräschning' },
       ]}
       beforeText="Kom gärna osminkad och återfukta huden innan behandlingen."
-      afterText="Använd milda hudprodukter och undvik direkt sol under 24 timmar."
+      afterText="Använd milda hudprodukter och undvik direkt sol under 24 timmar. Undvik exfoliering i minst 7 dagar för att skydda huden."
       bookLink="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/instant-glow-1719504"
       bookButtonText="Boka Instant-Glow" 
     />

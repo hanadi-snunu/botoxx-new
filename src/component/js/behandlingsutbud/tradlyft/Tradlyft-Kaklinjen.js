@@ -1,6 +1,6 @@
 import React from 'react';
 import CommonTreatmentPage from '../ansiktsbehandlingar/CommonTreatmentPage';
-import kaklinjenImage from '../../../img/threadlift4.jpg'; // Uppdatera med rätt bildfil
+import kaklinjenImage from '../../../img/tradl.png'; // Uppdatera med rätt bildfil
 
 const TradlyftKaklinjen = () => {
   return (

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import '../../../css/behandlingsutbud.css';
 
-import HeroImage from "../../../img/pic.jpg";
+import HeroImage from "../../../img/bild1.jpg";
 import ConsultationImage from "../../../img/piccc.jpg";
 
 const Priser = () => {

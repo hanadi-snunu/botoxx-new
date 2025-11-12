@@ -1,6 +1,6 @@
 import React from "react";
 import CommonTreatmentPage from "./CommonTreatmentPage";
-import heroImage from "../../../img/ansiktsbehandling1.jpg"; // valfri header-bild
+import heroImage from "../../../img/ansiktsbehandling2.jpg"; // valfri header-bild
 
 const AnsiktsmassageX5 = () => {
   return (
@@ -19,7 +19,7 @@ const AnsiktsmassageX5 = () => {
         { label: "Rekommenderas för", value: "Alla hudtyper, särskilt vid spänd käke/panna" },
       ]}
       beforeText={`Kom med ren hud utan makeup. Undvik kraftig exfoliering 24 h innan.`}
-      afterText={`Återfukta huden väl. Undvik hård träning och bastu i ca 24 h för bästa effekt.`}
+      afterText={`Återfukta huden väl. Undvik hård träning och bastu i ca 24 h för bästa effekt. Undvik exfoliering i minst 7 dagar för att skydda huden.`}
       bookLink="https://www.bokadirekt.se/places/house-of-aesthetics-34817"  // byt till exakt tjänst när den finns
       bookButtonText="Boka Ansiktsmassage X5"
     />

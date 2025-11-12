@@ -1,6 +1,6 @@
 import React from 'react';
 import CommonTreatmentPage from './CommonTreatmentPage';
-import lyxAnsikteImage from '../../../img/ansiktsbehandling4.jpg';
+import lyxAnsikteImage from '../../../img/ansiktsbehandling2.jpg';
 
 const LyxAnsiktsbehandling = () => {
   return (
@@ -22,7 +22,7 @@ Lyxigare än detta blir det inte!`}
         { label: 'Rekommenderat för', value: 'Alla som vill unna sig en lyxig behandling' },
       ]}
       beforeText="Kom med ren hud och undvik smink för att maximera behandlingen."
-      afterText="Återfukta huden och använd solskydd för att bevara resultaten."
+      afterText="Återfukta huden och använd solskydd för att bevara resultaten. Undvik exfoliering i minst 7 dagar för att skydda huden."
       bookLink="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/ansiktsbehandling-lyx-75-min-1719503"
       bookButtonText="Boka Lyx Ansiktsbehandling"
     />

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import injection4 from "../../../img/bild4.jpg";
-import injection5 from "../../../img/bild5.jpg";
-import injection2 from "../../../img/injection.png";
+import injection4 from "../../../img/fillers.png";
+import injection5 from "../../../img/fillers.png";
+import injection2 from "../../../img/fillers.png";
 import ConsultationImage from "../../../img/piccc.jpg";
 import { Link } from "react-router-dom";
 import "../../../css/Massage.css";

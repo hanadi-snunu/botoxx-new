@@ -15,8 +15,11 @@ const KemiskPeel = () => {
         { label: 'Fördelar', value: 'Jämnare hudton, reducerade ärr, föryngring' },
         { label: 'Rekommenderat för', value: 'Alla som vill förbättra hudens textur och lyster' },
       ]}
-      beforeText="Undvik starka produkter och direkt sol några dagar före behandlingen."
-      afterText="Använd solskydd och återfuktande produkter för att skydda huden efter behandlingen."
+      beforeText="Inför behandlingen behöver du pausa retinol 2 veckor innan och undvika sol 48h 
+innan. Om du är gravid eller ammande kan du inte utföra 
+denna behandling.
+"
+      afterText="Undvik sol och exfoliering i minst 7 dagar för att skydda huden."
       bookLink="https://www.bokadirekt.se/boka-tjanst/house-of-aesthetics-34817/milk-peel-1693260"
       bookButtonText="Boka Milk Peel" 
     />

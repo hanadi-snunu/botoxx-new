@@ -1,7 +1,7 @@
 import React from "react";
 import PriceSection from "./PrisSection";
 import "../../../css/behandlingsutbud.css";
-import HeroImage from "../../../img/pic.jpg";
+import HeroImage from "../../../img/tradl.png";
 import ConsultationImage from "../../../img/piccc.jpg";
 import { Link } from "react-router-dom";
 

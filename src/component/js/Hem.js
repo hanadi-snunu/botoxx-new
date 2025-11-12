@@ -143,14 +143,10 @@ Jag förstår
   <div className="omoss-overlay">
     <div className="omoss-content-block">
       <h1 className="omoss-title">HOUSE OF AESTHETICS</h1>
-      <p className="omoss-subtitle">Malmö •</p> 
-
-      
-
-
+ 
       {/* Du kan behålla dina befintliga knapp-klasser */}
       <div className="home-button-group">
-        <Link to="/Bokatid" className="home-action-button">Boka tid</Link>
+       <Link to="/Bokatid" className="home-action-button">Boka tid</Link>
         <Link to="/HittaBehandling" className="home-action-button">Hitta rätt behandling</Link>
       </div>
     </div>

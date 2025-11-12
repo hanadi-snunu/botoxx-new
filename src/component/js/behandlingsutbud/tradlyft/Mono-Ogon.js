@@ -1,5 +1,5 @@
 import React from 'react';
-import monoOgongImage from '../../../img/threadlift3.jpg';
+import monoOgongImage from '../../../img/tradl.png';
 import CommonTreatmentPage from '../ansiktsbehandlingar/CommonTreatmentPage';
 
 const MonoOgon = () => {
