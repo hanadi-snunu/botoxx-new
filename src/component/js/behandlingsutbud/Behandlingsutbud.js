@@ -6,7 +6,7 @@ import "../../css/omoss.css";
 
 import HeroImage from "../../img/bild1.jpg"; 
 import HealthImage from "../../img/konsultation.jpg";
-import ConsultationImage from "../../img/konsultation.jpg";
+import ConsultationImage from "../../img/kostnadsfrikonsultation.png";
 
 const Behandlingsutbud = () => {
   return (

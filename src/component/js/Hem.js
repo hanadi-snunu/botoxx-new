@@ -9,12 +9,12 @@ import CommonImage3 from '../img/hydrafacial14.jpg';
 import CommonImage4 from '../img/laserbehandling7.png';
 import CommonImage5 from '../img/vaxningHOF.png';
 import CommonImage6 from '../img/injektion.jpg';
-import CommonImage from '../img/injektion.jpg';
+import CommonImage7 from '../img/tradl.png';
 
 
 
 import { Link } from 'react-router-dom';
-import ConsultationImage from "../img/konsultation.jpg";
+import ConsultationImage from "../img/kostnadsfrikonsultation.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
@@ -222,7 +222,7 @@ Jag förstår
                     </div>
 
                     <div className="home-treatment-card">
-                        <img src={CommonImage} alt="Behandling" className="home-treatment-image" />
+                        <img src={CommonImage7} alt="Behandling" className="home-treatment-image" />
                         <div className="home-treatment-content">
                             <h3 className="home-treatment-title">Trådlyft</h3>
                             <p className="home-treatment-description">

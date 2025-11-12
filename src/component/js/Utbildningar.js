@@ -3,7 +3,7 @@ import React from 'react';
 
 import "../css/behandlingsutbud.css";
 import HeroImage from "../img/utbildning.png";
-import ConsultationImage from "../img/piccc.jpg";
+import ConsultationImage from "../img/kostnadsfrikonsultation.png";
 import { Link } from "react-router-dom";
 
 const Utbildning = () => {

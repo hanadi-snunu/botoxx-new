@@ -9,7 +9,7 @@ import Zeanab from '../img/Zaenab.png';
 import Rita from '../img/Rita.png';
 import '../css/omoss.css';
 import Medarbetare from '../img/medarbetare.jpg';
-import ConsultationImage from "../img/konsultation.jpg";
+import ConsultationImage from "../img/kostnadsfrikonsultation.png";
 import { Link } from "react-router-dom";
 const Omoss = () => {
     
