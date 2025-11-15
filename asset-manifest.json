@@ -1,10 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.bdd432ba.css",
-    "main.js": "/static/js/main.22ce111f.js",
+    "main.js": "/static/js/main.82660d6b.js",
     "static/js/453.f35b76dc.chunk.js": "/static/js/453.f35b76dc.chunk.js",
-    "static/media/PRXBiorepeel.png": "/static/media/PRXBiorepeel.8aa7e25eb3ecc49e7fd6.png",
-    "static/media/derma5.png": "/static/media/derma5.1cad85a62bb2ba511356.png",
     "static/media/rynkreducerandeinjektioner.png": "/static/media/rynkreducerandeinjektioner.7e0cc18dd2a409c30a07.png",
     "static/media/laserbehandling7.png": "/static/media/laserbehandling7.fe047af09853cf985147.png",
     "static/media/kostnadsfrikonsultation.png": "/static/media/kostnadsfrikonsultation.444cb1bd781a705981b1.png",
@@ -13,12 +11,10 @@
     "static/media/fillers.png": "/static/media/fillers.0f67572ca6959ff70fa3.png",
     "static/media/piccc.jpg": "/static/media/piccc.d77a60933f7a7a1379b7.jpg",
     "static/media/medarbetare.jpg": "/static/media/medarbetare.b8ccd5cdb8d3e6ce57b4.jpg",
-    "static/media/utbildning.png": "/static/media/utbildning.4993559eec19f22d1958.png",
     "static/media/skinbooster.png": "/static/media/skinbooster.3a08fa44312dc3504154.png",
     "static/media/massage4.jpg": "/static/media/massage4.0005340b3f8b6fdc76e1.jpg",
     "static/media/massage1.jpg": "/static/media/massage1.3cdb004785ac0e11f555.jpg",
     "static/media/tradl.png": "/static/media/tradl.0d90f3afd83ab59ebda1.png",
-    "static/media/ledljusterapi.png": "/static/media/ledljusterapi.6100e078a18e62c3b5b6.png",
     "static/media/konsultation.jpg": "/static/media/konsultation.884238bc01783c450773.jpg",
     "static/media/vaxningHOF.png": "/static/media/vaxningHOF.0c9867ce850f8517974c.png",
     "static/media/Saraa.png": "/static/media/Saraa.8f7f5481110a8235a53f.png",
@@ -33,7 +29,6 @@
     "static/media/Zaenab.png": "/static/media/Zaenab.e620d59136ddd8a1ce64.png",
     "static/media/Rita.png": "/static/media/Rita.289cf8009f003ce285bf.png",
     "static/media/bild1.jpg": "/static/media/bild1.e8b167446c84de666b83.jpg",
-    "static/media/Dermapenmicroneedling.jpg": "/static/media/Dermapenmicroneedling.2b5287cfeccfe38bcd9c.jpg",
     "static/media/hydrafacial14.jpg": "/static/media/hydrafacial14.0d674d13c8f9c7038e29.jpg",
     "static/media/bild2.jpg": "/static/media/bild2.171da6c24566557ef037.jpg",
     "static/media/ansiktsbehandling13.jpg": "/static/media/ansiktsbehandling13.744fcbe2d95faf13659d.jpg",
@@ -46,11 +41,11 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.bdd432ba.css.map": "/static/css/main.bdd432ba.css.map",
-    "main.22ce111f.js.map": "/static/js/main.22ce111f.js.map",
+    "main.82660d6b.js.map": "/static/js/main.82660d6b.js.map",
     "453.f35b76dc.chunk.js.map": "/static/js/453.f35b76dc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bdd432ba.css",
-    "static/js/main.22ce111f.js"
+    "static/js/main.82660d6b.js"
   ]
 }
