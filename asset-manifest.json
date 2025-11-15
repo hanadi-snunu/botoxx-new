@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.bdd432ba.css",
-    "main.js": "/static/js/main.2775c5f3.js",
+    "main.js": "/static/js/main.22ce111f.js",
     "static/js/453.f35b76dc.chunk.js": "/static/js/453.f35b76dc.chunk.js",
     "static/media/PRXBiorepeel.png": "/static/media/PRXBiorepeel.8aa7e25eb3ecc49e7fd6.png",
     "static/media/derma5.png": "/static/media/derma5.1cad85a62bb2ba511356.png",
     "static/media/rynkreducerandeinjektioner.png": "/static/media/rynkreducerandeinjektioner.7e0cc18dd2a409c30a07.png",
     "static/media/laserbehandling7.png": "/static/media/laserbehandling7.fe047af09853cf985147.png",
+    "static/media/kostnadsfrikonsultation.png": "/static/media/kostnadsfrikonsultation.444cb1bd781a705981b1.png",
     "static/media/injektion.jpg": "/static/media/injektion.76084b515113147ad17f.jpg",
     "static/media/pic.jpg": "/static/media/pic.046ac59ae208ebf67c21.jpg",
     "static/media/fillers.png": "/static/media/fillers.0f67572ca6959ff70fa3.png",
@@ -45,11 +46,11 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.bdd432ba.css.map": "/static/css/main.bdd432ba.css.map",
-    "main.2775c5f3.js.map": "/static/js/main.2775c5f3.js.map",
+    "main.22ce111f.js.map": "/static/js/main.22ce111f.js.map",
     "453.f35b76dc.chunk.js.map": "/static/js/453.f35b76dc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bdd432ba.css",
-    "static/js/main.2775c5f3.js"
+    "static/js/main.22ce111f.js"
   ]
 }
