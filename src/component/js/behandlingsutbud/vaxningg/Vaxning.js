@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import vaxning1 from '../../../img/vaxningHOF.png';
-import vaxning2 from '../../../img/vaxningHOF.png';
-import ConsultationImage from '../../../img/konsultation.jpg';
+import vaxning2 from '../../../img/bild1.jpg';
+import ConsultationImage from '../../../img/kostnadsfrikonsultation.png';
 import { Link } from 'react-router-dom';
 import '../../../css/Massage.css'; 
 import '../../../css/omoss.css';// Använd samma CSS-fil som Massage för konsistens
@@ -141,17 +141,20 @@ const Vaxning = () => {
     
  <div>
            <div className="omoss-header-section">
-  <img src={vaxning2} alt="" className="omoss-hero" />
+  <img src={vaxning2} alt="Vaxning" className="omoss-hero" />
   <div className="omoss-overlay">
     <div className="omoss-content-block">
       <h1 className="omoss-title">Vaxning</h1>
       <p className="omoss-subtitle">
-       Vaxning är en effektiv metod för att 
-            ta bort oönskat hår och ger en slät och mjuk hud som varar längre än vid rakning.
+        Vaxning är en effektiv metod för att ta bort oönskat hår och ger en slät och mjuk hud som varar längre än vid rakning.
       </p>
+      <Link to="/Bokatid" className="consultation-button">
+        Boka tid
+      </Link>
     </div>
   </div>
 </div>
+
 
 
       {/* Information Sektion */}

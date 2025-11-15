@@ -1,5 +1,5 @@
 
-import ledImage from '../../../img/ledljusterapi.png';
+import ledImage from '../../../img/ansiktsbehandling2.jpg';
 
 import React from 'react';
 import CommonTreatmentPage from './CommonTreatmentPage';

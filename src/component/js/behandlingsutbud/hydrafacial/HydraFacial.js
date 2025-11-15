@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import hydraFacial1 from "../../../img/hylase.jpg"; // Byt ut till korrekt bild
-import hydraFacial2 from "../../../img/hylase.jpg"; // Byt ut till korrekt bild
+import hydraFacial2 from "../../../img/bild1.jpg"; // Byt ut till korrekt bild
 import hydraFacial3 from "../../../img/hylase.jpg"; // Byt ut till korrekt bild
-import ConsultationImage from "../../../img/hylase.jpg"; // Konsultationsbild
+import ConsultationImage from "../../../img/kostnadsfrikonsultation.png"; // Konsultationsbild
 import { Link } from "react-router-dom";
 import "../../../css/Massage.css";
 import Slider from "react-slick";
@@ -24,7 +24,7 @@ const HydraFacial = () => {
       link: "/Standard-HydraFacial",
     },
     {
-      image: hydraFacial2,
+      image: hydraFacial1,
       title: "Deluxe HydraFacial",
       description: "En mer avancerad HydraFacial med extra boosters och fördelar.",
       link: "/Deluxe-HydraFacial",
@@ -76,14 +76,26 @@ const HydraFacial = () => {
   return (
     <div>
       {/* Header Section */}
-      <header className="massage-header" style={{ backgroundImage: `url(${hydraFacial2})` }}>
-        <div className="massage-overlay">
-          <h1 className="massage-title">Hydra Facial</h1>
-          <p className="massage-description">
-            Upplev en avancerad behandling som rengör, återfuktar och föryngrar huden. Som du kanske redan vet är Hydra facial en revolutionerande behandlig som vi har satsat på att ta in just för dig! <br /><br /> Denna ansiktsbehandlingen ger ett omedelbart syligt och kännbara resultat. Ingen går besviken härifrån efter denna magiska behandlingen, tack vare den icke-invasiv behandlings teckningen som dränerar, djupgör, peelar, återfuktar och slussar in serum på djupet. Som du själv förstår denna behandlingen gör verkligen all jobb åt en för att få det fantastiske ansikts lystert som aldrig förr! 
-          </p>
-        </div>
-      </header>
+     <div className="omoss-header-section">
+  <img src={hydraFacial2} alt="Hydra Facial" className="omoss-hero" />
+  <div className="omoss-overlay">
+    <div className="omoss-content-block">
+      <h1 className="omoss-title">Hydra Facial</h1>
+      <p className="omoss-subtitle">
+        Upplev en avancerad behandling som rengör, återfuktar och föryngrar huden.
+        Som du kanske redan vet är Hydra Facial en revolutionerande behandling som vi har satsat på att ta in just för dig!
+        <br /><br />
+        Denna ansiktsbehandling ger ett omedelbart synligt och kännbart resultat.
+        Ingen går besviken härifrån efter denna magiska behandling, tack vare den icke-invasiva tekniken som dränerar,
+        djuprengör, peelar, återfuktar och slussar in serum på djupet.
+        <br /><br />
+        Som du själv förstår – denna behandling gör verkligen allt jobb åt dig för att ge det fantastiska lyster du drömt om!
+      </p>
+    
+    </div>
+  </div>
+</div>
+
 
       {/* Information Section */}
       <section className="massage-info-section">

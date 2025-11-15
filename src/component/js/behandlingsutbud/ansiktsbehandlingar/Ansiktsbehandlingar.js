@@ -1,16 +1,16 @@
 import React, { useState } from "react";
-import ansikte1 from "../../../img/ansiktsbehandling2.jpg"; 
+import ansikte1 from "../../../img/bild1.jpg"; 
 import ansikte2 from "../../../img/ansiktsbehandling2.jpg"; 
 import ansikte3 from "../../../img/ansiktsbehandling2.jpg"; 
 import ansikte4 from "../../../img/ansiktsbehandling2.jpg"; 
 import ansikte5 from "../../../img/ansiktsbehandling2.jpg"; 
-import ansikte6 from "../../../img/Dermapenmicroneedling.jpg"; 
-import ansikte7 from "../../../img/derma5.png";
-import ansikte8 from "../../../img/PRXBiorepeel.png"; 
+import ansikte6 from "../../../img/ansiktsbehandling2.jpg"; 
+import ansikte7 from "../../../img/ansiktsbehandling2.jpg";
+import ansikte8 from "../../../img/ansiktsbehandling2.jpg"; 
 
 
 
-import ConsultationImage from "../../../img/piccc.jpg"; 
+import ConsultationImage from "../../../img/kostnadsfrikonsultation.png"; 
 import { Link } from "react-router-dom";
 import "../../../css/Massage.css";
 import Slider from "react-slick";
@@ -50,7 +50,7 @@ const Ansikte = () => {
       link: "/Djuprensande-ansiktsbehandling",
     },
      {
-      image: ansikte1,
+      image: ansikte6,
       title: "Lyx Ansiktsbehandling",
       description: "En exklusiv behandling för maximal återhämtning och hudförbättring.",
       link: "/Lyx-ansiktsbehandling",
@@ -62,7 +62,7 @@ const Ansikte = () => {
       link: "/Instant-clean",
     },
     {
-      image: ansikte1,
+      image: ansikte5,
       title: "Instant Glow",
       description: "En behandling som ger huden en direkt och naturlig lyster.",
       link: "/Instant-glow",
@@ -150,19 +150,24 @@ const Ansikte = () => {
 
   return (
     <div>
-      <header className="massage-header" style={{ backgroundImage: `url(${ansikte2})` }}>
-        <div className="massage-overlay">
-          <h1 className="massage-title">Ansiktsbehandlingar</h1>
-          <p className="massage-description">
-            Våra ansiktsbehandlingar är anpassade för att ge dig en fräsch och strålande hud.
-          </p>
-        </div>
-      </header>
+      <div className="omoss-header-section">
+  <img src={ansikte1} alt="Ansiktsbehandlingar" className="omoss-hero" />
+  <div className="omoss-overlay">
+    <div className="omoss-content-block">
+      <h1 className="omoss-title">Ansiktsbehandlingar</h1>
+      <p className="omoss-subtitle">
+        Våra ansiktsbehandlingar är anpassade för att ge dig en fräsch och strålande hud.
+      </p>
+    
+    </div>
+  </div>
+</div>
+
 
       {/* Information Sektion */}
       <section className="massage-info-section">
         <div className="massage-info-container">
-          <img src={ansikte1} alt="Ansiktsbehandling" className="massage-info-image" />
+          <img src={ansikte2} alt="Ansiktsbehandling" className="massage-info-image" />
           <div className="massage-info-text-container">
             <h2 className="info-title">Ansiktsbehandlingar</h2>
             <p className="info-text">

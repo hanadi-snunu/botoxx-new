@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import injection2 from "../../../img/injection.png";
-import ConsultationImage from "../../../img/piccc.jpg";
+import ConsultationImage from "../../../img/kostnadsfrikonsultation.png";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";

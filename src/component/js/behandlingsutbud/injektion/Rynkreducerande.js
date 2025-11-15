@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import injection4 from "../../../img/fillers.png";
+import injection4 from "../../../img/bild1.jpg";
 import injection5 from "../../../img/fillers.png";
 import injection2 from "../../../img/fillers.png";
-import ConsultationImage from "../../../img/piccc.jpg";
+import ConsultationImage from "../../../img/kostnadsfrikonsultation.png";
 import { Link } from "react-router-dom";
 import "../../../css/Massage.css";
 import Slider from "react-slick";
@@ -123,15 +123,19 @@ const Rynkreducerande = () => {
   return (
     <div>
       {/* Header Section */}
-      <header className="massage-header" style={{ backgroundImage: `url(${injection4})` }}>
+     <div className="omoss-header-section">
+  <img src={injection4} alt="Rynkreducerande injektionsbehandlingar" className="omoss-hero" />
+  <div className="omoss-overlay">
+    <div className="omoss-content-block">
+      <h1 className="omoss-title">Rynkreducerande injektionsbehandlingar</h1>
+      <p className="omoss-subtitle">
+        Förbättra ditt utseende och minska synliga rynkor med hjälp av muskelavslappnande behandlingar.
+      </p>
+     
+    </div>
+  </div>
+</div>
 
-        <div className="massage-overlay">
-          <h1 className="massage-title">Rynkreducerande injektionsbehandlingar</h1>
-          <p className="massage-description">
-            Förbättra ditt utseende och minska synliga rynkor med hjälp av muskelavslappnande behandlingar.
-          </p>
-        </div>
-      </header>
 
       {/* Info Section */}
       <section className="massage-info-section">

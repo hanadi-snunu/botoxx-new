@@ -15,7 +15,7 @@ const BokaTid = () => {
     <div className="omoss-content-block">
       <h1 className="omoss-title">Boka tid</h1>
       <p className="omoss-subtitle">
-        Här kan du boka tid till våra kliniker. Du kan både boka konsultation och behandlingar via länkarna nedan.
+        Här kan du boka tid till våra kliniker. Du kan både boka konsultation och behandlingar via länken nedan.
       </p>
     </div>
   </div>

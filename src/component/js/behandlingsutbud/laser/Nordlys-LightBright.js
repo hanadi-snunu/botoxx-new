@@ -1,7 +1,8 @@
 
 import React, { useState } from "react";
 import laserImg from "../../../img/nordlysbild.jpg";
-import ConsultationImage from "../../../img/piccc.jpg";
+import laserImg1 from "../../../img/bild1.jpg";
+import ConsultationImage from "../../../img/kostnadsfrikonsultation.png";
 import { Link } from "react-router-dom";
 import "../../../css/Massage.css";
 import Slider from "react-slick";
@@ -65,12 +66,19 @@ const LightBright = () => {
 
   return (
     <div>
-      <header className="massage-header" style={{ backgroundImage: `url(${laserImg})` }}>
-        <div className="massage-overlay">
-          <h1 className="massage-title">Nordlys | Light & Bright</h1>
-          <p className="massage-description">Kombinerad laserbehandling för synlig hudföryngring</p>
-        </div>
-      </header>
+     <div className="omoss-header-section">
+  <img src={laserImg1} alt="Nordlys Light & Bright" className="omoss-hero" />
+  <div className="omoss-overlay">
+    <div className="omoss-content-block">
+      <h1 className="omoss-title">Nordlys | Light & Bright</h1>
+      <p className="omoss-subtitle">
+        Kombinerad laserbehandling för synlig hudföryngring.
+      </p>
+    
+    </div>
+  </div>
+</div>
+
 
       <section className="massage-info-section">
         <div className="massage-info-container only-text">

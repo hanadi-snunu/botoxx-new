@@ -1,5 +1,5 @@
 import React from 'react';
-import dermaplaningImage from '../../../img/Dermapenmicroneedling.jpg';
+import dermaplaningImage from '../../../img/ansiktsbehandling2.jpg';
 import CommonTreatmentPage from './CommonTreatmentPage';
 
 

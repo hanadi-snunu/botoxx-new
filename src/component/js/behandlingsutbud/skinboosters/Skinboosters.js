@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import injection2 from "../../../img/skinbooster.png";
-import ConsultationImage from "../../../img/piccc.jpg";
+import injection3 from "../../../img/bild1.jpg";
+import ConsultationImage from "../../../img/kostnadsfrikonsultation.png";
 import { Link } from "react-router-dom";
 import "../../../css/Massage.css";
 import Slider from "react-slick";
@@ -91,14 +92,19 @@ const Skinbooster = () => {
   return (
     <div>
       {/* Header Section */}
-      <header className="massage-header" style={{ backgroundImage: `url(${injection2})` }}>
-        <div className="massage-overlay">
-          <h1 className="massage-title">Skinboosters</h1>
-          <p className="massage-description">
-            Återfuktning och hudförbättring från insidan.
-          </p>
-        </div>
-      </header>
+      <div className="omoss-header-section">
+  <img src={injection3} alt="Skinboosters" className="omoss-hero" />
+  <div className="omoss-overlay">
+    <div className="omoss-content-block">
+      <h1 className="omoss-title">Skinboosters</h1>
+      <p className="omoss-subtitle">
+        Återfuktning och hudförbättring från insidan.
+      </p>
+    
+    </div>
+  </div>
+</div>
+
 
       {/* Info Section */}
       <section className="massage-info-section">

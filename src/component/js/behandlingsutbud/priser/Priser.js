@@ -3,23 +3,25 @@ import { Link } from "react-router-dom";
 import '../../../css/behandlingsutbud.css';
 
 import HeroImage from "../../../img/bild1.jpg";
-import ConsultationImage from "../../../img/piccc.jpg";
+import ConsultationImage from "../../../img/kostnadsfrikonsultation.png";
 
 const Priser = () => {
   return (
     <div>
       {/* Hero Section: Full-width image with title, text, and button */}
-      <div className="hero-section" style={{ backgroundImage: `url(${HeroImage})` }}>
-        <div className="hero-overlay">
-          <div className="hero-content">
-            <h1 className="hero-title">Våra priser</h1>
-            <p className="hero-subtitle">
-              Upptäck våra konkurrenskraftiga priser för alla våra behandlingar. Här kan du se alla våra behandlingar och deras priser för att hitta det som passar just dig.
-            </p>
-           
-          </div>
-        </div>
-      </div>
+     <div className="omoss-header-section">
+  <img src={HeroImage} alt="Våra priser" className="omoss-hero" />
+  <div className="omoss-overlay">
+    <div className="omoss-content-block">
+      <h1 className="omoss-title">Våra priser</h1>
+      <p className="omoss-subtitle">
+        Upptäck våra konkurrenskraftiga priser för alla våra behandlingar. Här kan du se alla våra behandlingar
+        och deras priser för att hitta det som passar just dig.
+      </p>
+    </div>
+  </div>
+</div>
+
 
       {/* Treatments Section */}
       <div className="treatments-section">

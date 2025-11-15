@@ -1,6 +1,6 @@
 import React from 'react';
 import CommonTreatmentPage from './CommonTreatmentPage';
-import peelImage from '../../../img/PRXBiorepeel.png';
+import peelImage from '../../../img/ansiktsbehandling2.jpg';
 
 const BioRepeel = () => (
   <CommonTreatmentPage

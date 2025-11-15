@@ -1,6 +1,6 @@
 import React from 'react';
 import CommonTreatmentPage from './CommonTreatmentPage';
-import prxImage from '../../../img/PRXBiorepeel.png'; // Byt till rätt bild
+import prxImage from '../../../img/ansiktsbehandling2.jpg'; // Byt till rätt bild
 
 const PRXT33 = () => {
   return (

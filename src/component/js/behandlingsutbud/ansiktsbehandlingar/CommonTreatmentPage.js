@@ -1,7 +1,7 @@
 // CommonTreatmentPage.js
 import React from 'react';
 import { Link } from 'react-router-dom';
-import ConsultationImage from '../../../img/piccc.jpg';
+import ConsultationImage from '../../../img/kostnadsfrikonsultation.png';
 import '../../../css/Massage.css';
 import '../../../css/omoss.css';
 

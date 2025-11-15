@@ -2,7 +2,7 @@ import React from "react";
 import PriceSection from "./PrisSection";
 import "../../../css/behandlingsutbud.css";
 import HeroImage from "../../../img/vaxningHOF.png";
-import ConsultationImage from "../../../img/piccc.jpg";
+import ConsultationImage from "../../../img/kostnadsfrikonsultation.png";
 import { Link } from "react-router-dom";
 
 const VaxningPriser = () => {

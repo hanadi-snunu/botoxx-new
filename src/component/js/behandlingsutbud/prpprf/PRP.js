@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import injection2 from "../../../img/PRPPRF.png";
-import ConsultationImage from "../../../img/piccc.jpg";
+import injection3 from "../../../img/bild1.jpg";
+import ConsultationImage from "../../../img/kostnadsfrikonsultation.png";
 import { Link } from "react-router-dom";
 import "../../../css/Massage.css";
 import Slider from "react-slick";
@@ -102,14 +103,19 @@ const PrpPrf = () => {
 
   return (
     <div>
-      <header className="massage-header" style={{ backgroundImage: `url(${injection2})` }}>
-        <div className="massage-overlay">
-          <h1 className="massage-title">PRP / PRF Behandlingar</h1>
-          <p className="massage-description">
-            Hud- och hårförbättring med kroppens egna resurser.
-          </p>
-        </div>
-      </header>
+      <div className="omoss-header-section">
+  <img src={injection3} alt="PRP / PRF Behandlingar" className="omoss-hero" />
+  <div className="omoss-overlay">
+    <div className="omoss-content-block">
+      <h1 className="omoss-title">PRP / PRF Behandlingar</h1>
+      <p className="omoss-subtitle">
+        Hud- och hårförbättring med kroppens egna resurser.
+      </p>
+    
+    </div>
+  </div>
+</div>
+
 
       <section className="massage-info-section">
         <div className="massage-info-container">

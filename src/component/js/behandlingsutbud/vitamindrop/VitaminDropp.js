@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import vitamindropImage from "../../../img/vitamindropp.png";
-import ConsultationImage from "../../../img/piccc.jpg";
+import vitamindropImage from "../../../img/bild1.jpg";
+import ConsultationImage from "../../../img/kostnadsfrikonsultation.png";
 import { Link } from "react-router-dom";
 import "../../../css/Massage.css"; 
 import "../../../css/omoss.css";

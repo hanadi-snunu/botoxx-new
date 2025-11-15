@@ -1,6 +1,6 @@
 import React from "react";
 import CommonTreatmentPage from "../ansiktsbehandlingar/CommonTreatmentPage";
-import injection2 from "../../../img/injection.png";
+import injection2 from "../../../img/PRPPRF.png";
 
 
 export const PrpHar = () => (

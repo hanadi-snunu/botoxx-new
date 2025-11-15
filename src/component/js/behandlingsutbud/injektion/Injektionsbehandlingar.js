@@ -3,12 +3,12 @@ import injection1 from "../../../img/rynkreducerandeinjektioner.png";
 import injection2 from "../../../img/fillers.png";
 import injection3 from "../../../img/skinbooster.png";
 
-import injection4 from "../../../img/skinbooster.png";
+import injection4 from "../../../img/bild1.jpg";
 import injection5 from "../../../img/injection.png";
 import injection6 from "../../../img/PRPPRF.png";
 import injection7 from "../../../img/vitamindropp.png";
 
-import ConsultationImage from "../../../img/konsultation.jpg";
+import ConsultationImage from "../../../img/kostnadsfrikonsultation.png";
 import { Link } from "react-router-dom";
 import "../../../css/Hem.css"; // Återanvänd din befintliga stilfil
 
@@ -56,7 +56,7 @@ const Injektion = () => {
   return (
     <div>
       {/* Hero Section */}
-      <div className="home-section" style={{ backgroundImage: `url(${injection2})` }}>
+      <div className="home-section" style={{ backgroundImage: `url(${injection4})` }}>
         <div className="overlay">
           <h1 className="home-title">Injektionsbehandlingar</h1>
           <p className="home-location-text">Naturliga resultat med medicinsk precision</p>

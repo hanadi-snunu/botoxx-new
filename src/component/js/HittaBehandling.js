@@ -40,19 +40,21 @@ const [isChecked, setIsChecked] = useState(false); // <-- Nytt state
      return (
        <div>
          {/* Hero Section */}
-         <div className="hero-section" style={{ backgroundImage: `url(${HeroImage})` }}>
-           <div className="hero-overlay">
-             <div className="hero-content">
-               <h1 className="hero-title"> Hitta rätt behandling</h1>
-               <p className="hero-subtitle">
-                 Utforska våra behandlingar med professionell expertis.
-               </p>
-               <Link to="/Bokatid" className="hero-button">
-                 Boka tid
-               </Link>
-             </div>
-           </div>
-         </div>
+        <div className="omoss-header-section">
+  <img src={HeroImage} alt="Hitta rätt behandling" className="omoss-hero" />
+  <div className="omoss-overlay">
+    <div className="omoss-content-block">
+      <h1 className="omoss-title">Hitta rätt behandling</h1>
+      <p className="omoss-subtitle">
+        Utforska våra behandlingar med professionell expertis.
+      </p>
+      <Link to="/Bokatid" className="consultation-button">
+        Boka tid
+      </Link>
+    </div>
+  </div>
+</div>
+
    
 
           {/* Kontaktformulär */}

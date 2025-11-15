@@ -1,6 +1,6 @@
 import React from 'react';
 import CommonTreatmentPage from './CommonTreatmentPage';
-import microneedlingImage from '../../../img/Dermapenmicroneedling.jpg'; // Byt till rätt bild
+import microneedlingImage from '../../../img/ansiktsbehandling2.jpg'; // Byt till rätt bild
 
 const Microneedling = () => {
   return (

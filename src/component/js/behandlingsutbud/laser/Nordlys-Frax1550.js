@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import laserImg from "../../../img/nordlysbild.jpg"; // byt till din faktiska bild
-import ConsultationImage from "../../../img/piccc.jpg";
+import laserImg from "../../../img/nordlysbild.jpg";
+import laserImg1 from "../../../img/bild1.jpg";  // byt till din faktiska bild
+import ConsultationImage from "../../../img/kostnadsfrikonsultation.png";
 import { Link } from "react-router-dom";
 import "../../../css/Massage.css";
 import Slider from "react-slick";
@@ -70,12 +71,19 @@ const Frax1550 = () => {
 
   return (
     <div>
-      <header className="massage-header" style={{ backgroundImage: `url(${laserImg})` }}>
-        <div className="massage-overlay">
-          <h1 className="massage-title">Nordlys | Frax 1550</h1>
-          <p className="massage-description">Fraktionerad laser för djupverkande hudföryngring</p>
-        </div>
-      </header>
+     <div className="omoss-header-section">
+  <img src={laserImg1} alt="Nordlys Frax 1550" className="omoss-hero" />
+  <div className="omoss-overlay">
+    <div className="omoss-content-block">
+      <h1 className="omoss-title">Nordlys | Frax 1550</h1>
+      <p className="omoss-subtitle">
+        Fraktionerad laser för djupverkande hudföryngring.
+      </p>
+     
+    </div>
+  </div>
+</div>
+
 
       <section className="massage-info-section">
         <div className="massage-info-container only-text">

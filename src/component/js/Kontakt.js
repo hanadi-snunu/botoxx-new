@@ -17,10 +17,8 @@ const Kontakt = () => {
 
       <p className="omoss-subtitle">
         Här hittar du adress och kontakt-information till vår klinik. Tveka inte att höra av dig om du har några frågor.
-        Vill du boka tid? Klicka på knappen nedan.
+        
       </p>
-
-      <Link to="/Bokatid" className="contact-button">Boka tid</Link>
     </div>
   </div>
 </div>

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import threadLift1 from "../../../img/tradl.png"; // Byt ut till rätt bild
-import threadLift2 from "../../../img/tradl.png"; // Byt ut till rätt bild
+import threadLift2 from "../../../img/bild1.jpg"; // Bybt ut till rätt bild
 import threadLift3 from "../../../img/tradl.png"; // Byt ut till rätt bild
-import ConsultationImage from "../../../img/piccc.jpg"; // Konsultationsbild
+import ConsultationImage from "../../../img/kostnadsfrikonsultation.png"; // Konsultationsbild
 import { Link } from "react-router-dom";
 import "../../../css/Massage.css";
 import Slider from "react-slick";
@@ -24,7 +24,7 @@ const ThreadLift = () => {
       link: "/Tradlyft-Midface",
     },
     {
-      image: threadLift2,
+      image: threadLift1,
       title: "Trådlyft | Käklinjen",
       description: "Skulptera och förstärk käklinjen för ett ungdomligt utseende.",
       link: "/Tradlyft-Kaklinjen",
@@ -42,7 +42,7 @@ const ThreadLift = () => {
       link: "/Tradlyft-Halslyft",
     },
     {
-      image: threadLift2,
+      image: threadLift1,
       title: "Trådlyft | Dubbelhaka",
       description: "Minska dubbelhaka med en lyftande effekt.",
       link: "/Tradlyft-Dubbelhaka",
@@ -60,7 +60,7 @@ const ThreadLift = () => {
       link: "/Mono-Marionettlinjer",
     },
     {
-      image: threadLift2,
+      image: threadLift1,
       title: "Mono | Nasolabiala",
       description: "Minska linjer runt näsan och munnen för ett slätare utseende.",
       link: "/Mono-Nasolabiala",
@@ -116,14 +116,19 @@ const ThreadLift = () => {
   return (
     <div>
       {/* Header Section */}
-      <header className="massage-header" style={{ backgroundImage: `url(${threadLift2})` }}>
-        <div className="massage-overlay">
-          <h1 className="massage-title">Trådlyft</h1>
-          <p className="massage-description">
-            Lyft och föryngra ditt utseende med våra professionella trådlyftsbehandlingar.
-          </p>
-        </div>
-      </header>
+    <div className="omoss-header-section">
+  <img src={threadLift2} alt="Trådlyft" className="omoss-hero" />
+  <div className="omoss-overlay">
+    <div className="omoss-content-block">
+      <h1 className="omoss-title">Trådlyft</h1>
+      <p className="omoss-subtitle">
+        Lyft och föryngra ditt utseende med våra professionella trådlyftsbehandlingar.
+      </p>
+    
+    </div>
+  </div>
+</div>
+
 
       {/* Information Section */}
       <section className="massage-info-section">
